@@ -1,0 +1,73 @@
+﻿Revert "Upload Files"
+
+This reverts commit 835892f11ef899dfa723a3f9114c5676b284a053.
+
+# Conflicts:
+#	README.md
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# You are currently reverting commit 835892f.
+#
+# Changes to be committed:
+#	new file:   img/ccex-logo.png
+#	modified:   index.html
+#	new file:   white_paper/bootstrap/css/bootstrap.css
+#	new file:   white_paper/bootstrap/css/bootstrap.min.css
+#	new file:   white_paper/bootstrap/fonts/glyphicons-halflings-regular.eot
+#	new file:   white_paper/bootstrap/fonts/glyphicons-halflings-regular.svg
+#	new file:   white_paper/bootstrap/fonts/glyphicons-halflings-regular.ttf
+#	new file:   white_paper/bootstrap/fonts/glyphicons-halflings-regular.woff
+#	new file:   white_paper/bootstrap/fonts/glyphicons-halflings-regular.woff2
+#	new file:   white_paper/bootstrap/js/bootstrap.js
+#	new file:   white_paper/bootstrap/js/bootstrap.min.js
+#	new file:   white_paper/font-awesome/css/font-awesome.css
+#	new file:   white_paper/font-awesome/css/font-awesome.min.css
+#	new file:   white_paper/font-awesome/fonts/FontAwesome.otf
+#	new file:   white_paper/font-awesome/fonts/fontawesome-webfont.eot
+#	new file:   white_paper/font-awesome/fonts/fontawesome-webfont.svg
+#	new file:   white_paper/font-awesome/fonts/fontawesome-webfont.ttf
+#	new file:   white_paper/font-awesome/fonts/fontawesome-webfont.woff
+#	new file:   white_paper/font-awesome/fonts/fontawesome-webfont.woff2
+#	new file:   white_paper/font-awesome/less/bordered-pulled.less
+#	new file:   white_paper/font-awesome/less/core.less
+#	new file:   white_paper/font-awesome/less/fixed-width.less
+#	new file:   white_paper/font-awesome/less/font-awesome.less
+#	new file:   white_paper/font-awesome/less/icons.less
+#	new file:   white_paper/font-awesome/less/larger.less
+#	new file:   white_paper/font-awesome/less/list.less
+#	new file:   white_paper/font-awesome/less/mixins.less
+#	new file:   white_paper/font-awesome/less/path.less
+#	new file:   white_paper/font-awesome/less/rotated-flipped.less
+#	new file:   white_paper/font-awesome/less/spinning.less
+#	new file:   white_paper/font-awesome/less/stacked.less
+#	new file:   white_paper/font-awesome/less/variables.less
+#	new file:   white_paper/font-awesome/scss/_bordered-pulled.scss
+#	new file:   white_paper/font-awesome/scss/_core.scss
+#	new file:   white_paper/font-awesome/scss/_fixed-width.scss
+#	new file:   white_paper/font-awesome/scss/_icons.scss
+#	new file:   white_paper/font-awesome/scss/_larger.scss
+#	new file:   white_paper/font-awesome/scss/_list.scss
+#	new file:   white_paper/font-awesome/scss/_mixins.scss
+#	new file:   white_paper/font-awesome/scss/_path.scss
+#	new file:   white_paper/font-awesome/scss/_rotated-flipped.scss
+#	new file:   white_paper/font-awesome/scss/_spinning.scss
+#	new file:   white_paper/font-awesome/scss/_stacked.scss
+#	new file:   white_paper/font-awesome/scss/_variables.scss
+#	new file:   white_paper/font-awesome/scss/font-awesome.scss
+#	new file:   white_paper/img/Template-PieChart.zip
+#	new file:   white_paper/img/bitcoinfarm.jpg
+#	new file:   white_paper/img/btn-dwn.png
+#	new file:   white_paper/img/logo.png
+#	new file:   white_paper/img/powered.png
+#	new file:   white_paper/index.php
+#	new file:   white_paper/index_chi.php
+#	new file:   white_paper/index_deu.php
+#	new file:   white_paper/index_pt.php
+#	new file:   white_paper/js/jquery-1.10.2.min.js
+#	new file:   white_paper/menu.php
+#
+
