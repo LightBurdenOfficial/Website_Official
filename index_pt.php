@@ -1,6 +1,22 @@
 <!doctype html>
+<?php
+include_once('arrecada.php');
+//SALES
+$api_sales = "http://192.168.0.23:3001/ext/getbalance/SN3r5zNcfSBMtzUsVTp2ps7PyYG3sxUZVf";
+$juncao_api_sales = json_decode(file_get_contents($api_sales), true);
+$api_sales2 = "http://192.168.0.23:3001/ext/getbalance/SSi9PsXc3PUCqy9dAHfgArMDivrUuCGEbw";
+$juncao_api_sales2 = json_decode(file_get_contents($api_sales2), true);
+$api_sales3 = "http://192.168.0.23:3001/ext/getbalance/SSZceqUgksEQc8FLVS2gMf8Wi1n55uLSn7";
+$juncao_api_sales3 = json_decode(file_get_contents($api_sales3), true);
+$api_sales4 = "http://192.168.0.23:3001/ext/getbalance/SYP4LKWZoADLUe5xRLf3qn2X5Aw3kVa7eQ";
+$juncao_api_sales4 = json_decode(file_get_contents($api_sales4), true);
+$api_sales5 = "http://192.168.0.23:3001/ext/getbalance/Sd3gMK4buFuieAVKeGEBJHtdK4nmWbriD1";
+$juncao_api_sales5 = json_decode(file_get_contents($api_sales5), true);
+$api_sales6 = "http://192.168.0.23:3001/ext/getbalance/SeV5SdEJP1dJrtRvBpNud2bu5oZxNacmJ4";
+$juncao_api_sales6 = json_decode(file_get_contents($api_sales6), true);
+$sales = $juncao_api_sales + $juncao_api_sales2 + $juncao_api_sales3 + $juncao_api_sales4 + $juncao_api_sales5 + $juncao_api_sales6;
+?>
 <html>
-
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, maximum-scale=1">
@@ -38,16 +54,25 @@
 
 <body>
 	<header class="header" id="header" style="padding-top: 4%">
+    <ul class="nav navbar-nav navbar-left" style="padding-left: 1%;">
+    <li class="dropdown">
+      <a href="#" class="dropdown-toggle btn-default" data-toggle="dropdown" role="button" aria-expanded="false">Idioma <span class="caret"></span></a>
+      <ul class="dropdown-menu" role="menu">
+        <li><a href="index.php"><img src="http://img.freeflagicons.com/thumb/glossy_square_icon/united_states_of_america/united_states_of_america_64.png" width="20px"> Inglês</a></li>
+        <li><a href="index_pt.php"><img src="http://img.freeflagicons.com/thumb/glossy_square_icon/brazil/brazil_64.png" width="20px"> Português</a></li>
+      </ul>
+    </li>
+  </ul>
 		<!--header-start-->
 		<div class="container">
 			<figure class="logo animated fadeInDown delay-07s">
 				<a href="#"><img src="img/logo.png" alt=""></a>
 			</figure>
-			<h1 class="animated fadeInDown delay-07s">Welcome To Spero Coin<br>Sustainability in technology</h1>
+			<h1 class="animated fadeInDown delay-07s">Bem-vindo à Spero Coin<br>Sustentabilidade em tecnologia</h1>
 			<ul class="we-create animated fadeInUp delay-1s" >
-				<li>We are an ecologically correct cryptocurrency that aims to eliminate the waste of electrical energy.</li>
+				<li>SOMOS UMA CRIPTOGRAFIA ECOLOGICAMENTE CORRETA QUE VISA ELIMINAR O DESPERDÍCIO DE ENERGIA ELÉTRICA.</li>
 			</ul>
-			<a class="link animated fadeInUp delay-1s servicelink" href="#info">Get Started</a> <a class="link animated fadeInUp delay-1s servicelink" href="white_paper/index.php">White Paper</a>
+			<a class="link animated fadeInUp delay-1s servicelink" href="#info">Começar</a> <a class="link animated fadeInUp delay-1s servicelink" href="white_paper/index.php">White Paper</a>
       <br>
 
       <div class="row">
@@ -55,22 +80,23 @@
     <div class="col-md-6">
       <div class="panel panel-primary">
         <div class="panel-heading">
-          <h3 class="panel-title  animated pulse infinite" style="font-size:25px"><i class="fa fa-money" aria-hidden="true"></i> Spero Sales</h3>
+          <h3 class="panel-title  animated pulse infinite" style="font-size:25px"><i class="fa fa-money" aria-hidden="true"></i> Vendas Spero</h3>
           <span class="pull-right "></span>
         </div>
         <div class="panel-body">
-          <b style="color:green;font-size: 18px">Total reserved for sale:<br> 30,000.00000000</b><br>
-          <b style="color:red;font-size: 18px">Total Sold:<br>-11,275.71300630</b><br>
-          <b style="color:blue;font-size: 18px">Total available for sale:<br> 18,724.28699370</b><br>
-          <br><b style="font-size: 18px">Total collected:</b><br>
-          <br><b style="font-size: 18px"><i class="fa fa-btc" aria-hidden="true"></i> Bitcoin[BTC]:0.00000000</b><br>
-          <br><b style="font-size: 18px"><i class="fa fa-usd" aria-hidden="true"></i> Dolar[USD]: $ 0,00</b><br>
-          <br><b style="font-size: 18px"><i class="fa fa-money" aria-hidden="true"></i> Real[BRL]: R$ 310,00</b><br>
-          <br><b style="font-size: 18px"><i class="fa-spin fa fa-circle-o-notch" aria-hidden="true"></i> Digital Payments:</b><br>
-          <b style="font-size: 18px">MERCADOPAGO: R$ 9,50</b><br>
-          <b style="font-size: 18px">PAYPAL: $ 0,00</b><br>
-          <b style="font-size: 18px">PAGSEGURO: R$0,00</b><br>
-          <b style="font-size: 18px">CELCOIN: R$0,00</b><br>
+          <a class="link animated delay-1s servicelink animated pulse infinite" href="https://sperocoin.ddns.net/exchange" target="_blank">COMPRE AGORA!</a><br>
+          <b style="color:green;font-size: 18px">Total reservado para venda:<br> 30,000.00000000</b><br>
+          <b style="color:red;font-size: 18px">Total Vendido:<br><?php echo $sales - 30000; ?></b><br>
+          <b style="color:blue;font-size: 18px">Total disponível à venda:<br><?php echo $sales; ?> </b><br>
+          <br><b style="font-size: 18px">Total arrecadado:</b><br>
+          <br><b style="font-size: 18px"><i class="fa fa-btc" aria-hidden="true"></i> Bitcoin[BTC]:<? if($BTC <= 0){echo "0.00000000 BTC";}else{echo number_format($BTC,"8",".",",")." BTC";} ?></b><br>
+          <br><b style="font-size: 18px"><i class="fa fa-usd" aria-hidden="true"></i> Dolar[USD]: $ <? if($USD <= 0){echo "0.00";}else{echo $USD;} ?></b><br>
+          <br><b style="font-size: 18px"><i class="fa fa-money" aria-hidden="true"></i> Real[BRL]: R$ <? if($BRL <= 0){echo "0.00";}else{echo $BRL;} ?></b><br>
+          <br><b style="font-size: 18px"><i class="fa-spin fa fa-circle-o-notch" aria-hidden="true"></i> Pagamentos Digitais:</b><br>
+          <b style="font-size: 18px">MERCADOPAGO: R$ <? if($MERCADOPAGO <= 0){echo "0.00";}else{echo $MERCADOPAGO;} ?></b><br>
+          <b style="font-size: 18px">PAYPAL: $ <? if($PAYPAL <= 0){echo "0.00";}else{echo $PAYPAL;} ?></b><br>
+          <!-- <b style="font-size: 18px">PAGSEGURO: R$ <? if($PAGSEGURO <= 0){echo "0.00";}else{echo $PAGSEGURO;} ?></b><br> 
+          <b style="font-size: 18px">CELCOIN: R$ <? if($CELCOIN <= 0){echo "0.00";}else{echo $CELCOIN;} ?></b><br> -->
         </div>
       </div>
     </div>
@@ -81,33 +107,33 @@
     <div class="col-md-4">
       <div class="panel panel-primary">
         <div class="panel-heading">
-          <h3 class="panel-title">Collection of Bitcoin:</h3>
+          <h3 class="panel-title">Arrecadação de Bitcoin:</h3>
           <span class="pull-right "></span>
         </div>
         <div class="panel-body">
-            <b style="font-size: 18px"><i class="fa fa-btc" aria-hidden="true"></i> Bitcoin[BTC]:0.00000000</b>
+            <b style="font-size: 18px"><i class="fa fa-btc" aria-hidden="true"></i> Bitcoin[BTC]: <? if($BTC <= 0){echo "0.00000000 BTC";}else{echo number_format($BTC,"8",".",",")." BTC";} ?></b>
         </div>
       </div>
     </div>
     <div class="col-md-4">
       <div class="panel panel-primary">
         <div class="panel-heading">
-          <h3 class="panel-title">Collection of Dolar:</h3>
+          <h3 class="panel-title">Arrecadação de Dolar:</h3>
           <span class="pull-right "></span>
         </div>
         <div class="panel-body">
-            <b style="font-size: 18px"><i class="fa fa-usd" aria-hidden="true"></i> Dolar[USD]: $ 0,00</b>
+            <b style="font-size: 18px"><i class="fa fa-usd" aria-hidden="true"></i> Dolar[USD]: $ <? if($USD <= 0){echo "0.00";}else{echo $USD;} ?></b>
         </div>
       </div>
     </div>
     <div class="col-md-4">
       <div class="panel panel-primary">
         <div class="panel-heading">
-          <h3 class="panel-title">Collection of Real:</h3>
+          <h3 class="panel-title">Arrecadação de Real:</h3>
           <span class="pull-right "></span>
         </div>
         <div class="panel-body">
-            <b style="font-size: 18px"><i class="fa fa-money" aria-hidden="true"></i> Real[BRL]: R$ 319,50</b>
+           <b style="font-size: 18px"><i class="fa fa-money" aria-hidden="true"></i> Real[BRL]: R$ <? if($soma_brl <= 0){echo "0.00";}else{echo number_format($soma_brl,'2','.',',');} ?></b>
         </div>
       </div>
     </div>
@@ -122,12 +148,12 @@
 		<!--main-nav-start-->
 		<div class="container">
 			<ul class="main-nav">
-				<li><a href="#header">Home</a></li>
+				<li><a href="#header">Início</a></li>
 				<li><a href="#info">Info</a></li>
-				<li><a href="#Where_we_are">Where are we?</a></li>
+				<li><a href="#Where_we_are">Onde Estamos?</a></li>
 				<li class="small-logo"><a href="#header"><img src="img/small-logo.png" alt="" width="45" class="fa-spin"></a></li>
-				<li><a href="#contact">Contact</a></li>
-				<li><a href="http://sperocoin.ddns.net:3001" target="_blank">Block Explorer</a></li>
+				<li><a href="#contact">Contato</a></li>
+				<li><a href="http://exsperocoin.ddns.net:3001" target="_blank">Block Explorer</a></li>
 				<li><a href="#downloads">Downloads</a></li>
 			</ul>
 			<a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
@@ -140,8 +166,8 @@
 	<section class="main-section" id="info">
 		<!--main-section-start-->
 		<div class="container">
-			<h2>Information</h2>
-			<h6>See below for technical information about Spero.</h6>
+			<h2>Informação</h2>
+			<h6>Veja abaixo informações técnicas sobre o Spero.</h6>
 
       <div class="row visible-md visible-lg">
     			<div class="col-sm-12 visible-md visible-lg">
@@ -158,8 +184,8 @@
 							<i class="fa fa-cubes"></i>
 						</div>
 						<div class="service-list-col2">
-							<h3>Algorithm X13</h3>
-							<p>This algorithm uses 13 rounds of hashing with 13 different hash-functions (blake, bmw, groestl, jh, keccak, skein, luffa, cubehash, etc.), which makes it one of most reliable in a modern cryptocurrencies world.</p>
+							<h3>ALGORITMO X13</h3>
+							<p>Este algoritmo usa 13 rodadas de hashing com 13 diferentes funções de hash (blake, bmw, groestl, jh, keccak, skein, luffa, cubehash, etc.), o que o torna um dos mais confiáveis ​​no mundo da criptografia moderna.</p>
 						</div>
 					</div>
 					<div class="service-list">
@@ -167,8 +193,8 @@
 							<i class="fa fa-code-fork"></i>
 						</div>
 						<div class="service-list-col2">
-							<h3>Hybrid mining PoW and PoS</h3>
-							<p>With Spero you mining with proof of work(PoW[ASIC, GPU, CPU, etc]) and also mining just leaving your wallet with active balance online, open and unlocked, the well-known proof of stake(PoS).</p>
+							<h3>MINERAÇÃO HÍBRIDA de PoW e PoS</h3>
+							<p>Com a Spero você minera com prova de trabalho (PoW [ASIC, GPU, CPU, etc.] e também apenas deixando sua carteira com saldo ativo online, aberta e desbloqueada, sendo conhecida prova de participação (PoS).</p>
 						</div>
 					</div>
 					<div class="service-list">
@@ -176,8 +202,8 @@
 							<i class="fa fa-database"></i>
 						</div>
 						<div class="service-list-col2">
-							<h3>total coins</h3>
-							<p>There are 7 million coins total, and were pre-mined 100,000 for application in several areas of the project.</p>
+							<h3>MOEDAS TOTAIS</h3>
+							<p>Existem 7 milhões de moedas no total, e foram pré-extraídas 100.000 para aplicação em várias áreas do projeto.</p>
 						</div>
 					</div>
 					<div class="service-list">
@@ -185,8 +211,8 @@
 							<i class="fa fa-comments-o"></i>
 						</div>
 						<div class="service-list-col2">
-							<h3>Encrypted Message (E2M)</h3>
-							<p>With Spero you can send encrypted messages to other users, having in hand only the address and the public key of the recipient.</p>
+							<h3>MENSAGEM CRIPTOGRAFADA (E2M)</h3>
+							<p>Com a Spero, você pode enviar mensagens criptografadas para outros usuários, tendo em mãos apenas o endereço e a chave pública do destinatário.</p>
 						</div>
 					</div>
 						<div class="service-list">
@@ -194,13 +220,13 @@
 							<i class="fa fa-check-square-o"></i>
 						</div>
 						<div class="service-list-col2">
-							<h3>other information</h3>
-							<p><b>Confirmations:</b><br>
-								Mining: 05<br>
-								Transactions: 03<br>
-								<b>Block time:</b> 60 seconds<br>
-								<b>Difficulty reset to each block</b><br>
-								<b>Return PoS:</b> 25% per year<br>
+							<h3>OUTRAS INFORMAÇÃO</h3>
+							<p><b>Confirmações:</b><br>
+								Mineração: 05<br>
+								Transações: 03<br>
+								<b>Tempo de Block:</b> 60 segundos<br>
+								<b>Dificuldade reiniciada a cada bloco</b><br>
+								<b>Retorno PoS:</b> 25% por ano<br>
 
 							</p>
 						</div>
@@ -220,7 +246,7 @@
 <!-- TIMELINE -->
 <div class="container">
   <div class="page-header">
-    <h2 id="timeline">Timeline</h2>
+    <h2 id="timeline">CRONOGRAMA</h2>
   </div>
   <ul class="timeline">
     <li>
@@ -230,16 +256,16 @@
           <h4 class="timeline-title">2017/09/25</h4>
         </div>
         <div class="timeline-body">
-          <p>→ Creation of the project using the MarteX crypto<br>
-→ Generation of Merkle<br>
+          <p>→ Criação do projeto usando a cripto MarteX <br>
+→ Geração de Merkle <br>
 const char* pszTimestamp: "A esperanca eh a ultima que morre.";<br>
 block.nTime: 1506335848;<br>
 block.nNonce: 44360;<br>
-Generation of GenesisBlock<br>
-→ Launching on BitcoinTalk<br>
-→ Upload files to <a href="https://github.com/sperocoin/sperocoin">Github</a><br>
-→ Pool Partnership: pickaxe.online<br>
-→ Hope closing project</p>
+Geração de GenesisBlock<br>
+→ Lançamento no BitcoinTalk <br>
+→ Carregar arquivos para o <a href="https://github.com/sperocoin/sperocoin">Github</a><br>
+→ Entrada em Pool: pickaxe.online<br>
+→ Hope finaliza o projeto</p>
         </div>
       </div>
     </li>
@@ -250,8 +276,8 @@ Generation of GenesisBlock<br>
           <h4 class="timeline-title">2017/09/26</h4>
         </div>
         <div class="timeline-body">
-          <p>→Project Fork on GitHub by DigitalCoin<br>
-→ Resubmission of files to GitHub</p>
+          <p>Fork do projeto no GitHub por DigitalCoin<br>
+→ Reenvio de arquivos para o GitHub</p>
         </div>
       </div>
     </li>
@@ -262,11 +288,10 @@ Generation of GenesisBlock<br>
           <h4 class="timeline-title">2017/10/01</h4>
         </div>
         <div class="timeline-body">
-          <p>→ Code update: SperoCoin-qt.pro file has been changed for
-compilation in the Linux environment<br>
-→ Official team shutdown Hope technical assistance in the project<br>
-→ Creation of the official <a href="mailto:sperocoin@gmail.com">E-mail</a><br>
-→ Temporary <a href="https://superocoin.wixsite.com/sperocoin">website</a> creation</p>
+          <p>→ Atualização de código: tarquivo SperoCoin-qt.pro foi alterado para compilação no ambiente Linux<br>
+→ Desligamento oficial da equipe Hope Assistência Técnica no projeto <br>
+→ Criação do oficial <a href="mailto:sperocoin@gmail.com">E-mail</a><br>
+→ Criação de <a href="https://superocoin.wixsite.com/sperocoin">website</a> temporário</p>
         </div>
       </div>
     </li>
@@ -277,8 +302,8 @@ compilation in the Linux environment<br>
           <h4 class="timeline-title">2017/10/02</h4>
         </div>
         <div class="timeline-body">
-          <p>→ Topic opening at: <a href="https://cryptocurrencytalk.com/topic/88487-ann-sperocoin-x13-hybrid-powpos/">Cryptocurrencytalk</a><br>
-→ Start voting to add currency in Exchange <a href="https://tradesatoshi.com/Vote">TradeSatoshi</a></p>
+          <p>→ Abertura do tópico em: <a href="https://cryptocurrencytalk.com/topic/88487-ann-sperocoin-x13-hybrid-powpos/">Cryptocurrencytalk</a><br>
+→ Início de votação para adicionar moeda na Exchange <a href="https://tradesatoshi.com/Vote">TradeSatoshi</a></p>
         </div>
       </div>
     </li>
@@ -289,7 +314,7 @@ compilation in the Linux environment<br>
           <h4 class="timeline-title">2017/10/04</h4>
         </div>
         <div class="timeline-body">
-          <p>→ Block Crawler / Explorer creation</p>
+          <p>→ Criação do Block Crawler / Explorer</p>
           <hr>
         </div>
       </div>
@@ -301,7 +326,7 @@ compilation in the Linux environment<br>
           <h4 class="timeline-title">2017/10/06​</h4>
         </div>
         <div class="timeline-body">
-          <p>→ Added file in patch "src / leveldb / Makefile"
+          <p>→ Adicionado arquivo no patch "src / leveldb / Makefile"
 ​</p>
         </div>
       </div>
@@ -313,10 +338,10 @@ compilation in the Linux environment<br>
           <h4 class="timeline-title">2017/10/08​</h4>
         </div>
         <div class="timeline-body">
-          <p>→ Update infos about end phase of PoW and start phase PoS;<br>
-→ Update font of qt wallet;<br>
-→ Update version;<br>
-→ Update Protocol Others general's updates<br>
+          <p>→ Atualização de informações sobre a fase final do PoW e PoS de fase inicial;<br>
+→ Atualização de fonte da carteira qt; <br>
+→ Atualização de versão;<br>
+→ Atualização de protocolo e atualizações gerais<br>
 ​</p>
         </div>
       </div>
@@ -328,9 +353,9 @@ compilation in the Linux environment<br>
           <h4 class="timeline-title">2017/10/10</h4>
         </div>
         <div class="timeline-body">
-          <p>→ Added option of cleaning of orphans blocks;<br>
-→ Added display option "STAKE" in the "type" column inside the "Transactions" tab;<br>
-→ Added "setban" node "" add | remove "(bantime)" / "listbanned" and "clearbanned" in the RPC console;</p>
+          <p>→ Adicionado opção de limpeza de blocos de órfãos;<br>
+→ Adicionado a opção de exibição "STAKE" na coluna "tipo" dentro da guia "Transações"; <br>
+→ Adicionado "setban" no "add | remove "(bantime)" / "listbanned" e "clearbanned" no console RPC;</p>
         </div>
       </div>
     </li>
@@ -341,7 +366,7 @@ compilation in the Linux environment<br>
           <h4 class="timeline-title">2017/10/11</h4>
         </div>
         <div class="timeline-body">
-          <p>→ Ban Forked Peers who are stuck in a Getblocks Loop.
+          <p>→ Ban Forked Peers que estão presos em Getblocks Loop
 ​</p>
         </div>
       </div>
@@ -353,7 +378,7 @@ compilation in the Linux environment<br>
           <h4 class="timeline-title">2017/10/12</h4>
         </div>
         <div class="timeline-body">
-          <p>→ Listed right now at <a href="https://coinsmarkets.com/trade-BTC-SPERO.htm">Coins Markets</a></p>
+          <p>→ Listado agora no <a href="https://coinsmarkets.com/trade-BTC-SPERO.htm">Coins Markets</a></p>
         </div>
       </div>
     </li>
@@ -376,9 +401,9 @@ compilation in the Linux environment<br>
           <h4 class="timeline-title">2017/10/22</h4>
         </div>
         <div class="timeline-body">
-          <p>→ Update of strings names;<br>
-→ Updating information in README.md<br>
-→ Update Stake Info in QT Wallet</p>
+          <p>→ Atualização de nomes de strings;<br>
+→ Atualização de informações no README.md <br>
+→ Atualização de informações de participação na Wallet QT</p>
         </div>
       </div>
     </li>
@@ -400,7 +425,7 @@ compilation in the Linux environment<br>
           <h4 class="timeline-title">2017/11/01</h4>
         </div>
         <div class="timeline-body">
-          <p>→ Channel created using <a href="httsp://sperocoin.slack.com">Slack</a></p>
+          <p>→ Canal criado usando <a href="httsp://sperocoin.slack.com">Slack</a></p>
         </div>
       </div>
     </li>
@@ -411,7 +436,7 @@ compilation in the Linux environment<br>
           <h4 class="timeline-title">2017/11/04</h4>
         </div>
         <div class="timeline-body">
-          <p>→ Start voting to add currency in <a href="https://c-cex.com/?id=vote&coin=spero">C-CEX</a></p>
+          <p>→ Início de votação para adicionar a moeda no <a href="https://c-cex.com/?id=vote&coin=spero">C-CEX</a></p>
         </div>
       </div>
     </li>
@@ -422,7 +447,7 @@ compilation in the Linux environment<br>
           <h4 class="timeline-title">2017/11/11</h4>
         </div>
         <div class="timeline-body">
-          <p>→ Partnership with the CURSAGRAM channel in the TELEGRAM application with SPERO as the main sponsor.</p>
+          <p>→ Parceria com o canal CURSAGRAM no aplicativo TELEGRAM com a SPERO como principal patrocinador.</p>
         </div>
       </div>
     </li>
@@ -434,7 +459,18 @@ compilation in the Linux environment<br>
           <h4 class="timeline-title">2017/11/12</h4>
         </div>
         <div class="timeline-body">
-          <p>→ Forum Modification Bitcointalk: Jr. Member</p>
+          <p>→ Modificação do Fórum Bitcointalk: Jr. Member</p>
+        </div>
+      </div>
+    </li>
+        <li>
+      <div class="timeline-badge success"><i class="fa fa-database"></i></div>
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <h4 class="timeline-title">2018/01/24</h4>
+        </div>
+        <div class="timeline-body">
+          <p>→ Lançamento oficial do aplicativo para Android baseado na Webwallet.</p>
         </div>
       </div>
     </li>
@@ -442,6 +478,174 @@ compilation in the Linux environment<br>
 </div>
 
 <!-- TIMELINE -->
+
+
+<!--ROADMAP -->
+
+<div class="container">
+  <div class="page-header">
+    <h2 id="timeline">ROADMAP - 2018</h2>
+    <h4 id="timeline"><center>
+        Legenda:<br>
+        <i class="fa fa-star"></i> - Tarefa Executada<br>
+        <i class="fa fa-star-half-o"></i> - Tarefa em Progresso<br>
+        <i class="fa fa-star-o"></i> - Proposta de Tarefa<br>
+      </center></h4>
+  </div>
+  <ul class="timeline">
+    <li>
+      <div class="timeline-badge danger"><i class="fa fa-tasks
+"></i></div>
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <h4 class="timeline-title">Janeiro</h4>
+        </div>
+        <div class="timeline-body">
+          <p><i class="fa fa-star"></i> Lançamento Oficial do Aplicativo Android</p>
+        </div>
+      </div>
+    </li>
+    <li class="timeline-inverted">
+      <div class="timeline-badge danger"><i class="fa fa-tasks
+"></i></div>
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <h4 class="timeline-title">Fevereiro</h4>
+        </div>
+        <div class="timeline-body">
+          <p><i class="fa fa-star-half-o"></i> Site de Mineração em Nuvem Oficial </p>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="timeline-badge danger"><i class="fa fa-tasks
+"></i></div>
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <h4 class="timeline-title">Março</h4>
+        </div>
+        <div class="timeline-body">
+          <p><i class="fa fa-star-o"></i> Liberação de sistema de recargas de celulares na casa de câmbio oficial<br>
+            <i class="fa fa-star-o"></i> Participação em projetos sociais dentro da comunidade da cidade de Belo Horizonte<br>
+            <i class="fa fa-star-o"></i> Ampliação do Mercado Social e Banco Social Spero</p>
+        </div>
+      </div>
+    </li>
+    <li class="timeline-inverted">
+      <div class="timeline-badge danger"><i class="fa fa-tasks
+"></i></div>
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <h4 class="timeline-title">Abril</h4>
+        </div>
+        <div class="timeline-body">
+          <p><i class="fa fa-star-o"></i> Liberação de saques em Reais(BRL) na casa de câmbio oficial</p>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="timeline-badge danger"><i class="fa fa-tasks
+"></i></div>
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <h4 class="timeline-title">Maio</h4>
+        </div>
+        <div class="timeline-body">
+          <p><i class="fa fa-star-o"></i> Entrada em Casa de Câmbio maior, preferencialmente Yobit</p>
+        </div>
+      </div>
+    </li>
+    <li class="timeline-inverted">
+      <div class="timeline-badge danger"><i class="fa fa-tasks
+"></i></div>
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <h4 class="timeline-title">Junho</h4>
+        </div>
+        <div class="timeline-body">
+          <p><i class="fa fa-star-o"></i> </p>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="timeline-badge danger"><i class="fa fa-tasks
+"></i></div>
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <h4 class="timeline-title">Julho</h4>
+        </div>
+        <div class="timeline-body">
+          <p><i class="fa fa-star-o"></i> </p>
+        </div>
+      </div>
+    </li>
+    <li class="timeline-inverted">
+      <div class="timeline-badge danger"><i class="fa fa-tasks
+"></i></div>
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <h4 class="timeline-title">Agosto</h4>
+        </div>
+        <div class="timeline-body">
+          <p><i class="fa fa-star-o"></i> Pagamento de Boletos Bancários na Casa de Câmbio Oficial</p>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="timeline-badge danger"><i class="fa fa-tasks
+"></i></div>
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <h4 class="timeline-title">Setembro</h4>
+        </div>
+        <div class="timeline-body">
+          <p><i class="fa fa-star-o"></i> </p>
+        </div>
+      </div>
+    </li>
+    <li class="timeline-inverted">
+      <div class="timeline-badge danger"><i class="fa fa-tasks
+"></i></div>
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <h4 class="timeline-title">Outubro</h4>
+        </div>
+        <div class="timeline-body">
+          <p><i class="fa fa-star-o"></i> </p>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="timeline-badge danger"><i class="fa fa-tasks
+"></i></div>
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <h4 class="timeline-title">Novembro</h4>
+        </div>
+        <div class="timeline-body">
+          <p><i class="fa fa-star-o"></i> </p>
+        </div>
+      </div>
+    </li>
+    <li class="timeline-inverted">
+      <div class="timeline-badge danger"><i class="fa fa-tasks
+"></i></div>
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <h4 class="timeline-title">Dezembro</h4>
+        </div>
+        <div class="timeline-body">
+          <p><i class="fa fa-star-o"></i> </p>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+
+
+<!--ROADMAP -->
+
+
 	<section class="main-section alabaster">
 		<!--main-section alabaster-start-->
 		<div class="container">
@@ -450,21 +654,20 @@ compilation in the Linux environment<br>
 					<img src="img/mining.png" alt="">
 				</figure>
 				<div class="col-lg-7 col-sm-8 featured-work">
-					<h2>mining</h2>
-					<P class="padding-b">Get to know more about the two types of mining at Spero.</P>
+					<h2>MINERAÇÃO</h2>
+					<P class="padding-b">Conheça mais sobre os dois tipos de mineração no Spero.</p>
 					<div class="featured-box">
 						<div class="featured-box-col1 wow fadeInRight delay-02s">
 							<i class="fa fa-flash"></i>
 						</div>
 						<div class="featured-box-col2 wow fadeInRight delay-02s">
-							<h3>Proof of Work(PoW)</h3>
-							<p>Proof of work is a protocol that has the main goal of deterring cyber-attacks such as a distributed denial-of-service attack (DDoS) which has the purpose of exhausting the resources of a computer system by sending multiple fake requests.
+							<h3>PROVA DE TRABALHO (PoW)</h3>
+							<p>A prova do trabalho é um protocolo que tem o principal objetivo de dissuadir ataques cibernéticos, como um ataque distribuído de negação de serviço (DDoS) que tem como objetivo esgotar os recursos de um sistema informático, enviando múltiplos pedidos falsos. <br>
+O conceito de Prova de trabalho existia mesmo antes do bitcoin, mas Satoshi Nakamoto aplicou essa técnica à sua moeda digital - ainda não sabemos quem realmente é Nakamoto -, revolucionando a forma como as transações tradicionais são definidas.
 <br>
-The Proof of work concept existed even before bitcoin, but Satoshi Nakamoto applied this technique to his/her – we still don’t know who Nakamoto really is – digital currency revolutionizing the way traditional transactions are set.
+Na verdade, a idéia da PoW foi originalmente publicada por Cynthia Dwork e Moni Naor em 1993, mas o termo "prova de trabalho" foi cunhado por Markus Jakobsson e Ari Juels em um documento publicado em 1999.
 <br>
-In fact, PoW idea was originally published by Cynthia Dwork and Moni Naor back in 1993, but the term “proof of work” was coined by Markus Jakobsson and Ari Juels in a document published in 1999.
-<br>
-But, returning to date, Proof of work is maybe the biggest idea behind the Nakamoto’s Bitcoin white paper – published back in 2008 – because it allows trustless and distributed consensus.</p>
+Mas, voltando à data, a Prova de trabalho talvez seja a maior idéia por trás do white paper do Bitcoin de Nakamoto - publicado em 2008 - porque permite um consenso sem confiança e distribuído.</p>
 						</div>
 					</div>
 				</div>
@@ -480,25 +683,23 @@ But, returning to date, Proof of work is maybe the biggest idea behind the Nakam
 							<i class="fa fa-flask"></i>
 						</div>
 						<div class="featured-box-col2 wow fadeInRight delay-04s">
-							<h3>Proof of Stake(PoS)</h3>
-							<p>Proof of stake is a different way to validate transactions based and achieve the distributed consensus.
+							<h3>PROVA DE PARTICIPAÇÃO (PoS)</h3>
+							<p>A prova de participação é uma maneira diferente de validar transações baseadas e alcançar o consenso distribuído.
 <br>
-It is still an algorithm, and the purpose is the same of the proof of work, but the process to reach the goal is quite different.
+Ainda é um algoritmo, e o objetivo é o mesmo da prova de trabalho, mas o processo para atingir o objetivo é bastante diferente.
 <br>
-Proof of stake first idea was suggested on the bitcointalk forum back in 2011, but the first digital currency to use this method was Peercoin in 2012, together with ShadowCash, Nxt, BlackCoin, NuShares/NuBits, Qora and Nav Coin.
+A primeira ideia foi sugerida no fórum bitcointalk em 2011, mas a primeira moeda digital que usou este método foi a Peercoin em 2012, juntamente com ShadowCash, Nxt, BlackCoin, NuShares / NuBits, Qora e Nav Coin.
 <br>
-Unlike the proof-of-Work, where the algorithm rewards miners who solve mathematical problems with the goal of validating transactions and creating new blocks, with the proof of stake, the creator of a new block is chosen in a deterministic way, depending on its wealth, also defined as stake.
+Ao contrário da prova de trabalho, onde o algoritmo recompensa os mineiros que resolvem problemas matemáticos com o objetivo de validar transações e criar novos blocos, com a prova de participação, o criador de um novo bloco é escolhido de forma determinista, dependendo da sua riqueza, também definida como participação. <br>
+Não há recompensa de bloco.
 <br>
-No block reward
+Além disso, todas as moedas digitais são criadas anteriormente no início, e seu número nunca muda.
 <br>
-Also, all the digital currencies are previously created in the beginning, and their number never changes.
-<br>
-This means that in the PoS system there is no block reward, so, the miners take the transaction fees.
-<br>
-This is why, in fact, in this PoS system miners are called forgers, instead</p>
+Isso significa que no sistema PoS não há recompensa por bloco, sendo assim, os mineiros recebem as taxas de transação.
+</p>
 						</div>
 					</div>
-					<a class="Learn-More" href="#">Learn More</a>
+
 				</div>
 			</div>
 		</div>
@@ -510,16 +711,16 @@ This is why, in fact, in this PoS system miners are called forgers, instead</p>
 	<section class="main-section paddind" id="Where_we_are">
 		<!--main-section-start-->
 		<div class="container">
-			<h2>Where we are?</h2>
-			<h6>Find here our partners and service providers who use Sperocoin, or who keep this project standing:</h6>
+			<h2>ONDE ESTAMOS??</h2>
+			<h6>Encontre aqui nossos parceiros e prestadores de serviços que usam a Sperocoin ou que mantêm este projeto de pé:</h6>
 			<div class="portfolioFilter">
 				<ul class="Portfolio-nav wow fadeIn delay-02s">
-					<li><a href="#" data-filter="*" class="current">All</a></li>
+					<li><a href="#" data-filter="*" class="current">Todos</a></li>
 					<li><a href="#" data-filter=".exchanges">Exchanges</a></li>
 					<li><a href="#" data-filter=".pool">Pool</a></li>
-					<li><a href="#" data-filter=".topics">Topics in forums</a></li>
+					<li><a href="#" data-filter=".topics">Tópicos em Fóruns</a></li>
 					<li><a href="#" data-filter=".git">GitHub</a></li>
-					<li><a href="#" data-filter=".official">Offical SPERO</a></li>
+					<li><a href="#" data-filter=".official">Oficial SPERO</a></li>
 				</ul>
 			</div>
 
@@ -530,11 +731,11 @@ This is why, in fact, in this PoS system miners are called forgers, instead</p>
 				<h3>CryptoCurrency Talk</h3>
 				<p>Topics in forums</p>
 			</div>
-			<div class="Portfolio-box pool">
+			<!-- <div class="Portfolio-box pool">
 				<a href="http://pickaxe.online/" target="_blank"><img src="img/pickaxeonline.jpg" alt=""></a>
 				<h3>PickAxe Online</h3>
 				<p>Pool PoW</p>
-			</div>
+			</div> -->
 			<div class=" Portfolio-box exchanges">
 				<a href="https://coinsmarkets.com/trade-BTC-SPERO.htm" target="_blank"><img src="img/coinsmarkets.jpg" alt=""></a>
 				<h3>Coins Market</h3>
@@ -545,11 +746,11 @@ This is why, in fact, in this PoS system miners are called forgers, instead</p>
 				<h3>Bitcoin Talk</h3>
 				<p>Topics in forums</p>
 			</div>
-			<div class=" Portfolio-box exchanges">
+			<!-- <div class=" Portfolio-box exchanges">
 				<a href="https://tradesatoshi.com/Vote" target="_blank"><img src="img/tradesatoshi.jpg" alt=""></a>
 				<h3>TradeSatoshi(In Voting)</h3>
 				<p>Exchanges</p>
-			</div>
+			</div> -->
 			<div class=" Portfolio-box exchanges">
 				<a href="https://c-cex.com/?id=vote&coin=spero" target="_blank"><img src="img/ccex-logo.png" alt="" width="255px"></a>
 				<h3>C-CEX(In Voting)</h3>
@@ -561,15 +762,35 @@ This is why, in fact, in this PoS system miners are called forgers, instead</p>
 				<p>GitHub</p>
 			</div>
 			<div class=" Portfolio-box official">
-				<a href="/faucet" target="_blank"><img src="img/logo.png" alt=""></a>
+				<a href="/faucet" target="_blank"><img src="img/logo.png" alt="" width="255px"></a>
 				<h3>Faucet</h3>
 				<p>Official</p>
 			</div>
 			<div class=" Portfolio-box official">
-				<a href="/webwallet" target="_blank"><img src="img/logo.png" alt=""></a>
+				<a href="/webwallet" target="_blank"><img src="img/logo.png" alt="" width="255px"></a>
 				<h3>WebWallet</h3>
 				<p>Official</p>
 			</div>
+      <div class=" Portfolio-box official">
+        <a href="/forum" target="_blank"><img src="img/logo.png" alt="" width="255px"></a>
+        <h3>Forum</h3>
+        <p>Official</p>
+      </div>
+      <div class=" Portfolio-box official">
+        <a href="https://www.youtube.com/channel/UCQQjsoCjR_THbZ4AmalzPPg/" target="_blank"><img src="img/logo.png" alt="" width="255px"></a>
+        <h3>Youtube Channel</h3>
+        <p>Official</p>
+      </div>
+      <div class=" Portfolio-box official">
+        <a href="http://exsperocoin.ddns.net:3001/network" target="_blank"><img src="img/logo.png" alt="" width="255px"></a>
+        <h3>Block Explorer - USA</h3>
+        <p>Official</p>
+      </div>
+      <div class=" Portfolio-box official">
+        <a href="http://sperocoin.ddns.net:3001/network" target="_blank"><img src="img/logo.png" alt="" width="255px"></a>
+        <h3>Block Explorer - BR</h3>
+        <p>Official</p>
+      </div>
 		</div>
 	</section>
 	<!--main-section-end-->
@@ -581,12 +802,12 @@ This is why, in fact, in this PoS system miners are called forgers, instead</p>
 			<b class="quote-right wow fadeInDown delay-03"><i class="fa-quote-right"></i></b>
 			<div class="row">
 				<div class="col-lg-12">
-					<p class="client-part-haead wow fadeInDown delay-05">Want to stay inside even more? Access our social networks below and see how the development of our project is progressing:</p>
+					<p class="client-part-haead wow fadeInDown delay-05">Quer ficar mais por dentro? Acesse nossas redes sociais abaixo e veja como o desenvolvimento do nosso projeto está progredindo:</p>
 				</div>
 			</div>
 			<ul class="client wow fadeIn delay-05s">
 				<li>
-            	<img src="img/logo.png" alt="">
+            	<img src="img/logo.png" alt="" width="300px">
 </li>
 			</ul>
 		</div>
@@ -734,7 +955,7 @@ This is why, in fact, in this PoS system miners are called forgers, instead</p>
 		<!--main-section-start-->
 		<div class="container">
 			<h2>DOWNLOADS</h2>
-			<h6>Download here the files needed to start at Spero.</h6>
+			<h6>Baixe aqui os arquivos necessários para começar no Spero.</h6>
 			<div class="row">
 				<div class="col-lg-4 col-sm-6 wow fadeInLeft delay-05s">
 					<div class="service-list">
@@ -742,8 +963,8 @@ This is why, in fact, in this PoS system miners are called forgers, instead</p>
 							<i class="fa fa-hdd-o"></i>
 						</div>
 						<div class="service-list-col2">
-							<a href="/files/SperoCoin-v.2.6.4.1.zip" target="_blank"><h3>Windows QT</h3>
-							<p>Wallet with graphic design. Model for those who seek comfort and convenience to check their balance, send and receive coins in a practical and fast.</p></a>
+							<a href="/files/SperoCoin-v1.1BETA.apk" target="_blank"><h3>Apk Android - V.1.1BETA</h3>
+							<p>Wallet Android. Funciona como sistema Web Viewer da web wallet. Utiliza a mesma conta Web no aplicativo! Praticidade e velocidade nas suas mãos.</p></a>
 						</div>
 					</div>
 					<div class="service-list">
@@ -751,8 +972,8 @@ This is why, in fact, in this PoS system miners are called forgers, instead</p>
 							<i class="fa fa-hdd-o"></i>
 						</div>
 						<div class="service-list-col2">
-							<a href="/files/sperocoind-v.2.6.4.1.exe" target="_blank"><h3>Daemon Windows</h3>
-							<p>Wallet without graphic design. Model for those who seek practicality and less consumption of resources.</p></a>
+							<a href="/files/SperoCoin-v.2.6.4.2.zip" target="_blank"><h3>Windows QT - V.2.6.4.2 - 18/11/2017</h3>
+							<p>Carteira com design gráfico. Modelo para aqueles que procuram conforto e conveniência para verificar o saldo, enviar e receber moedas de forma prática e rápida.</p></a>
 						</div>
 					</div>
 					<div class="service-list">
@@ -760,8 +981,17 @@ This is why, in fact, in this PoS system miners are called forgers, instead</p>
 							<i class="fa fa-hdd-o"></i>
 						</div>
 						<div class="service-list-col2">
-							<a href="/files/SperoCoin-qt-v.2.6.4.1" target="_blank"><h3>Linux QT</h3>
-							<p>Wallet with graphic design. Model for those who seek comfort and convenience to check their balance, send and receive coins in a practical and fast.</p></a>
+							<a href="/files/sperocoind-v.2.6.4.2.exe" target="_blank"><h3>Daemon Windows - V.2.6.4.2 - 18/11/2017</h3>
+							<p>Carteira sem design gráfico. Modelo para aqueles que buscam praticidade e menor consumo de recursos.</p></a>
+						</div>
+					</div>
+					<div class="service-list">
+						<div class="service-list-col1">
+							<i class="fa fa-hdd-o"></i>
+						</div>
+						<div class="service-list-col2">
+							<a href="/files/SperoCoin-v.2.6.4.2" target="_blank"><h3>Linux QT</h3>
+							<p>Carteira com design gráfico. Modelo para aqueles que procuram conforto e conveniência para verificar o saldo, enviar e receber moedas de forma prática e rápida.</p></a>
 						</div>
 					</div>
 					<div class="row">
@@ -772,7 +1002,7 @@ This is why, in fact, in this PoS system miners are called forgers, instead</p>
 						</div>
 						<div class="service-list-col2 col12">
 							<a href="#" data-toggle="modal" data-target="#linuxcomp"><h3>Compilation Linux Wallet</h3>
-						<p>Compile Yourself Spero Code.</a></p>
+						<p>Compile você mesmo o código Spero.</a></p>
 						</div>
 						</div>
 					</div>
@@ -783,8 +1013,8 @@ This is why, in fact, in this PoS system miners are called forgers, instead</p>
 							<i class="fa fa-hdd-o"></i>
 						</div>
 						<div class="service-list-col2 col12">
-							<a href="/files/bootstrap.dat"><h3>BOOTSTRAP</h3>
-						<p>Download the last block chain.</a></p>
+							<a href="https://sperocoin.ddns.net/files/bootstrap.dat"><h3>BOOTSTRAP - Atualizado diariamente</h3>
+						<p>Baixe a última cadeia de blocos.</a></p>
 						</div>
 						</div>
 					</div>
@@ -795,8 +1025,8 @@ This is why, in fact, in this PoS system miners are called forgers, instead</p>
 							<i class="fa fa-hdd-o"></i>
 						</div>
 						<div class="service-list-col2 col12">
-							<a href="/files/SperoCoin.zip"><h3>DATA FOLDER</h3>
-						<p>Download the complete data folder that must be placed in the data folder of your user. Example:<br>
+							<a href="https://sperocoin.ddns.net/files/SperoCoin.zip"><h3>PASTA DE DADOS - 29/01/2017</h3>
+						<p>Baixe a pasta de dados completa que deve ser colocada na pasta de dados do seu usuário. Exemplo: <br>
 Windows =% APPDATA% / SperoCoin<br>
 Linux: /home/user./SperoCoin</a></p>
 						</div>
@@ -822,28 +1052,28 @@ Linux: /home/user./SperoCoin</a></p>
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Compilation Linux Wallet</h4>
+          <h4 class="modal-title">Compilação Carteira Linux</h4>
         </div>
         <div class="modal-body">
-          <p><b><i class="fa fa-code"></i> Download and install the dependencies:</b><br>
+          <p><b><i class="fa fa-code"></i> Baixe e instale as dependências:</b><br>
 							sudo apt-get install build-essential libboost-all-dev libcurl4-openssl-dev libdb5.3-dev libdb5.3++-dev qt-sdk libminiupnpc-dev qrencode libqrencode-dev git libtool automake autotools-dev autoconf pkg-config libssl-dev libgmp3-dev libevent-dev bsdmainutils<br><br>
-			<b><i class="fa fa-code"></i> Clone the github source code for the local machine:</b><br>
+			<b><i class="fa fa-code"></i> Clone o código fonte do github para a máquina local:</b><br>
 							git clone https://github.com/DigitalCoin1/DigitalCoinBRL
 			<br><br>
-			<b><i class="fa fa-code"></i> Compile the daemon in the DigitalCoinBRL/src directory:</b><br>
+			<b><i class="fa fa-code"></i> Compile o daemon no diretório DigitalCoinBRL/src:</b><br>
 							cd DigitalCoinBRL/src<br><br>
 							make -f makefile.unix USE_UPNP=- USE_IPV6=1
 			<br><br>
-			<b><i class="fa fa-code"></i> Run daemon in the DigitalCoinBRL/src directory:</b><br>
+			<b><i class="fa fa-code"></i> Execute o daemon no diretório DigitalCoinBRL/src:</b><br>
 							./SperoCoind
 			<br><br>
-			<b><i class="fa fa-code"></i> [OPTIONAL]Compile the QT in the DigitalCoinBRL directory:</b><br>
+			<b><i class="fa fa-code"></i> [OPCIONAL] Compile o QT no diretório DigitalCoinBRL:</b><br>
 							sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler libqrencode-dev<br><br>
 							qmake SperoCoin-qt.pro "USE_UPNP=-" "USE_QRCODE=1"<br><br>
 							make -f Makefile</p>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
         </div>
       </div>
 
@@ -853,7 +1083,7 @@ Linux: /home/user./SperoCoin</a></p>
 	<footer class="footer">
 		<div class="container">
 			<div class="footer-logo"><img src="img/footer-logo.png" alt=""></div>
-			<span class="copyright">&copy; SperoCoin - 2017<br> All Rights Reserved</span>
+			<span class="copyright">&copy; SperoCoin - 2017<br> Todos os direitos são reservados!</span>
 		</div>
 	</footer>
 
