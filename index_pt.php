@@ -95,7 +95,7 @@ $sales = $juncao_api_sales + $juncao_api_sales2 + $juncao_api_sales3 + $juncao_a
           <br><b style="font-size: 18px"><i class="fa-spin fa fa-circle-o-notch" aria-hidden="true"></i> Pagamentos Digitais:</b><br>
           <b style="font-size: 18px">MERCADOPAGO: R$ <? if($MERCADOPAGO <= 0){echo "0.00";}else{echo $MERCADOPAGO;} ?></b><br>
           <b style="font-size: 18px">PAYPAL: $ <? if($PAYPAL <= 0){echo "0.00";}else{echo $PAYPAL;} ?></b><br>
-          <!-- <b style="font-size: 18px">PAGSEGURO: R$ <? if($PAGSEGURO <= 0){echo "0.00";}else{echo $PAGSEGURO;} ?></b><br> 
+          <!-- <b style="font-size: 18px">PAGSEGURO: R$ <? if($PAGSEGURO <= 0){echo "0.00";}else{echo $PAGSEGURO;} ?></b><br>
           <b style="font-size: 18px">CELCOIN: R$ <? if($CELCOIN <= 0){echo "0.00";}else{echo $CELCOIN;} ?></b><br> -->
         </div>
       </div>
@@ -253,7 +253,7 @@ $sales = $juncao_api_sales + $juncao_api_sales2 + $juncao_api_sales3 + $juncao_a
       <div class="timeline-badge"><i class="fa fa-code"></i></div>
       <div class="timeline-panel">
         <div class="timeline-heading">
-          <h4 class="timeline-title">2017/09/25</h4>
+          <h4 class="timeline-title">25/09/2017</h4>
         </div>
         <div class="timeline-body">
           <p>→ Criação do projeto usando a cripto MarteX <br>
@@ -273,7 +273,7 @@ Geração de GenesisBlock<br>
       <div class="timeline-badge warning"><i class="fa fa-code-fork"></i></div>
       <div class="timeline-panel">
         <div class="timeline-heading">
-          <h4 class="timeline-title">2017/09/26</h4>
+          <h4 class="timeline-title">26/09/2017</h4>
         </div>
         <div class="timeline-body">
           <p>Fork do projeto no GitHub por DigitalCoin<br>
@@ -285,7 +285,7 @@ Geração de GenesisBlock<br>
       <div class="timeline-badge danger"><i class="fa fa-code"></i></div>
       <div class="timeline-panel">
         <div class="timeline-heading">
-          <h4 class="timeline-title">2017/10/01</h4>
+          <h4 class="timeline-title">01/10/2017</h4>
         </div>
         <div class="timeline-body">
           <p>→ Atualização de código: tarquivo SperoCoin-qt.pro foi alterado para compilação no ambiente Linux<br>
@@ -299,7 +299,7 @@ Geração de GenesisBlock<br>
     	<div class="timeline-badge warning"><i class="fa fa-file-code-o"></i></div>
       <div class="timeline-panel">
         <div class="timeline-heading">
-          <h4 class="timeline-title">2017/10/02</h4>
+          <h4 class="timeline-title">02/10/2017</h4>
         </div>
         <div class="timeline-body">
           <p>→ Abertura do tópico em: <a href="https://cryptocurrencytalk.com/topic/88487-ann-sperocoin-x13-hybrid-powpos/">Cryptocurrencytalk</a><br>
@@ -311,7 +311,7 @@ Geração de GenesisBlock<br>
       <div class="timeline-badge info"><i class="fa fa-code"></i></div>
       <div class="timeline-panel">
         <div class="timeline-heading">
-          <h4 class="timeline-title">2017/10/04</h4>
+          <h4 class="timeline-title">04/10/2017</h4>
         </div>
         <div class="timeline-body">
           <p>→ Criação do Block Crawler / Explorer</p>
@@ -323,7 +323,7 @@ Geração de GenesisBlock<br>
     	<div class="timeline-badge info"><i class="fa fa-code"></i></div>
       <div class="timeline-panel">
         <div class="timeline-heading">
-          <h4 class="timeline-title">2017/10/06​</h4>
+          <h4 class="timeline-title">06/10/2017​</h4>
         </div>
         <div class="timeline-body">
           <p>→ Adicionado arquivo no patch "src / leveldb / Makefile"
@@ -335,7 +335,7 @@ Geração de GenesisBlock<br>
       <div class="timeline-badge success"><i class="fa fa-code"></i></div>
       <div class="timeline-panel">
         <div class="timeline-heading">
-          <h4 class="timeline-title">2017/10/08​</h4>
+          <h4 class="timeline-title">08/10/2017​</h4>
         </div>
         <div class="timeline-body">
           <p>→ Atualização de informações sobre a fase final do PoW e PoS de fase inicial;<br>
@@ -350,7 +350,7 @@ Geração de GenesisBlock<br>
       <div class="timeline-badge danger"><i class="fa fa-code"></i></div>
       <div class="timeline-panel">
         <div class="timeline-heading">
-          <h4 class="timeline-title">2017/10/10</h4>
+          <h4 class="timeline-title">10/10/2017</h4>
         </div>
         <div class="timeline-body">
           <p>→ Adicionado opção de limpeza de blocos de órfãos;<br>
@@ -363,7 +363,7 @@ Geração de GenesisBlock<br>
       <div class="timeline-badge warning"><i class="fa fa-code"></i></div>
       <div class="timeline-panel">
         <div class="timeline-heading">
-          <h4 class="timeline-title">2017/10/11</h4>
+          <h4 class="timeline-title">11/10/2017</h4>
         </div>
         <div class="timeline-body">
           <p>→ Ban Forked Peers que estão presos em Getblocks Loop
@@ -375,7 +375,7 @@ Geração de GenesisBlock<br>
       <div class="timeline-badge success"><i class="fa fa-database"></i></div>
       <div class="timeline-panel">
         <div class="timeline-heading">
-          <h4 class="timeline-title">2017/10/12</h4>
+          <h4 class="timeline-title">12/10/2017</h4>
         </div>
         <div class="timeline-body">
           <p>→ Listado agora no <a href="https://coinsmarkets.com/trade-BTC-SPERO.htm">Coins Markets</a></p>
@@ -386,7 +386,7 @@ Geração de GenesisBlock<br>
       <div class="timeline-badge danger"><i class="fa fa-cubes"></i></div>
       <div class="timeline-panel">
         <div class="timeline-heading">
-          <h4 class="timeline-title">2017/10/21</h4>
+          <h4 class="timeline-title">21/10/2017</h4>
         </div>
         <div class="timeline-body">
           <p>→ <a href="http://sperocoin.ddns.net:3001/">Oficial Block Explorer</a>
@@ -398,7 +398,7 @@ Geração de GenesisBlock<br>
       <div class="timeline-badge info"><i class="fa fa-code"></i></div>
       <div class="timeline-panel">
         <div class="timeline-heading">
-          <h4 class="timeline-title">2017/10/22</h4>
+          <h4 class="timeline-title">22/10/2017</h4>
         </div>
         <div class="timeline-body">
           <p>→ Atualização de nomes de strings;<br>
@@ -411,7 +411,7 @@ Geração de GenesisBlock<br>
       <div class="timeline-badge success"><i class="fa fa-database"></i></div>
       <div class="timeline-panel">
         <div class="timeline-heading">
-          <h4 class="timeline-title">2017/10/24</h4>
+          <h4 class="timeline-title">24/10/2017</h4>
         </div>
         <div class="timeline-body">
           <p>→ <a href=" https://sperocoin.ddns.net/faucet">Faucet Official</a></p>
@@ -422,7 +422,7 @@ Geração de GenesisBlock<br>
       <div class="timeline-badge danger"><i class="fa fa-code"></i></div>
       <div class="timeline-panel">
         <div class="timeline-heading">
-          <h4 class="timeline-title">2017/11/01</h4>
+          <h4 class="timeline-title">01/11/2017</h4>
         </div>
         <div class="timeline-body">
           <p>→ Canal criado usando <a href="httsp://sperocoin.slack.com">Slack</a></p>
@@ -433,7 +433,7 @@ Geração de GenesisBlock<br>
       <div class="timeline-badge warning"><i class="fa fa-file-code-o"></i></div>
       <div class="timeline-panel">
         <div class="timeline-heading">
-          <h4 class="timeline-title">2017/11/04</h4>
+          <h4 class="timeline-title">04/11/2017</h4>
         </div>
         <div class="timeline-body">
           <p>→ Início de votação para adicionar a moeda no <a href="https://c-cex.com/?id=vote&coin=spero">C-CEX</a></p>
@@ -444,7 +444,7 @@ Geração de GenesisBlock<br>
       <div class="timeline-badge warning"><i class="fa fa-file-code-o"></i></div>
       <div class="timeline-panel">
         <div class="timeline-heading">
-          <h4 class="timeline-title">2017/11/11</h4>
+          <h4 class="timeline-title">11/11/2017</h4>
         </div>
         <div class="timeline-body">
           <p>→ Parceria com o canal CURSAGRAM no aplicativo TELEGRAM com a SPERO como principal patrocinador.</p>
@@ -456,7 +456,7 @@ Geração de GenesisBlock<br>
       <div class="timeline-badge warning"><i class="fa fa-file-code-o"></i></div>
       <div class="timeline-panel">
         <div class="timeline-heading">
-          <h4 class="timeline-title">2017/11/12</h4>
+          <h4 class="timeline-title">12/11/2017</h4>
         </div>
         <div class="timeline-body">
           <p>→ Modificação do Fórum Bitcointalk: Jr. Member</p>
@@ -467,10 +467,23 @@ Geração de GenesisBlock<br>
       <div class="timeline-badge success"><i class="fa fa-database"></i></div>
       <div class="timeline-panel">
         <div class="timeline-heading">
-          <h4 class="timeline-title">2018/01/24</h4>
+          <h4 class="timeline-title">21/01/2018</h4>
         </div>
         <div class="timeline-body">
           <p>→ Lançamento oficial do aplicativo para Android baseado na Webwallet.</p>
+        </div>
+      </div>
+    </li>
+    <li class="timeline-inverted">
+      <div class="timeline-badge success"><i class="fa fa-database"></i></div>
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <h4 class="timeline-title">26/03/2018</h4>
+        </div>
+        <div class="timeline-body">
+          <p>→ Cadastro perfil de vendedor no site brasileiro <a href="https://p2brasil.com/produto/sperocoin/" target="_blank">P2Brasil</a><br>
+              → Cadastro de moeda no site brasileiro <a href="https://catalogop2p.com.br/sperocoin" target="_blank">Catálogo P2P</a><br>
+              → Cadastro perfil de vendedor no site brasileiro <a href="https://catalogop2p.com.br/sperocoin" target="_blank">Catálogo P2P</a></p>
         </div>
       </div>
     </li>
@@ -525,15 +538,18 @@ Geração de GenesisBlock<br>
           <h4 class="timeline-title">Março</h4>
         </div>
         <div class="timeline-body">
-          <p><i class="fa fa-star-o"></i> Liberação de sistema de recargas de celulares na casa de câmbio oficial<br>
+          <p><i class="fa fa-star-half-o"></i> Site de Mineração em Nuvem Oficial - Fase de Testes Iniciada<br>
+            <i class="fa fa-star"></i> Cadastro perfil de vendedor no site brasileiro P2Brasil<br>
+            <i class="fa fa-star"></i> Cadastro de moeda no site brasileiro Catálogo P2P<br>
+            <i class="fa fa-star"></i> Cadastro perfil de vendedor no site brasileiro Catálogo P2P<br>
+            <i class="fa fa-star-o"></i> Liberação de sistema de recargas de celulares na casa de câmbio oficial<br>
             <i class="fa fa-star-o"></i> Participação em projetos sociais dentro da comunidade da cidade de Belo Horizonte<br>
             <i class="fa fa-star-o"></i> Ampliação do Mercado Social e Banco Social Spero</p>
         </div>
       </div>
     </li>
     <li class="timeline-inverted">
-      <div class="timeline-badge danger"><i class="fa fa-tasks
-"></i></div>
+      <div class="timeline-badge danger"><i class="fa fa-tasks"></i></div>
       <div class="timeline-panel">
         <div class="timeline-heading">
           <h4 class="timeline-title">Abril</h4>
@@ -791,6 +807,16 @@ Isso significa que no sistema PoS não há recompensa por bloco, sendo assim, os
         <h3>Block Explorer - BR</h3>
         <p>Official</p>
       </div>
+      <div class=" Portfolio-box exchanges">
+        <a href="https://catalogop2p.com.br/sperocoin" target="_blank"><img src="https://p2brasil.com/wp-content/uploads/2018/02/catalogo-p2p-parceria-300x178.png" alt="" width="400px"></a>
+        <h3>Catálogo P2P</h3>
+        <p>Exchange P2P</p>
+      </div>
+      <div class=" Portfolio-box exchanges">
+        <a href="https://p2brasil.com/produto/sperocoin/" target="_blank"><img src="https://p2brasil.com/wp-content/uploads/2018/02/P2B-1.png" alt="" width="400px"></a>
+        <h3>P2Brasil</h3>
+        <p>Exchange P2P</p>
+      </div>
 		</div>
 	</section>
 	<!--main-section-end-->
@@ -972,7 +998,7 @@ Isso significa que no sistema PoS não há recompensa por bloco, sendo assim, os
 							<i class="fa fa-hdd-o"></i>
 						</div>
 						<div class="service-list-col2">
-							<a href="/files/SperoCoin-v.2.6.4.2.zip" target="_blank"><h3>Windows QT - V.2.6.4.2 - 18/11/2017</h3>
+							<a href="/files/SperoCoin-v.2.6.4.3.zip" target="_blank"><h3>Windows QT - V.2.6.4.3 - 28/03/2018</h3>
 							<p>Carteira com design gráfico. Modelo para aqueles que procuram conforto e conveniência para verificar o saldo, enviar e receber moedas de forma prática e rápida.</p></a>
 						</div>
 					</div>
@@ -981,7 +1007,7 @@ Isso significa que no sistema PoS não há recompensa por bloco, sendo assim, os
 							<i class="fa fa-hdd-o"></i>
 						</div>
 						<div class="service-list-col2">
-							<a href="/files/sperocoind-v.2.6.4.2.exe" target="_blank"><h3>Daemon Windows - V.2.6.4.2 - 18/11/2017</h3>
+							<a href="/files/sperocoind-v.2.6.4.3.exe" target="_blank"><h3>Daemon Windows - V.2.6.4.3 - 28/03/2018</h3>
 							<p>Carteira sem design gráfico. Modelo para aqueles que buscam praticidade e menor consumo de recursos.</p></a>
 						</div>
 					</div>
@@ -990,7 +1016,7 @@ Isso significa que no sistema PoS não há recompensa por bloco, sendo assim, os
 							<i class="fa fa-hdd-o"></i>
 						</div>
 						<div class="service-list-col2">
-							<a href="/files/SperoCoin-v.2.6.4.2" target="_blank"><h3>Linux QT</h3>
+							<a href="/files/SperoCoin-v.2.6.4.3" target="_blank"><h3>Linux QT</h3>
 							<p>Carteira com design gráfico. Modelo para aqueles que procuram conforto e conveniência para verificar o saldo, enviar e receber moedas de forma prática e rápida.</p></a>
 						</div>
 					</div>
@@ -1025,7 +1051,7 @@ Isso significa que no sistema PoS não há recompensa por bloco, sendo assim, os
 							<i class="fa fa-hdd-o"></i>
 						</div>
 						<div class="service-list-col2 col12">
-							<a href="https://sperocoin.ddns.net/files/SperoCoin.zip"><h3>PASTA DE DADOS - 29/01/2017</h3>
+							<a href="https://sperocoin.ddns.net/files/SperoCoin.zip"><h3>PASTA DE DADOS - 13/03/2018</h3>
 						<p>Baixe a pasta de dados completa que deve ser colocada na pasta de dados do seu usuário. Exemplo: <br>
 Windows =% APPDATA% / SperoCoin<br>
 Linux: /home/user./SperoCoin</a></p>

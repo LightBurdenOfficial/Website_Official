@@ -2,7 +2,7 @@
 <?php
 include_once('arrecada.php');
 //SALES
-$api_sales = "http://exsperocoin.ddns.net:3001/ext/getbalance/SN3r5zNcfSBMtzUsVTp2ps7PyYG3sxUZVf";
+$api_sales = "http://192.168.0.23:3001/ext/getbalance/SN3r5zNcfSBMtzUsVTp2ps7PyYG3sxUZVf";
 $juncao_api_sales = json_decode(file_get_contents($api_sales), true);
 $api_sales2 = "http://192.168.0.23:3001/ext/getbalance/SSi9PsXc3PUCqy9dAHfgArMDivrUuCGEbw";
 $juncao_api_sales2 = json_decode(file_get_contents($api_sales2), true);
@@ -97,7 +97,7 @@ $sales = $juncao_api_sales + $juncao_api_sales2 + $juncao_api_sales3 + $juncao_a
           <br><b style="font-size: 18px"><i class="fa-spin fa fa-circle-o-notch" aria-hidden="true"></i> Digital Payments:</b><br>
           <b style="font-size: 18px">MERCADOPAGO: R$ <? if($MERCADOPAGO <= 0){echo "0.00";}else{echo $MERCADOPAGO;} ?></b><br>
           <b style="font-size: 18px">PAYPAL: $ <? if($PAYPAL <= 0){echo "0.00";}else{echo $PAYPAL;} ?></b><br>
-          <!-- <b style="font-size: 18px">PAGSEGURO: R$ <? if($PAGSEGURO <= 0){echo "0.00";}else{echo $PAGSEGURO;} ?></b><br> 
+          <!-- <b style="font-size: 18px">PAGSEGURO: R$ <? if($PAGSEGURO <= 0){echo "0.00";}else{echo $PAGSEGURO;} ?></b><br>
           <b style="font-size: 18px">CELCOIN: R$ <? if($CELCOIN <= 0){echo "0.00";}else{echo $CELCOIN;} ?></b><br>-->
         </div>
       </div>
@@ -477,6 +477,19 @@ compilation in the Linux environment<br>
         </div>
       </div>
     </li>
+    <li class="timeline-inverted">
+      <div class="timeline-badge success"><i class="fa fa-database"></i></div>
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <h4 class="timeline-title">2018/03/26</h4>
+        </div>
+        <div class="timeline-body">
+          <p>→ Register seller profile on the brazilian site <a href="https://p2brasil.com/produto/sperocoin/" target="_blank">P2Brasil</a><br>
+              → Currency register on the Brazilian site <a href="https://catalogop2p.com.br/sperocoin" target="_blank">Catálogo P2P</a><br>
+              → Register seller profile on the brazilian site <a href="https://catalogop2p.com.br/sperocoin" target="_blank">Catálogo P2P</a></p>
+        </div>
+      </div>
+    </li>
   </ul>
 </div>
 
@@ -527,15 +540,19 @@ compilation in the Linux environment<br>
           <h4 class="timeline-title">March</h4>
         </div>
         <div class="timeline-body">
-          <p><i class="fa fa-star-o"></i> Release of cellular recharging system at the official exchange office<br>
+          <p>
+            <i class="fa fa-star-half-o"></i> Official Cloud Mining Website - Testing phase Started<br>
+            <i class="fa fa-star"></i> Register seller profile on the brazilian site P2Brasil<br>
+            <i class="fa fa-star"></i> Currency register on the Brazilian site Catálogo P2P<br>
+            <i class="fa fa-star"></i> Register seller profile on the brazilian site Catálogo P2P<br>
+            <i class="fa fa-star-o"></i> Release of cellular recharging system at the official exchange office<br>
             <i class="fa fa-star-o"></i> Participation in social projects within the community of the city of Belo Horizonte<br>
             <i class="fa fa-star-o"></i> Expansion of the Social Market and Spero Social Bank</p>
         </div>
       </div>
     </li>
     <li class="timeline-inverted">
-      <div class="timeline-badge danger"><i class="fa fa-tasks
-"></i></div>
+      <div class="timeline-badge danger"><i class="fa fa-tasks"></i></div>
       <div class="timeline-panel">
         <div class="timeline-heading">
           <h4 class="timeline-title">April</h4>
@@ -701,7 +718,7 @@ This means that in the PoS system there is no block reward, so, the miners take 
 </p>
             </div>
           </div>
-          
+
         </div>
       </div>
     </div>
@@ -792,6 +809,16 @@ This means that in the PoS system there is no block reward, so, the miners take 
         <a href="http://sperocoin.ddns.net:3001/network" target="_blank"><img src="img/logo.png" alt="" width="255px"></a>
         <h3>Block Explorer - BR</h3>
         <p>Official</p>
+      </div>
+      <div class=" Portfolio-box exchanges">
+        <a href="https://catalogop2p.com.br/sperocoin" target="_blank"><img src="https://p2brasil.com/wp-content/uploads/2018/02/catalogo-p2p-parceria-300x178.png" alt="" width="400px"></a>
+        <h3>Catálogo P2P</h3>
+        <p>Exchange P2P</p>
+      </div>
+      <div class=" Portfolio-box exchanges">
+        <a href="https://p2brasil.com/produto/sperocoin/" target="_blank"><img src="https://p2brasil.com/wp-content/uploads/2018/02/P2B-1.png" alt="" width="400px"></a>
+        <h3>P2Brasil</h3>
+        <p>Exchange P2P</p>
       </div>
     </div>
   </section>
@@ -974,7 +1001,7 @@ This means that in the PoS system there is no block reward, so, the miners take 
               <i class="fa fa-hdd-o"></i>
             </div>
             <div class="service-list-col2">
-              <a href="/files/SperoCoin-v.2.6.4.2.zip" target="_blank"><h3>Windows QT - V.2.6.4.2 - 18/11/2017</h3>
+              <a href="/files/SperoCoin-v.2.6.4.3.zip" target="_blank"><h3>Windows QT - V.2.6.4.3 - 28/03/2018</h3>
               <p>Wallet with graphic design. Model for those who seek comfort and convenience to check their balance, send and receive coins in a practical and fast.</p></a>
             </div>
           </div>
@@ -983,7 +1010,7 @@ This means that in the PoS system there is no block reward, so, the miners take 
               <i class="fa fa-hdd-o"></i>
             </div>
             <div class="service-list-col2">
-              <a href="/files/sperocoind-v.2.6.4.2.exe" target="_blank"><h3>Daemon Windows - V.2.6.4.2 - 18/11/2017</h3>
+              <a href="/files/SperoCoind-v.2.6.4.3" target="_blank"><h3>Daemon Windows - V.2.6.4.3 - 28/03/2018</h3>
               <p>Wallet without graphic design. Model for those who seek practicality and less consumption of resources.</p></a>
             </div>
           </div>
@@ -992,7 +1019,7 @@ This means that in the PoS system there is no block reward, so, the miners take 
               <i class="fa fa-hdd-o"></i>
             </div>
             <div class="service-list-col2">
-              <a href="/files/SperoCoin-v.2.6.4.2" target="_blank"><h3>Linux QT</h3>
+              <a href="/files/SperoCoin-v.2.6.4.3" target="_blank"><h3>Linux QT</h3>
               <p>Wallet with graphic design. Model for those who seek comfort and convenience to check their balance, send and receive coins in a practical and fast.</p></a>
             </div>
           </div>
@@ -1027,7 +1054,7 @@ This means that in the PoS system there is no block reward, so, the miners take 
               <i class="fa fa-hdd-o"></i>
             </div>
             <div class="service-list-col2 col12">
-              <a href="https://sperocoin.ddns.net/files/SperoCoin.zip"><h3>DATA FOLDER - 29/01/2017</h3>
+              <a href="https://sperocoin.ddns.net/files/SperoCoin.zip"><h3>DATA FOLDER - 28/03/2018</h3>
             <p>Download the complete data folder that must be placed in the data folder of your user. Example:<br>
 Windows =% APPDATA% / SperoCoin<br>
 Linux: /home/user./SperoCoin</a></p>
