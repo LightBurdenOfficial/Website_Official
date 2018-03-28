@@ -490,6 +490,33 @@ compilation in the Linux environment<br>
         </div>
       </div>
     </li>
+    <li>
+      <div class="timeline-badge info"><i class="fa fa-code"></i></div>
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <h4 class="timeline-title">2018/03/28</h4>
+        </div>
+        <div class="timeline-body">
+          <p>→ Add RPC Command "GETWALLETINFO":<br>
+              → Update of transaction maturity icons<br>
+              → splash screen main update<br>
+              → Updating the logo inside the Wallet<br>
+              → Added hashGenesisBlockTestNet =<br>
+              0x00001fe23e7d6951a2a07ad684ff208fab9110fad607fabd81482a1692382f8f in main.h file<br>
+              → Added testnet block.nNonce in main.cpp file (block.nNonce = 15547;)<br>
+              → Added static MapCheckpoints mapCheckpointsTestnet = (0, uint256<br>
+              ("0x000006f4925ed7b889f847f24621390d<br>4943466f091c3254ca1bd8becc517f7b"))<br>
+              in the checkpoints.cpp file<br>
+              → Change the initial letter of the testnet addresses in the base58.h<br>
+              file (PUBKEY_ADDRESS_TEST = 125, // Initial address letter (63 = s) -<br>
+              TESTNET))
+              → Change the example initial letter in the file qt / sendcoinsdialog.cpp<br>
+              (ui-> lineEditCoinControlChange-> setPlaceholderText (tr ("Enter the<br>
+              SperoCoin address (e.g. Sjz75uKHzUQJnSdzvpiigEGxseKkDhQToX)"));)<br>
+              → Changed version to 2.6.4.3</p>
+        </div>
+      </div>
+    </li>
   </ul>
 </div>
 

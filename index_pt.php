@@ -487,6 +487,27 @@ Geração de GenesisBlock<br>
         </div>
       </div>
     </li>
+    <li>
+      <div class="timeline-badge info"><i class="fa fa-code"></i></div>
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <h4 class="timeline-title">28/03/2018</h4>
+        </div>
+        <div class="timeline-body">
+          <p>→ Adicionado Comando RPC "GETWALLETINFO"<br>
+              → Atualização de icones de maturidade das transações<br>
+              → Atualização da splash screen main<br>
+              → Atualização do logo dentro da Wallet<br>
+              → Adicionado hashGenesisBlockTestNet =0x00001fe23e7d6951a2a07ad684ff208fab9110fad607fabd81482a1692382f8f no arquivo main.h<br>
+              → Adicionado block.nNonce testnet no arquivo main.cpp (block.nNonce   =  15547;)<br>
+              → Adicionado static MapCheckpoints mapCheckpointsTestnet = ( 0, uint256("0x000006f4925ed7b889f847f24621390d4<br>943466f091c3254ca1bd8becc517f7b"))<br>  no arquivo checkpoints.cpp<br>
+              → Alteração da letra inicial dos endereços em testnet no arquivo base58.h ( PUBKEY_ADDRESS_TEST = 125, // Letra inicial dos endereços( 63= s ) - TESTNET))<br>
+              → Alteração da letra inicial de exemplo no arquivo qt/sendcoinsdialog.cpp<br>
+              (ui->lineEditCoinControlChange->setPlaceholderText(tr("Enter a SperoCoin address (e.g. Sjz75uKHzUQJnSdzvpiigEGxseKkDhQToX)"));)<br>
+              → Alterada versão para 2.6.4.3</p>
+        </div>
+      </div>
+    </li>
   </ul>
 </div>
 
