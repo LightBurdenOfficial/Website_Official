@@ -153,10 +153,10 @@ $sales = $juncao_api_sales + $juncao_api_sales2 + $juncao_api_sales3 + $juncao_a
         <li><a href="#header">Home</a></li>
         <li><a href="#info">Info</a></li>
         <li><a href="#Where_we_are">Where are we?</a></li>
-        <li class="small-logo"><a href="#header"><img src="img/small-logo.png" alt="" width="45" class="fa-spin"></a></li>
         <li><a href="#contact">Contact</a></li>
-        <li><a href="http://exsperocoin.ddns.net:3001" target="_blank">Block Explorer</a></li>
+        <li><a href="http://sperocoin.ddns.net:3001" target="_blank">Block Explorer</a></li>
         <li><a href="#downloads">Downloads</a></li>
+        <li><a href="#roadmap">RoadMap</a></li>
       </ul>
       <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
     </div>
@@ -519,10 +519,11 @@ compilation in the Linux environment<br>
     </li>
   </ul>
 </div>
-
+</section>
 <!-- TIMELINE -->
 
 <!--ROADMAP -->
+  <section class="main-section" id="roadmap">
 
 <div class="container">
   <div class="page-header">
@@ -555,7 +556,7 @@ compilation in the Linux environment<br>
           <h4 class="timeline-title">February</h4>
         </div>
         <div class="timeline-body">
-          <p><i class="fa fa-star-half-o"></i> Official Cloud Mining Website</p>
+          <p><i class="fa fa-star"></i> Official Cloud Mining Website</p>
         </div>
       </div>
     </li>
@@ -568,13 +569,11 @@ compilation in the Linux environment<br>
         </div>
         <div class="timeline-body">
           <p>
-            <i class="fa fa-star-half-o"></i> Official Cloud Mining Website - Testing phase Started<br>
+            <i class="fa fa-star"></i> Official Cloud Mining Website - Testing phase Started<br>
             <i class="fa fa-star"></i> Register seller profile on the brazilian site P2Brasil<br>
             <i class="fa fa-star"></i> Currency register on the Brazilian site Catálogo P2P<br>
             <i class="fa fa-star"></i> Register seller profile on the brazilian site Catálogo P2P<br>
-            <i class="fa fa-star-o"></i> Release of cellular recharging system at the official exchange office<br>
-            <i class="fa fa-star-o"></i> Participation in social projects within the community of the city of Belo Horizonte<br>
-            <i class="fa fa-star-o"></i> Expansion of the Social Market and Spero Social Bank</p>
+            </p>
         </div>
       </div>
     </li>
@@ -585,7 +584,13 @@ compilation in the Linux environment<br>
           <h4 class="timeline-title">April</h4>
         </div>
         <div class="timeline-body">
-          <p><i class="fa fa-star-o"></i> Release of withdrawals in Reais (BRL) at the official exchange office</p>
+          <p><i class="fa fa-star"></i> Official Cloud Mining Website<br>
+            <i class="fa fa-star-o"></i> Release of withdrawals in Reais (BRL) at the official exchange office<br>
+            <i class="fa fa-star"></i> Trade SPERO ←→ DOGE at the official exchange office<br>
+            <i class="fa fa-star"></i> Trade de SPERO ←→ MERCADOPAGO at the official exchange office<br>
+            <i class="fa fa-star-o"></i> Release of cellular recharging system at the official exchange office<br>
+            <i class="fa fa-star-o"></i> Participation in social projects within the community of the city of Belo Horizonte<br>
+            <i class="fa fa-star-o"></i> Expansion of the Social Market and Spero Social Bank</p>
         </div>
       </div>
     </li>
@@ -687,7 +692,7 @@ compilation in the Linux environment<br>
     </li>
   </ul>
 </div>
-
+</section>
 
 <!--ROADMAP -->
   <section class="main-section alabaster">

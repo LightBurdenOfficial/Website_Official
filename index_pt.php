@@ -151,10 +151,10 @@ $sales = $juncao_api_sales + $juncao_api_sales2 + $juncao_api_sales3 + $juncao_a
 				<li><a href="#header">Início</a></li>
 				<li><a href="#info">Info</a></li>
 				<li><a href="#Where_we_are">Onde Estamos?</a></li>
-				<li class="small-logo"><a href="#header"><img src="img/small-logo.png" alt="" width="45" class="fa-spin"></a></li>
 				<li><a href="#contact">Contato</a></li>
-				<li><a href="http://exsperocoin.ddns.net:3001" target="_blank">Block Explorer</a></li>
+				<li><a href="http://sperocoin.ddns.net:3001" target="_blank">Block Explorer</a></li>
 				<li><a href="#downloads">Downloads</a></li>
+        <li><a href="#roadmap">RoadMap</a></li>
 			</ul>
 			<a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
 		</div>
@@ -193,7 +193,7 @@ $sales = $juncao_api_sales + $juncao_api_sales2 + $juncao_api_sales3 + $juncao_a
 							<i class="fa fa-code-fork"></i>
 						</div>
 						<div class="service-list-col2">
-							<h3>MINERAÇÃO HÍBRIDA de PoW e PoS</h3>
+							<h3>MINERAÇÃO HÍBRIDA DE PoW E PoS</h3>
 							<p>Com a Spero você minera com prova de trabalho (PoW [ASIC, GPU, CPU, etc.] e também apenas deixando sua carteira com saldo ativo online, aberta e desbloqueada, sendo conhecida prova de participação (PoS).</p>
 						</div>
 					</div>
@@ -510,12 +510,12 @@ Geração de GenesisBlock<br>
     </li>
   </ul>
 </div>
-
+</section>
 <!-- TIMELINE -->
 
 
 <!--ROADMAP -->
-
+<section class="main-section" id="roadmap">
 <div class="container">
   <div class="page-header">
     <h2 id="timeline">ROADMAP - 2018</h2>
@@ -547,7 +547,7 @@ Geração de GenesisBlock<br>
           <h4 class="timeline-title">Fevereiro</h4>
         </div>
         <div class="timeline-body">
-          <p><i class="fa fa-star-half-o"></i> Site de Mineração em Nuvem Oficial </p>
+          <p><i class="fa fa-star"></i> Site de Mineração em Nuvem Oficial </p>
         </div>
       </div>
     </li>
@@ -559,13 +559,11 @@ Geração de GenesisBlock<br>
           <h4 class="timeline-title">Março</h4>
         </div>
         <div class="timeline-body">
-          <p><i class="fa fa-star-half-o"></i> Site de Mineração em Nuvem Oficial - Fase de Testes Iniciada<br>
+          <p><i class="fa fa-star"></i> Site de Mineração em Nuvem Oficial - Fase de Testes Iniciada<br>
             <i class="fa fa-star"></i> Cadastro perfil de vendedor no site brasileiro P2Brasil<br>
             <i class="fa fa-star"></i> Cadastro de moeda no site brasileiro Catálogo P2P<br>
             <i class="fa fa-star"></i> Cadastro perfil de vendedor no site brasileiro Catálogo P2P<br>
-            <i class="fa fa-star-o"></i> Liberação de sistema de recargas de celulares na casa de câmbio oficial<br>
-            <i class="fa fa-star-o"></i> Participação em projetos sociais dentro da comunidade da cidade de Belo Horizonte<br>
-            <i class="fa fa-star-o"></i> Ampliação do Mercado Social e Banco Social Spero</p>
+          </p>
         </div>
       </div>
     </li>
@@ -576,7 +574,13 @@ Geração de GenesisBlock<br>
           <h4 class="timeline-title">Abril</h4>
         </div>
         <div class="timeline-body">
-          <p><i class="fa fa-star-o"></i> Liberação de saques em Reais(BRL) na casa de câmbio oficial</p>
+          <p><i class="fa fa-star"></i> Site de Mineração em Nuvem Oficial<br>
+            <i class="fa fa-star-o"></i> Liberação de saques em Reais(BRL) na casa de câmbio oficial<br>
+            <i class="fa fa-star"></i> Troca de SPERO ←→ DOGE na casa de câmbio oficial<br>
+            <i class="fa fa-star"></i> Troca de SPERO ←→ MERCADOPAGO na casa de câmbio oficial<br>
+            <i class="fa fa-star-o"></i> Liberação de sistema de recargas de celulares na casa de câmbio oficial<br>
+            <i class="fa fa-star-o"></i> Participação em projetos sociais dentro da comunidade da cidade de Belo Horizonte<br>
+            <i class="fa fa-star-o"></i> Ampliação do Mercado Social e Banco Social Spero</p>
         </div>
       </div>
     </li>
@@ -678,7 +682,7 @@ Geração de GenesisBlock<br>
     </li>
   </ul>
 </div>
-
+</section>
 
 <!--ROADMAP -->
 
