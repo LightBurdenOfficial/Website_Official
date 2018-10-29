@@ -4,7 +4,7 @@
 🌎Block Explorer: http://35.198.22.94:3001<br>
 📦BlockChain 28/10/2018: https://t.me/sperocoin_official/7922<br>
 <br>
-#Contatos e Redes Sociais<br>
+##  Contatos e Redes Sociais<br>
 💬Telegram: https://t.me/joinchat/G7cebkL3dbRqfuy1gVNm3g<br>
 💬Canal Telegram: https://t.me/sperocoin_channel<br>
 💬Slack: https://sperocoin.slack.com<br>
@@ -17,6 +17,7 @@
 🖥 GitHub: https://github.com/DigitalCoin1/SperoCoin<br>
 ℹ️ FAQ Proof of Stake(PoS): https://t.me/sperocoin_official/1289<br>
 <br>
+##  Mineração<br>
 ☁️⛏ Cloud Mining: http://sperocloudmining.tk/<br>
 💰 Pool Stake: https://cryptostake.es/<br>
 💰 Pool Stake: https://staking.world/Pages/index.aspx<br>
@@ -27,7 +28,7 @@
 <br>
 ✉️E-mail: sperocoin@gmail.com<br>
 <br>
-## ℹ️Specifications:<br>
+##  ℹ️Specifications:<br>
 <br>
 ALGORITHM: X13<br>
 BLOCK TIME: 60 seconds<br>
@@ -44,13 +45,13 @@ VELOCITY<br>
 OP_RETURN<br>
 <br>
 <br>
-## Phases of Sperocoin (Blocks):<br>
+##  Phases of Sperocoin (Blocks):<br>
 <br>
 Proof of Work + Proof of Stake: 0 - 33331<br>
 Proof of Stake: 33331 - 263250<br>
 Proof of Work + Proof of Stake: acima de 263251<br>
 <br>
-## 💲Exchanges:<br>
+##  💲Exchanges:<br>
 <br>
 💎 https://www.altilly.com/<br>
 💎 https://www.probitex.com/trade/index/market/spero_btc<br>
@@ -60,7 +61,7 @@ Vote: https://aiodex.com/vote/spero<br>
 Vote: https://feedback.coinfalcon.com/coin-request/p/sperocoinspero<br>
 Vote: https://smarts.exchange/vote-SPERO.html<br>
 <br>
-## 💰Rewards using the pre-mining balance:<br>
+##  💰Rewards using the pre-mining balance:<br>
 <br>
 Wallet Android: 1000 SPERO<br>
 Wallet iOS: 1000 SPERO<br>
