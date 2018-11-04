@@ -156,13 +156,12 @@ $(function(){
             <div class="carousel-background"><img src="img/intro-carousel/2.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2 >Vendas Spero</h2>
+                <h2 >Cotação - BRL</h2>
                 <p>
-          Total reservado para venda:<br> 30,000.00000000<br>
-          Total Vendido:<br><?php echo $sales - 30000; ?><br>
-          Total disponível para venda:<br><?php echo $sales; ?> <br>
+                <script src="https://widgets.coingecko.com/coingecko-coin-price-chart-widget.js"></script>
+                <h1><coingecko-coin-price-chart-widget currency="brl" coin-id="sperocoin" locale="en" height="200" width="0"></coingecko-coin-price-chart-widget></h1>
                 </p>
-                <a href="https://altilly.com" class="btn-get-started scrollto" target="_blank">COMPRE AGORA!</a>
+                <a href="https://www.coingecko.com/en/price_charts/sperocoin/brl#panel" class="btn-get-started scrollto" target="_blank">Ver Mais</a>
               </div>
             </div>
           </div>
@@ -171,38 +170,39 @@ $(function(){
             <div class="carousel-background"><img src="img/intro-carousel/3.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2>Cotação de Preços - Coingecko</h2>
+                <h2>Cotação - USD</h2>
                 <p>
-                  <script src="https://widgets.coingecko.com/coingecko-coin-price-chart-widget.js"></script>
                  <script src="https://widgets.coingecko.com/coingecko-coin-price-chart-widget.js"></script>
-                    <h1><coingecko-coin-price-chart-widget currency="usd" coin-id="sperocoin" locale="en" height="300" width="0"></coingecko-coin-price-chart-widget></h1></p>
+                    <h1><coingecko-coin-price-chart-widget currency="usd" coin-id="sperocoin" locale="en" height="200" width="0"></coingecko-coin-price-chart-widget></h1></p>
                 <a href="https://www.coingecko.com/en/price_charts/sperocoin/brl#panel" class="btn-get-started scrollto" target="_blank">Ver Mais</a>
               </div>
             </div>
           </div>
 
-          <!--<div class="carousel-item">
-            <div class="carousel-background"><img src="img/intro-carousel/4.jpg" alt=""></div>
+          <div class="carousel-item">
+            <div class="carousel-background"><img src="img/intro-carousel/2.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2>Nam libero tempore</h2>
-                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum.</p>
-                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+                <h2>Cotação - BTC</h2>
+                <script src="https://widgets.coingecko.com/coingecko-coin-price-chart-widget.js"></script>
+                    <h1><coingecko-coin-price-chart-widget currency="btc" coin-id="sperocoin" locale="en" height="200" width="0"></coingecko-coin-price-chart-widget></h1></p>
+                <a href="https://www.coingecko.com/en/price_charts/sperocoin/brl#panel" class="btn-get-started scrollto" target="_blank">Ver Mais</a>
               </div>
             </div>
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-background"><img src="img/intro-carousel/5.jpg" alt=""></div>
+            <div class="carousel-background"><img src="img/intro-carousel/3.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2>Magnam aliquam quaerat</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+                <h2>Cotação - ETH</h2>
+                <script src="https://widgets.coingecko.com/coingecko-coin-price-chart-widget.js"></script>
+                    <h1><coingecko-coin-price-chart-widget currency="eth" coin-id="sperocoin" locale="en" height="200" width="0"></coingecko-coin-price-chart-widget></h1></p>
+                <a href="https://www.coingecko.com/en/price_charts/sperocoin/brl#panel" class="btn-get-started scrollto" target="_blank">Ver Mais</a>
               </div>
             </div>
           </div>
-        -->
+
 
         </div>
 
@@ -1378,7 +1378,7 @@ $(function(){
             <div class="service-list-col1">
             </div>
             <div class="service-list-col2">
-              <a href="https://drive.google.com/open?id=1PV2UJgZFA_gTCHYSUu_ssUDbilqmAIuL" target="_blank"><h3><i class="fa fa-windows"></i> Windows QT - V.2.6.4.5 - 29/10/2018</h3>
+              <a href="https://github.com/DigitalCoin1/SperoCoin/releases/download/v.2.6.4.5/SperoCoin-v.2.6.4.5.exe.-.Windows.QT.exe" target="_blank"><h3><i class="fa fa-windows"></i> Windows QT - V.2.6.4.5 - 29/10/2018</h3>
               <p>Carteira com design gráfico. Modelo para aqueles que procuram conforto e conveniência para verificar o saldo, enviar e receber moedas de forma prática e rápida.</p></a>
             </div>
           </div>
@@ -1386,24 +1386,32 @@ $(function(){
             <div class="service-list-col1">
             </div>
             <div class="service-list-col2">
-              <a href="https://drive.google.com/open?id=1l1NLewir8AaL_2yGTKMLz2eKUXZKqJCi" target="_blank"><h3><i class="fa fa-windows"></i> Daemon Windows - V.2.6.4.5 - 29/10/2018</h3>
+              <a href="https://github.com/DigitalCoin1/SperoCoin/releases/download/v.2.6.4.5/SperoCoind-v.2.6.4.5.exe.-.Windows.Daemon.exe" target="_blank"><h3><i class="fa fa-windows"></i> Daemon Windows - V.2.6.4.5 - 29/10/2018</h3>
               <p>Carteira sem design gráfico. Modelo para aqueles que buscam praticidade e menor consumo de recursos.</p></a>
             </div>
           </div>
-          <!--<div class="service-list">
+          <div class="service-list">
             <div class="service-list-col1">
             </div>
             <div class="service-list-col2">
-              <a href="https://drive.google.com/open?id=1Uz9QmaiE-aMniT_MYX0Lta1iLRHnoPrw" target="_blank"><h3><i class="fa fa-linux"></i> Ubuntu 16.0 QT</h3>
+              <a href="https://github.com/DigitalCoin1/SperoCoin/releases/download/v.2.6.4.5/SperoCoin-v.2.6.4.5.-.Raspberry.5" target="_blank"><h3><i><img src="img/portfolio/raspberry.png" width="40px"/></i> Raspberry PI 3</h3>
               <p>Carteira com design gráfico. Modelo para aqueles que procuram conforto e conveniência para verificar o saldo, enviar e receber moedas de forma prática e rápida.</p></a>
             </div>
-          </div>-->
+          </div>
             <div class="service-list">
             <div class="service-list-col1">
             </div>
             <div class="service-list-col2">
               <a href="#" data-toggle="modal" data-target="#linuxcomp"><h3><i class="fa fa-terminal"></i> Compilation Linux Wallet</h3>
               <p>Compile você mesmo o código Spero.</p></a>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1">
+            </div>
+            <div class="service-list-col2">
+              <a href="https://github.com/DigitalCoin1/SperoCoin/releases" target="_blank"><h3><i class="fa fa-cubes"></i> BlockChain</h3>
+              <p>Baixe a cadeia de blocos completa em uma data mais recente para melhor velocidade na sincronização.</p></a>
             </div>
           </div>
         <figure class="col-lg-8 col-sm-6  text-right wow fadeInUp delay-02s">

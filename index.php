@@ -60,6 +60,7 @@ $api_getmoneysupply = $be_getmoneysupply_api;
   <link href="css/animate.css" rel="stylesheet" type="text/css">
 
 
+
   <link rel="stylesheet" type="text/css" href="css/vertical_timeline">
 
   <!-- Main Stylesheet File -->
@@ -156,13 +157,12 @@ $(function(){
             <div class="carousel-background"><img src="img/intro-carousel/2.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2 >Spero Sales</h2>
+                <h2 >Price chart - BRL</h2>
                 <p>
-          Total reserved for sale:<br> 30,000.00000000<br>
-          Total Sold:<br><?php echo $sales - 30000; ?><br>
-          Total available for sale:<br><?php echo $sales; ?> <br>
+                <script src="https://widgets.coingecko.com/coingecko-coin-price-chart-widget.js"></script>
+                <h1><coingecko-coin-price-chart-widget currency="brl" coin-id="sperocoin" locale="en" height="200" width="0"></coingecko-coin-price-chart-widget></h1>
                 </p>
-                <a href="https://altilly.com" class="btn-get-started scrollto" target="_blank">BUY NOW!</a>
+                <a href="https://www.coingecko.com/en/price_charts/sperocoin/brl#panel" class="btn-get-started scrollto" target="_blank">See More</a>
               </div>
             </div>
           </div>
@@ -171,38 +171,42 @@ $(function(){
             <div class="carousel-background"><img src="img/intro-carousel/3.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2>Price chart</h2>
+                <h2>Price chart - USD</h2>
                 <p>
                   <script src="https://widgets.coingecko.com/coingecko-coin-price-chart-widget.js"></script>
                  <script src="https://widgets.coingecko.com/coingecko-coin-price-chart-widget.js"></script>
-                    <h1><coingecko-coin-price-chart-widget currency="usd" coin-id="sperocoin" locale="en" height="300" width="0"></coingecko-coin-price-chart-widget></h1></p>
+                    <h1><coingecko-coin-price-chart-widget currency="usd" coin-id="sperocoin" locale="en" height="200" width="0"></coingecko-coin-price-chart-widget></h1></p>
                 <a href="https://www.coingecko.com/en/price_charts/sperocoin/brl#panel" class="btn-get-started scrollto" target="_blank">See More</a>
               </div>
             </div>
           </div>
 
-          <!--<div class="carousel-item">
-            <div class="carousel-background"><img src="img/intro-carousel/4.jpg" alt=""></div>
+          <div class="carousel-item">
+            <div class="carousel-background"><img src="img/intro-carousel/2.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2>Nam libero tempore</h2>
-                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum.</p>
-                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+                <h2>Price chart - BTC</h2>
+                <script src="https://widgets.coingecko.com/coingecko-coin-price-chart-widget.js"></script>
+                 <script src="https://widgets.coingecko.com/coingecko-coin-price-chart-widget.js"></script>
+                    <h1><coingecko-coin-price-chart-widget currency="btc" coin-id="sperocoin" locale="en" height="200" width="0"></coingecko-coin-price-chart-widget></h1></p>
+                <a href="https://www.coingecko.com/en/price_charts/sperocoin/brl#panel" class="btn-get-started scrollto" target="_blank">See More</a>
               </div>
             </div>
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-background"><img src="img/intro-carousel/5.jpg" alt=""></div>
+            <div class="carousel-background"><img src="img/intro-carousel/3.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2>Magnam aliquam quaerat</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+                <h2>Price chart - ETH</h2>
+                <script src="https://widgets.coingecko.com/coingecko-coin-price-chart-widget.js"></script>
+                 <script src="https://widgets.coingecko.com/coingecko-coin-price-chart-widget.js"></script>
+                    <h1><coingecko-coin-price-chart-widget currency="eth" coin-id="sperocoin" locale="en" height="200" width="0"></coingecko-coin-price-chart-widget></h1></p>
+                <a href="https://www.coingecko.com/en/price_charts/sperocoin/brl#panel" class="btn-get-started scrollto" target="_blank">See More</a>
               </div>
             </div>
           </div>
-        -->
+
 
         </div>
 
@@ -1368,7 +1372,7 @@ compilation in the Linux environment<br>
             <div class="service-list-col1">
             </div>
             <div class="service-list-col2">
-              <a href="https://drive.google.com/open?id=1PV2UJgZFA_gTCHYSUu_ssUDbilqmAIuL" target="_blank"><h3><i class="fa fa-windows"></i> Windows QT - V.2.6.4.5 - 29/10/2018</h3>
+              <a href="https://github.com/DigitalCoin1/SperoCoin/releases/download/v.2.6.4.5/SperoCoin-v.2.6.4.5.exe.-.Windows.QT.exe" target="_blank"><h3><i class="fa fa-windows"></i> Windows QT - V.2.6.4.5 - 29/10/2018</h3>
               <p>Wallet with graphic design. Model for those who seek comfort and convenience to check their balance, send and receive coins in a practical and fast.</p></a>
             </div>
           </div>
@@ -1376,24 +1380,32 @@ compilation in the Linux environment<br>
             <div class="service-list-col1">
             </div>
             <div class="service-list-col2">
-              <a href="https://drive.google.com/open?id=1l1NLewir8AaL_2yGTKMLz2eKUXZKqJCi" target="_blank"><h3><i class="fa fa-windows"></i> Daemon Windows - V.2.6.4.4 - 29/07/2018</h3>
+              <a href="https://github.com/DigitalCoin1/SperoCoin/releases/download/v.2.6.4.5/SperoCoind-v.2.6.4.5.exe.-.Windows.Daemon.exe" target="_blank"><h3><i class="fa fa-windows"></i> Daemon Windows - V.2.6.4.4 - 29/07/2018</h3>
               <p>Wallet without graphic design. Model for those who seek practicality and less consumption of resources.</p></a>
             </div>
           </div>
-          <!-- <div class="service-list">
+          <div class="service-list">
             <div class="service-list-col1">
             </div>
             <div class="service-list-col2">
-              <a href="https://drive.google.com/open?id=1Uz9QmaiE-aMniT_MYX0Lta1iLRHnoPrw" target="_blank"><h3><i class="fa fa-linux"></i> Ubuntu 16.0 QT</h3>
+              <a href="https://github.com/DigitalCoin1/SperoCoin/releases/download/v.2.6.4.5/SperoCoin-v.2.6.4.5.-.Raspberry.5" target="_blank"><h3><i><img src="img/portfolio/raspberry.png" width="40px"/></i> Raspberry PI 3</h3>
               <p>Wallet with graphic design. Model for those who seek comfort and convenience to check their balance, send and receive coins in a practical and fast.</p></a>
             </div>
-          </div> -->
+          </div>
             <div class="service-list">
             <div class="service-list-col1">
             </div>
             <div class="service-list-col2">
               <a href="#" data-toggle="modal" data-target="#linuxcomp"><h3><i class="fa fa-terminal"></i> Compilation Linux Wallet</h3>
               <p>Compile Yourself Spero Code</p></a>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1">
+            </div>
+            <div class="service-list-col2">
+              <a href="https://github.com/DigitalCoin1/SperoCoin/releases" target="_blank"><h3><i class="fa fa-cubes"></i> BlockChain</h3>
+              <p>Download the complete blockchain at a later date for better speed in the synchronization.</p></a>
             </div>
           </div>
         <figure class="col-lg-8 col-sm-6  text-right wow fadeInUp delay-02s">
