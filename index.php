@@ -108,19 +108,38 @@ $(function(){
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="#intro">Home</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#Technical_Characteristics">Our Soft</a></li>
-          <li><a href="#roadmap">RoadMap</a></li>
-          <li><a href="#portfolio">Where we are?</a></li>
+          <!-- Menu de Informações -->
+            <li class="menu-has-children">
+                <a href="" title="Info">Information:</a>
+                    <ul>
+                      <li><a href="#about">About Us</a></li>
+                      <li><a href="#Technical_Characteristics">Our Soft</a></li>
+                      <li><a href="#roadmap">RoadMap</a></li>
+                      <li><a href="#portfolio">Where we are?</a></li>
+                    </ul>
+            </li>
+            <!-- Menu de Informações -->
           <li><a href="#downloads">Downloads</a></li>
-          <li><a href="http://35.198.22.94:3001/" target="_blank">Block Explorer</a></li>
+          <!-- Menu de Serviços -->
+            <li class="menu-has-children">
+                <a href="" title="Services">Services:</a>
+                    <ul>
+                      <li><a href="http://35.198.22.94:3001/" target="_blank">Block Explorer</a></li>
+                      <li><a href="http://sperocoin.ddns.net:3001/" target="_blank">Block Explorer 2</a></li>
+                      <li><a href="https://webwallet.sperocoin.org/" target="_blank">WebWallet</a></li>
+                      <li><a href="https://sperocoin.org/faucet" target="_blank">Faucet</a></li>
+                    </ul>
+            </li>
+            <!-- Menu de Serviços -->
+            <li><a href="#clients" target="_blank">Partners</a></li>
+          <li><a href="https://sperocoin.ddns.net/" target="_blank">Exchange Official</a></li>
           <!-- Menu de Linguagem -->
             <li class="menu-has-children">
                 <a href="" title="Language">LANG:</a>
                     <ul>
-                      <li><a href="index.php">ENG</a></li>
-                      <li><a href="index-pt.php">PORT-BR</a></li>
-                      <!-- <li><a href="index-es.php">ESP</a></li> -->
+                      <li><a href="index.php">EN</a></li>
+                      <li><a href="index-pt.php">PT</a></li>
+                      <li><a href="index-es.php">ES</a></li>
                     </ul>
             </li>
             <!-- Menu de Linguagem -->
@@ -148,7 +167,7 @@ $(function(){
                 <p><h3 style="color: white">Sustainability in technology</h3></p>
                   <p>We are an ecologically correct cryptocurrency that aims to eliminate the waste of electrical energy.
                 </p>
-                <a href="white_paper/index.html" class="btn-get-started scrollto" target="_blank">WHITEPAPER</a>
+                <a href="whitepaper/index.html" class="btn-get-started scrollto" target="_blank">WHITEPAPER</a>
               </div>
             </div>
           </div>
@@ -656,6 +675,27 @@ compilation in the Linux environment<br>
         </div>
       </div>
     </li>
+    <li class="timeline-inverted">
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <h4 class="timeline-title"><i class="fa fa-code"></i> 27/10/2018</h4>
+        </div>
+        <div class="timeline-body">
+          <p>
+            → Added new points in the network map updating the mapping up to block 165962<br>
+            → Performance Enhancements - Increased Speed ​​in Synchronization<br>
+            → Added new icons<br>
+            → Change style of block download progress bar from "QWindowsXPStyle" to "QWindowsVistaStyle"<br>
+            → Changing the size of the icons in "STATUSBAR_ICONSIZE" from 16 to 64<br>
+            → Adding SperoCoin.conf file opening from the Console Window menu<br>
+            → Changed description of mining type PoW<br>
+            → Changed description of mining type PoS<br>
+            → New PoS Mining Icon<br>
+            → Changed version to 2.6.4.5
+          </p>
+        </div>
+      </div>
+    </li>
   </ul>
 <!-- Vertical Timeline -->
 
@@ -876,7 +916,7 @@ compilation in the Linux environment<br>
           </div>
 
           <div class="col-lg-6 col-12 text-center">
-            <span data-toggle="counter-up"><?echo $api_getmoneysupply; ?></span>
+            <span data-toggle="counter-up"><?echo number_format($api_getmoneysupply, 2, '.', ','); ?></span>
             <p>Money Supply</p>
           </div>
 
@@ -905,7 +945,7 @@ compilation in the Linux environment<br>
               <li data-filter="*" class="filter-active">All</li>
               <li data-filter=".filter-exchange">Exchanges</li>
               <li data-filter=".filter-pool">Pool</li>
-              <li data-filter=".filter-topics">Topics in forums</li>
+              <li data-filter=".filter-topics">General Subjects</li>
               <li data-filter=".filter-git">GitHub</li>
               <li data-filter=".filter-official">Official SPERO</li>
             </ul>
@@ -1122,6 +1162,19 @@ compilation in the Linux environment<br>
             </div>
           </div>
 
+          <div class="col-lg-4 col-md-6 portfolio-item filter-topics wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/fanaticosfm.jpg" class="img-fluid" alt="">
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="https://fanaticosfaucet.com/" target="_blank">Fanáticos Faucet FM</a></h4>
+                <p>Pool Stake</p>
+              </div>
+            </div>
+          </div>
+
         </div>
 
       </div>
@@ -1143,9 +1196,9 @@ compilation in the Linux environment<br>
           <img src="img/clients/client-3.png" alt="">
           <img src="img/clients/client-4.png" alt="">
           <img src="img/clients/client-5.png" alt="">
-          <!--<img src="img/clients/client-6.png" alt="">
+          <img src="img/clients/client-6.png" alt="">
           <img src="img/clients/client-7.png" alt="">
-          <img src="img/clients/client-8.png" alt=""> -->
+          <img src="img/clients/client-8.png" alt="">
         </div>
 
       </div>
@@ -1323,8 +1376,8 @@ compilation in the Linux environment<br>
         </div>
 
         <div><center>
-              <a class="twitter-timeline" data-width="450" data-height="400" data-dnt="true" href="https://twitter.com/Spero_Official?ref_src=twsrc%5Etfw">Tweets by Spero_Official</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-              <iframe src="https://discordapp.com/widget?id=386676506199588864&theme=dark" width="400" height="400" allowtransparency="true" frameborder="0"></iframe>
+              <a class="twitter-timeline" data-width="300" data-height="400" data-dnt="true" href="https://twitter.com/Spero_Official?ref_src=twsrc%5Etfw">Tweets by Spero_Official</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              <iframe src="https://discordapp.com/widget?id=386676506199588864&theme=dark" width="300" height="400" allowtransparency="true" frameborder="0"></iframe>
           </center>
         </div>
       </div>
@@ -1360,19 +1413,19 @@ compilation in the Linux environment<br>
         </header>
       <div class="row">
         <div class="col-lg-4 col-sm-6 wow fadeInLeft delay-05s">
-          <!-- <div class="service-list">
-            <div class="service-list-col1">
-            </div>
-            <div class="service-list-col2">
-              <a href="https://drive.google.com/open?id=1MqVX9DgHTyK9bMKZZLCvM2fspUr8dHf0" target="_blank"><h3><i class="fa fa-android"></i> Apk Android - V.1.2BETA</h3>
-              <p>Wallet Android. It works as web viewer system of web wallet. Use the same web account in the app! Practicality and speed in your hands.</p></a>
-            </div>
-          </div> -->
           <div class="service-list">
             <div class="service-list-col1">
             </div>
             <div class="service-list-col2">
-              <a href="https://github.com/DigitalCoin1/SperoCoin/releases/download/v.2.6.4.5/SperoCoin-v.2.6.4.5.exe.-.Windows.QT.exe" target="_blank"><h3><i class="fa fa-windows"></i> Windows QT - V.2.6.4.5 - 29/10/2018</h3>
+              <a href="files/SperoCoin-v.2.6.4.5a-BETA.apk" target="_blank"><h3><i class="fa fa-android"></i> Apk Android - Versão Full Node(v.2.6.4.5a-BETA)</h3>
+              <p>Wallet Android. With this wallet, you can conduct PoS mining directly from your device.</p></a>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1">
+            </div>
+            <div class="service-list-col2">
+              <a href="https://github.com/DigitalCoin1/SperoCoin/releases/download/SperoCoin-v.2.6.4.6/SperoCoin-v.2.6.4.6.exe" target="_blank"><h3><i class="fa fa-windows"></i> Windows QT - V.2.6.4.6 - 08/12/2018</h3>
               <p>Wallet with graphic design. Model for those who seek comfort and convenience to check their balance, send and receive coins in a practical and fast.</p></a>
             </div>
           </div>
@@ -1380,18 +1433,18 @@ compilation in the Linux environment<br>
             <div class="service-list-col1">
             </div>
             <div class="service-list-col2">
-              <a href="https://github.com/DigitalCoin1/SperoCoin/releases/download/v.2.6.4.5/SperoCoind-v.2.6.4.5.exe.-.Windows.Daemon.exe" target="_blank"><h3><i class="fa fa-windows"></i> Daemon Windows - V.2.6.4.4 - 29/07/2018</h3>
+              <a href="https://github.com/DigitalCoin1/SperoCoin/releases/download/SperoCoin-v.2.6.4.6/SperoCoind-v.2.6.4.6.exe" target="_blank"><h3><i class="fa fa-windows"></i> Daemon Windows - V.2.6.4.6 - 08/12/2018</h3>
               <p>Wallet without graphic design. Model for those who seek practicality and less consumption of resources.</p></a>
             </div>
           </div>
-          <div class="service-list">
+          <!--<div class="service-list">
             <div class="service-list-col1">
             </div>
             <div class="service-list-col2">
               <a href="https://github.com/DigitalCoin1/SperoCoin/releases/download/v.2.6.4.5/SperoCoin-v.2.6.4.5.-.Raspberry.5" target="_blank"><h3><i><img src="img/portfolio/raspberry.png" width="40px"/></i> Raspberry PI 3</h3>
               <p>Wallet with graphic design. Model for those who seek comfort and convenience to check their balance, send and receive coins in a practical and fast.</p></a>
             </div>
-          </div>
+          </div>-->
             <div class="service-list">
             <div class="service-list-col1">
             </div>
