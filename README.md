@@ -1,4 +1,7 @@
 # 💰SPEROCOIN - Sustentabilidade em Tecnologia 🇧🇷<br>
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/4deb38ee22e9405791aed5b360506a56)](https://app.codacy.com/app/DigitalCoin1/Website_Official?utm_source=github.com&utm_medium=referral&utm_content=DigitalCoin1/Website_Official&utm_campaign=Badge_Grade_Dashboard)
+
 <br>
 🌎Website: https://sperocoin.ddns.net/<br>
 🌎Block Explorer: http://35.198.22.94:3001<br>
