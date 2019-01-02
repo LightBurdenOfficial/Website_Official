@@ -1048,11 +1048,24 @@ compilation in the Linux environment<br>
           <div class="col-lg-4 col-md-6 portfolio-item filter-exchange wow fadeInUp">
             <div class="portfolio-wrap">
               <figure>
-                <img src="img/portfolio/ccex-logo.png" class="img-fluid" alt="">
+                <img src="img/portfolio/nanu-exchange.png" class="img-fluid" alt="">
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="https://c-cex.com/?id=vote&coin=spero" target="_blank">C-CEX(In Voting)</a></h4>
+                <h4><a href="https://nanu.exchange/exchange#btc_spero" target="_blank">NANU EXCHANGE</a></h4>
+                <p>Exchanges</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-exchange wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/monex.png" class="img-fluid" alt="">
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="https://ico.monexexchange.com/voting" target="_blank">MONEX(In Voting)</a></h4>
                 <p>Exchanges</p>
               </div>
             </div>
@@ -1113,7 +1126,7 @@ compilation in the Linux environment<br>
           <div class="col-lg-4 col-md-6 portfolio-item filter-exchange wow fadeInUp" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
               <figure>
-                <img src="https://i2.wp.com/bitmapa.com/wp-content/uploads/2018/02/parceria.png?fit=2070%2C1084&ssl=1" class="img-fluid" alt="">
+                <img src="img/portfolio/catalogop2p.png" class="img-fluid" alt="">
               </figure>
 
               <div class="portfolio-info">
@@ -1126,7 +1139,7 @@ compilation in the Linux environment<br>
           <div class="col-lg-4 col-md-6 portfolio-item filter-exchange wow fadeInUp" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
               <figure>
-                <img src="https://i1.wp.com/bitmapa.com/wp-content/uploads/2018/02/Design-sem-nome-7.png?resize=372%2C184&ssl=1" class="img-fluid" alt="">
+                <img src="img/portfolio/p2brasil.png" class="img-fluid" alt="">
               </figure>
 
               <div class="portfolio-info">
@@ -1139,7 +1152,7 @@ compilation in the Linux environment<br>
           <div class="col-lg-4 col-md-6 portfolio-item filter-pool wow fadeInUp" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
               <figure>
-                <img src="https://staking.world/Images/Pool/staking_world_65.png" class="img-fluid" alt="">
+                <img src="img/portfolio/staking-world.png" class="img-fluid" alt="">
               </figure>
 
               <div class="portfolio-info">
@@ -1417,8 +1430,16 @@ compilation in the Linux environment<br>
             <div class="service-list-col1">
             </div>
             <div class="service-list-col2">
-              <a href="files/SperoCoin-v.2.6.4.5a-BETA.apk" target="_blank"><h3><i class="fa fa-android"></i> Apk Android - Versão Full Node(v.2.6.4.5a-BETA)</h3>
+              <a href="https://github.com/DigitalCoin1/SperoCoin_Android/releases/download/SperoCoin-v.2.6.4.6-BETA/SperoCoin-v.2.6.4.6-BETA.apk" target="_blank"><h3><i class="fa fa-android"></i> Apk Android - Version Full Node(v.2.6.4.6-BETA)</h3>
               <p>Wallet Android. With this wallet, you can conduct PoS mining directly from your device.</p></a>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col1">
+            </div>
+            <div class="service-list-col2">
+              <a href="https://sperocoin.org/files/SperoCoin-Version-LITE.apk" target="_blank"><h3><i class="fa fa-android"></i> Apk Android - Version Lite</h3>
+              <p>Wallet Android WebBased. Connected directly to our WebWallet, so you have the convenience of accessing your account in the palm of your hand.</p></a>
             </div>
           </div>
           <div class="service-list">
@@ -1461,9 +1482,9 @@ compilation in the Linux environment<br>
               <p>Download the complete blockchain at a later date for better speed in the synchronization.</p></a>
             </div>
           </div>
-        <figure class="col-lg-8 col-sm-6  text-right wow fadeInUp delay-02s">
+        <!--<figure class="col-lg-8 col-sm-6  text-right wow fadeInUp delay-02s">
           <img src="img/wallet.png" alt="" width="524">
-        </figure>
+        </figure>-->
       </div>
     </div>
 </div>
