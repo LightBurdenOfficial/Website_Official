@@ -2,34 +2,34 @@
 <?php
 include_once('arrecada.php');
 //SALES
-$api_sales = "http://35.198.22.94:3001/ext/getbalance/SX2czsni9LUY8574eXQhsQnnz46ZU8r4sf";
+$api_sales = "http://sperocoin.ddns.net:3001/ext/getbalance/SX2czsni9LUY8574eXQhsQnnz46ZU8r4sf";
 $juncao_api_sales = json_decode(file_get_contents($api_sales), true);
-/*$api_sales2 = "http://35.198.22.94:3001/ext/getbalance/SSi9PsXc3PUCqy9dAHfgArMDivrUuCGEbw";
+/*$api_sales2 = "http://sperocoin.ddns.net:3001/ext/getbalance/SSi9PsXc3PUCqy9dAHfgArMDivrUuCGEbw";
 $juncao_api_sales2 = json_decode(file_get_contents($api_sales2), true);
-$api_sales3 = "http://35.198.22.94:3001/ext/getbalance/SSZceqUgksEQc8FLVS2gMf8Wi1n55uLSn7";
+$api_sales3 = "http://sperocoin.ddns.net:3001/ext/getbalance/SSZceqUgksEQc8FLVS2gMf8Wi1n55uLSn7";
 $juncao_api_sales3 = json_decode(file_get_contents($api_sales3), true);
-$api_sales4 = "http://35.198.22.94:3001/ext/getbalance/SYP4LKWZoADLUe5xRLf3qn2X5Aw3kVa7eQ";
+$api_sales4 = "http://sperocoin.ddns.net:3001/ext/getbalance/SYP4LKWZoADLUe5xRLf3qn2X5Aw3kVa7eQ";
 $juncao_api_sales4 = json_decode(file_get_contents($api_sales4), true);
-$api_sales5 = "http://35.198.22.94:3001/ext/getbalance/Sd3gMK4buFuieAVKeGEBJHtdK4nmWbriD1";
+$api_sales5 = "http://sperocoin.ddns.net:3001/ext/getbalance/Sd3gMK4buFuieAVKeGEBJHtdK4nmWbriD1";
 $juncao_api_sales5 = json_decode(file_get_contents($api_sales5), true);
-$api_sales6 = "http://35.198.22.94:3001/ext/getbalance/SeV5SdEJP1dJrtRvBpNud2bu5oZxncmJ4";
+$api_sales6 = "http://sperocoin.ddns.net:3001/ext/getbalance/SeV5SdEJP1dJrtRvBpNud2bu5oZxncmJ4";
 $juncao_api_sales6 = json_decode(file_get_contents($api_sales6), true);*/
 $sales = $juncao_api_sales;
 
 //BLOCK EXPLORER
-$be_blockcount = 'http://35.198.22.94:3001/api/getblockcount'; // BLOCK COUNT
+$be_blockcount = 'http://sperocoin.ddns.net:3001/api/getblockcount'; // BLOCK COUNT
 $be_blockcount_api = json_decode(file_get_contents($be_blockcount), true);
 $api_blockcount = $be_blockcount_api;
 
-$be_getdifficulty = 'http://35.198.22.94:3001/api/getdifficulty'; // GET DIFFICULTY POW
+$be_getdifficulty = 'http://sperocoin.ddns.net:3001/api/getdifficulty'; // GET DIFFICULTY POW
 $be_getdifficulty_api = json_decode(file_get_contents($be_getdifficulty), true);
 $api_getdifficulty = $be_getdifficulty_api['proof-of-work'];
 
-$be_getdifficulty2 = 'http://35.198.22.94:3001/api/getdifficulty'; // GET DIFFICULTY POS
+$be_getdifficulty2 = 'http://sperocoin.ddns.net:3001/api/getdifficulty'; // GET DIFFICULTY POS
 $be_getdifficulty_api2 = json_decode(file_get_contents($be_getdifficulty2), true);
 $api_getdifficulty2 = $be_getdifficulty_api2['proof-of-stake'];
 
-$be_getmoneysupply = 'http://35.198.22.94:3001/ext/getmoneysupply'; //MONEY SUPPLY
+$be_getmoneysupply = 'http://sperocoin.ddns.net:3001/ext/getmoneysupply'; //MONEY SUPPLY
 $be_getmoneysupply_api = json_decode(file_get_contents($be_getmoneysupply), true);
 $api_getmoneysupply = $be_getmoneysupply_api;
 ?>
@@ -124,15 +124,15 @@ $(function(){
             <li class="menu-has-children">
                 <a href="" title="Services">Serviços:</a>
                     <ul>
-                      <li><a href="http://35.198.22.94:3001/" target="_blank">Block Explorer</a></li>
                       <li><a href="http://sperocoin.ddns.net:3001/" target="_blank">Block Explorer 2</a></li>
-                      <li><a href="https://webwallet.sperocoin.org/" target="_blank">WebWallet</a></li>
+                      <li><a href="https://sperocoin.org/webwallet" target="_blank">WebWallet</a></li>
                       <li><a href="https://sperocoin.org/faucet" target="_blank">Faucet</a></li>
+                      <li><a href="https://sperocoin.org/paperwallet" target="_blank">PaperWallet</a></li>
                     </ul>
             </li>
             <!-- Menu de Serviços -->
             <li><a href="#clients" target="_blank">Socios</a></li>
-          <li><a href="https://sperocoin.ddns.net/" target="_blank">Exchange Oficial</a></li>
+          <li><a href="listing.php" target="_blank">Exchange Oficial</a></li>
           <!-- Menu de Linguagem -->
             <li class="menu-has-children">
                 <a href="" title="Language">IDIOMA:</a>
@@ -1124,7 +1124,7 @@ $(function(){
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="http://35.198.22.94:3001/" target="_blank">Block Explorer</a></h4>
+                <h4><a href="http://sperocoin.ddns.net:3001/" target="_blank">Block Explorer</a></h4>
                 <p>Github</p>
               </div>
             </div>
@@ -1211,14 +1211,14 @@ $(function(){
         </header>
 
         <div class="owl-carousel clients-carousel">
-          <img src="img/clients/client-1.png" alt="">
-          <img src="img/clients/client-2.png" alt="">
-          <img src="img/clients/client-3.png" alt="">
-          <img src="img/clients/client-4.png" alt="">
-          <img src="img/clients/client-5.png" alt="">
-          <img src="img/clients/client-6.png" alt="">
-          <img src="img/clients/client-7.png" alt="">
-          <img src="img/clients/client-8.png" alt="">
+          <!-- ALTILLY --><img src="img/clients/client-1.png" alt="">
+          <!-- CATALOGO P2P --><img src="img/clients/client-2.png" alt="">
+          <!-- STAKING WORLD --><img src="img/clients/client-3.png" alt="">
+          <!-- CRYPTOSTAKE --><img src="img/clients/client-4.png" alt="">
+          <!-- HOPE ASSISTENCIA --><img src="img/clients/client-5.png" alt="">
+          <!-- MDINVEST --><img src="img/clients/client-6.png" alt="">
+          <!-- FANATICOS CRIPTOSFM --><img src="img/clients/client-7.png" alt="">
+          <!-- IDEALCASH --><img src="img/clients/client-8.png" alt="">
         </div>
 
       </div>
