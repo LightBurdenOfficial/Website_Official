@@ -112,6 +112,7 @@ $(function(){
                 <a href="" title="Info">Información:</a>
                     <ul>
                       <li><a href="#about">Sobre</a></li>
+                      <li><a href="#team">Equipo</a></li>
                       <li><a href="#Technical_Characteristics">Nuestro Software</a></li>
                       <li><a href="#roadmap">RoadMap</a></li>
                       <li><a href="#portfolio">Donde Estamos?</a></li>
@@ -1299,11 +1300,11 @@ $(function(){
     <!--==========================
       Team Section
     ============================-->
-    <!--<section id="team">
+    <section id="team">
       <div class="container">
         <div class="section-header wow fadeInUp">
-          <h3>Team</h3>
-          <p>Sed ut perspiciatis unde omnis iste en latus error sit voluptaten accusantium dolorenque</p>
+          <h3>Equipo SperoCoin</h3>
+          <p>Conozca a los miembros de la Fundación SperoCoin y sus funciones dentro del proyecto</p>
         </div>
 
         <div class="row">
@@ -1313,13 +1314,9 @@ $(function(){
               <img src="img/team-1.jpg" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>Walter White</h4>
-                  <span>Chief Executive Officer</span>
+                  <h4>Francis Santana</h4>
+                  <span>Revelador / CEO</span>
                   <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
                   </div>
                 </div>
               </div>
@@ -1331,13 +1328,12 @@ $(function(){
               <img src="img/team-2.jpg" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>Sarah Jhonson</h4>
-                  <span>Product Maen lager</span>
+                  <h4>Douglas Aquino</h4>
+                  <span>Relaciones públicas y asesoría</span>
                   <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
+                    <a href="https://twitter.com/akino600"><i class="fa fa-twitter"></i></a>
+                    <a href="https://facebook.com/akino6000"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/douglas-akino-b2b33b160"><i class="fa fa-linkedin"></i></a>
                   </div>
                 </div>
               </div>
@@ -1346,34 +1342,26 @@ $(function(){
 
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
             <div class="member">
-              <img src="img/team-3.jpg" class="img-fluid" alt="">
+              <img src="img/team-4.jpg" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>William Anderson</h4>
-                  <span>CTO</span>
+                  <h4>Viviane Vieira</h4>
+                  <span>Redes Sociales y Promociones</span>
                   <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
+          
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
             <div class="menber">
-              <img src="img/team-4.jpg" class="img-fluid" alt="">
+              <img src="img/team-3.jpg" class="img-fluid" alt="">
               <div class="menber-info">
                 <div class="menber-info-content">
-                  <h4>Amanda Jepson</h4>
-                  <span>Accountant</span>
+                  <h4>Leonardo Pereira</h4>
+                  <span>Desarrollo de Proyectos</span>
                   <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
                   </div>
                 </div>
               </div>
@@ -1383,7 +1371,7 @@ $(function(){
         </div>
 
       </div>
-    </section>--><!-- #team -->
+    </section><!-- #team -->
 
     <!--==========================
       Contact Section

@@ -112,6 +112,7 @@ $(function(){
                 <a href="" title="Info">Informações:</a>
                     <ul>
                       <li><a href="#about">Sobre</a></li>
+                      <li><a href="#team">Equipe</a></li>
                       <li><a href="#Technical_Characteristics">Nosso Soft</a></li>
                       <li><a href="#roadmap">RoadMap</a></li>
                       <li><a href="#portfolio">Onde Estamos?</a></li>
@@ -1298,11 +1299,11 @@ $(function(){
     <!--==========================
       Team Section
     ============================-->
-    <!--<section id="team">
+    <section id="team">
       <div class="container">
         <div class="section-header wow fadeInUp">
-          <h3>Team</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <h3>Equipe SperoCoin</h3>
+          <p>Conheça os membros da Fundação SperoCoin e suas funções dentro do projeto</p>
         </div>
 
         <div class="row">
@@ -1312,13 +1313,9 @@ $(function(){
               <img src="img/team-1.jpg" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>Walter White</h4>
-                  <span>Chief Executive Officer</span>
+                  <h4>Francis Santana</h4>
+                  <span>Desenvolvedor / CEO</span>
                   <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
                   </div>
                 </div>
               </div>
@@ -1330,13 +1327,12 @@ $(function(){
               <img src="img/team-2.jpg" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>Sarah Jhonson</h4>
-                  <span>Product Manager</span>
+                  <h4>Douglas Aquino</h4>
+                  <span>Relações Públicas e Assessoria</span>
                   <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
+                    <a href="https://twitter.com/akino600"><i class="fa fa-twitter"></i></a>
+                    <a href="https://facebook.com/akino6000"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/douglas-akino-b2b33b160"><i class="fa fa-linkedin"></i></a>
                   </div>
                 </div>
               </div>
@@ -1345,16 +1341,12 @@ $(function(){
 
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
             <div class="member">
-              <img src="img/team-3.jpg" class="img-fluid" alt="">
+              <img src="img/team-4.jpg" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>William Anderson</h4>
-                  <span>CTO</span>
+                  <h4>Viviane Vieira</h4>
+                  <span>Redes Sociais e Promoções</span>
                   <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
                   </div>
                 </div>
               </div>
@@ -1363,16 +1355,11 @@ $(function(){
 
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
             <div class="member">
-              <img src="img/team-4.jpg" class="img-fluid" alt="">
+              <img src="img/team-3.jpg" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>Amanda Jepson</h4>
-                  <span>Accountant</span>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  <h4>Leonardo Pereira</h4>
+                  <span>Desenvolvimento de Projetos</span>
                   </div>
                 </div>
               </div>
@@ -1382,7 +1369,7 @@ $(function(){
         </div>
 
       </div>
-    </section>--><!-- #team -->
+    </section><!-- #team -->
 
     <!--==========================
       Contact Section
