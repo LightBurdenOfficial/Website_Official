@@ -1,21 +1,6 @@
 <!DOCTYPE html>
 <?php
 include_once('arrecada.php');
-//SALES
-$api_sales = "http://sperocoin.ddns.net:3001/ext/getbalance/SX2czsni9LUY8574eXQhsQnnz46ZU8r4sf";
-$juncao_api_sales = json_decode(file_get_contents($api_sales), true);
-/*$api_sales2 = "http://sperocoin.ddns.net:3001/ext/getbalance/SSi9PsXc3PUCqy9dAHfgArMDivrUuCGEbw";
-$juncao_api_sales2 = json_decode(file_get_contents($api_sales2), true);
-$api_sales3 = "http://sperocoin.ddns.net:3001/ext/getbalance/SSZceqUgksEQc8FLVS2gMf8Wi1n55uLSn7";
-$juncao_api_sales3 = json_decode(file_get_contents($api_sales3), true);
-$api_sales4 = "http://sperocoin.ddns.net:3001/ext/getbalance/SYP4LKWZoADLUe5xRLf3qn2X5Aw3kVa7eQ";
-$juncao_api_sales4 = json_decode(file_get_contents($api_sales4), true);
-$api_sales5 = "http://sperocoin.ddns.net:3001/ext/getbalance/Sd3gMK4buFuieAVKeGEBJHtdK4nmWbriD1";
-$juncao_api_sales5 = json_decode(file_get_contents($api_sales5), true);
-$api_sales6 = "http://sperocoin.ddns.net:3001/ext/getbalance/SeV5SdEJP1dJrtRvBpNud2bu5oZxNacmJ4";
-$juncao_api_sales6 = json_decode(file_get_contents($api_sales6), true);*/
-$sales = $juncao_api_sales;
-
 //BLOCK EXPLORER
 $be_blockcount = 'http://sperocoin.ddns.net:3001/api/getblockcount'; // BLOCK COUNT
 $be_blockcount_api = json_decode(file_get_contents($be_blockcount), true);
@@ -128,6 +113,7 @@ $(function(){
                       <li><a href="https://sperocoin.org/webwallet" target="_blank">WebWallet</a></li>
                       <li><a href="https://sperocoin.org/faucet" target="_blank">Faucet</a></li>
                       <li><a href="https://sperocoin.org/paperwallet" target="_blank">PaperWallet</a></li>
+                      <li><a href="https://cloudmining.sperocoin.org" target="_blank">CloudMining</a></li>
                     </ul>
             </li>
             <!-- Menu de Serviços -->
@@ -1190,6 +1176,19 @@ $(function(){
 
               <div class="portfolio-info">
                 <h4><a href="https://fanaticosfaucet.com/" target="_blank">Fanáticos Faucet FM</a></h4>
+                <p>Faucet</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-pool wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/4stake.png" class="img-fluid" alt="">
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="https://www.4stake.com/5c6cc62defb2ef0004e2cf6f" target="_blank">4Stake</a></h4>
                 <p>Pool Stake</p>
               </div>
             </div>
@@ -1211,14 +1210,15 @@ $(function(){
         </header>
 
         <div class="owl-carousel clients-carousel">
-          <!-- ALTILLY --><img src="img/clients/client-1.png" alt="">
-          <!-- CATALOGO P2P --><img src="img/clients/client-2.png" alt="">
-          <!-- STAKING WORLD --><img src="img/clients/client-3.png" alt="">
-          <!-- CRYPTOSTAKE --><img src="img/clients/client-4.png" alt="">
-          <!-- HOPE ASSISTENCIA --><img src="img/clients/client-5.png" alt="">
-          <!-- MDINVEST --><img src="img/clients/client-6.png" alt="">
-          <!-- FANATICOS CRIPTOSFM --><img src="img/clients/client-7.png" alt="">
-          <!-- IDEALCASH --><img src="img/clients/client-8.png" alt="">
+          <!-- ALTILLY --><a href="https://www.altilly.com/?a=f46ba" target="_blank"><img src="img/clients/client-1.png" alt=""></a>
+          <!-- CATALOGO P2P --><a href="https://catalogop2p.com.br" target="_blank"><img src="img/clients/client-2.png" alt=""></a>
+          <!-- STAKING WORLD --><a href="https://staking.world" target="_blank"><img src="img/clients/client-3.png" alt=""></a>
+          <!-- CRYPTOSTAKE --><a href="https://cryptostake.es?__wallets_faucet_ref=6412684e6793ba02" target="_blank"><img src="img/clients/client-4.png" alt=""></a>
+          <!-- HOPE ASSISTENCIA --><a href="" target="_blank"><img src="img/clients/client-5.png" alt=""></a>
+          <!-- MDINVEST --><a href="https://mdinvest.nl" target="_blank"><img src="img/clients/client-6.png" alt=""></a>
+          <!-- FANATICOS CRIPTOSFM --><a href="http://fanaticoscriptosfm.com" target="_blank"><img src="img/clients/client-7.png" alt=""></a>
+          <!-- IDEALCASH --><a href="https://idealcash.io" target="_blank"><img src="img/clients/client-8.png" alt=""></a>
+          <!-- 4STAKE --><a href="https://www.4stake.com/5c6cc62defb2ef0004e2cf6f" target="_blank"><img src="img/clients/client-9.png" alt=""></a>
         </div>
 
       </div>
