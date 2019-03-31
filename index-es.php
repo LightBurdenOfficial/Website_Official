@@ -2,19 +2,19 @@
 <?php
 include_once('arrecada.php');
 //BLOCK EXPLORER
-$be_blockcount = 'http://sperocoin.ddns.net:3001/api/getblockcount'; // BLOCK COUNT
+$be_blockcount = 'http://52.67.138.144:3001/api/getblockcount'; // BLOCK COUNT
 $be_blockcount_api = json_decode(file_get_contents($be_blockcount), true);
 $api_blockcount = $be_blockcount_api;
 
-$be_getdifficulty = 'http://sperocoin.ddns.net:3001/api/getdifficulty'; // GET DIFFICULTY POW
+$be_getdifficulty = 'http://52.67.138.144:3001/api/getdifficulty'; // GET DIFFICULTY POW
 $be_getdifficulty_api = json_decode(file_get_contents($be_getdifficulty), true);
 $api_getdifficulty = $be_getdifficulty_api['proof-of-work'];
 
-$be_getdifficulty2 = 'http://sperocoin.ddns.net:3001/api/getdifficulty'; // GET DIFFICULTY POS
+$be_getdifficulty2 = 'http://52.67.138.144:3001/api/getdifficulty'; // GET DIFFICULTY POS
 $be_getdifficulty_api2 = json_decode(file_get_contents($be_getdifficulty2), true);
 $api_getdifficulty2 = $be_getdifficulty_api2['proof-of-stake'];
 
-$be_getmoneysupply = 'http://sperocoin.ddns.net:3001/ext/getmoneysupply'; //MONEY SUPPLY
+$be_getmoneysupply = 'http://52.67.138.144:3001/ext/getmoneysupply'; //MONEY SUPPLY
 $be_getmoneysupply_api = json_decode(file_get_contents($be_getmoneysupply), true);
 $api_getmoneysupply = $be_getmoneysupply_api;
 ?>
@@ -110,11 +110,13 @@ $(function(){
             <li class="menu-has-children">
                 <a href="" title="Services">Serviços:</a>
                     <ul>
-                      <li><a href="http://sperocoin.ddns.net:3001/" target="_blank">Block Explorer 2</a></li>
+                      <li><a href="http://sperocoin.ddns.net:3001/" target="_blank">Block Explorer </a></li>
+                      <li><a href="http://52.67.138.144:3001/" target="_blank">Block Explorer 2</a></li>
                       <li><a href="https://sperocoin.org/webwallet" target="_blank">WebWallet</a></li>
                       <li><a href="https://sperocoin.org/faucet" target="_blank">Faucet</a></li>
                       <li><a href="https://sperocoin.org/paperwallet" target="_blank">PaperWallet</a></li>
                       <li><a href="https://cloudmining.sperocoin.org" target="_blank">CloudMining</a></li>
+                      <li><a href="https://loja.sperocoin.org" target="_blank">WebShop</a></li>
                     </ul>
             </li>
             <!-- Menu de Serviços -->
@@ -124,8 +126,8 @@ $(function(){
             <li class="menu-has-children">
                 <a href="" title="Language">IDIOMA:</a>
                     <ul>
-                      <li><a href="index.php">EN</a></li>
-                      <li><a href="index-pt.php">PT</a></li>
+                      <li><a href="index-en.php">EN</a></li>
+                      <li><a href="index.php">PT</a></li>
                       <li><a href="index-es.php">ES</a></li>
                     </ul>
             </li>
@@ -751,6 +753,7 @@ $(function(){
         <div class="timeline-body">
           <p>
             <i class="fa fa-star"></i> Página de mineracion en Nuven Oficial<br>
+            <i class="fa fa-star"></i> Oficial WebShop<br>
             <i class="fa fa-star-o"></i> Liberación de sistema de recargas de celulares en casa de cambio oficial<br>
             <i class="fa fa-star-o"></i> Pagamento de Boletos Bancários en Casa de Cambio Oficial
         </p>
@@ -827,16 +830,6 @@ $(function(){
         </div>
         <div class="timeline-body">
           <p><i class="fa fa-star-o"></i></p>
-        </div>
-      </div>
-    </li>
-    <li>
-      <div class="timeline-panel">
-        <div class="timeline-heading">
-          <h4 class="timeline-title"><i class="fa fa-code"></i> Cambio en la Core</h4>
-        </div>
-        <div class="timeline-body">
-          <p><i class="fa fa-star-o"></i> </p>
         </div>
       </div>
     </li>
@@ -967,7 +960,7 @@ $(function(){
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="http://sperocloudmining.tk/" target="_blank">SperoCoin Cloud Mining</a></h4>
+                <h4><a href="https://cloudmining.sperocoin.org/" target="_blank">SperoCoin Cloud Mining</a></h4>
                 <p>Pool Cloud Mining</p>
               </div>
             </div>
@@ -1099,6 +1092,19 @@ $(function(){
 
               <div class="portfolio-info">
                 <h4><a href="https://www.youtube.com/watch?v=ipe4AKA4U0E" target="_blank">BITCOIN & ALTCOINS GRÁTIS</a></h4>
+                <p>Youtube Channel</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-topics wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/youtube.png" class="img-fluid" alt="">
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="https://www.youtube.com/channel/UCuWq5QRkmO09WyNsowovQwQ" target="_blank">MAMMUHTE COLETOR DE</a></h4>
                 <p>Youtube Channel</p>
               </div>
             </div>
@@ -1339,7 +1345,7 @@ $(function(){
               </div>
             </div>
           </div>
-
+<!--
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
             <div class="member">
               <img src="img/team-4.jpg" class="img-fluid" alt="">
@@ -1353,7 +1359,7 @@ $(function(){
               </div>
             </div>
           </div>
-          
+-->
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
             <div class="menber">
               <img src="img/team-3.jpg" class="img-fluid" alt="">

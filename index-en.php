@@ -45,6 +45,7 @@ $api_getmoneysupply = $be_getmoneysupply_api;
   <link href="css/animate.css" rel="stylesheet" type="text/css">
 
 
+
   <link rel="stylesheet" type="text/css" href="css/vertical_timeline">
 
   <!-- Main Stylesheet File -->
@@ -91,23 +92,23 @@ $(function(){
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="#intro">Início</a></li>
+          <li class="menu-active"><a href="#intro">Home</a></li>
           <!-- Menu de Informações -->
             <li class="menu-has-children">
-                <a href="" title="Info">Informações:</a>
+                <a href="" title="Info">Information:</a>
                     <ul>
-                      <li><a href="#about">Sobre</a></li>
-                      <li><a href="#team">Equipe</a></li>
-                      <li><a href="#Technical_Characteristics">Nosso Soft</a></li>
+                      <li><a href="#about">About Us</a></li>
+                      <li><a href="#team">Our Team</a></li>
+                      <li><a href="#Technical_Characteristics">Our Soft</a></li>
                       <li><a href="#roadmap">RoadMap</a></li>
-                      <li><a href="#portfolio">Onde Estamos?</a></li>
+                      <li><a href="#portfolio">Where we are?</a></li>
                     </ul>
             </li>
             <!-- Menu de Informações -->
           <li><a href="#downloads">Downloads</a></li>
           <!-- Menu de Serviços -->
             <li class="menu-has-children">
-                <a href="" title="Services">Serviços:</a>
+                <a href="" title="Services">Services:</a>
                     <ul>
                       <li><a href="http://sperocoin.ddns.net:3001/" target="_blank">Block Explorer</a></li>
                       <li><a href="http://52.67.138.144:3001/" target="_blank">Block Explorer 2</a></li>
@@ -115,20 +116,19 @@ $(function(){
                       <li><a href="https://sperocoin.org/faucet" target="_blank">Faucet</a></li>
                       <li><a href="https://sperocoin.org/paperwallet" target="_blank">PaperWallet</a></li>
                       <li><a href="https://cloudmining.sperocoin.org" target="_blank">CloudMining</a></li>
-                      <li><a href="https://loja.sperocoin.org" target="_blank">Loja Virtual</a></li>
+                      <li><a href="https://loja.sperocoin.org" target="_blank">WebShop</a></li>
                     </ul>
             </li>
             <!-- Menu de Serviços -->
-            <li><a href="#clients" target="_blank">Parceiros</a></li>
-          <li><a href="listing.php" target="_blank">Exchange Oficial</a></li>
+            <li><a href="#clients" target="_blank">Partners</a></li>
+          <li><a href="listing.php" target="_blank">Exchange Official</a></li>
           <!-- Menu de Linguagem -->
             <li class="menu-has-children">
-                <a href="" title="Language">IDIOMA:</a>
+                <a href="" title="Language">LANG:</a>
                     <ul>
-                      <li><a href="index-en.php">ING</a></li>
+                      <li><a href="index-en.php">EN</a></li>
                       <li><a href="index.php">PT</a></li>
                       <li><a href="index-es.php">ES</a></li>
-                      <!-- <li><a href="index-es.php">ESP</a></li> -->
                     </ul>
             </li>
             <!-- Menu de Linguagem -->
@@ -152,9 +152,9 @@ $(function(){
             <div class="carousel-background"><img src="img/intro-carousel/1.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2>Seja Bem Vindo à Spero Coin</h2>
-                <p><h3 style="color: white">Sustentabilidade em Tecnologia</h3></p>
-                  <p>Somos uma criptomoeda ecologicamente correta que visa eliminar o desperdício de energia elétrica.
+                <h2>Welcome To Spero Coin</h2>
+                <p><h3 style="color: white">Sustainability in technology</h3></p>
+                  <p>We are an ecologically correct cryptocurrency that aims to eliminate the waste of electrical energy.
                 </p>
                 <a href="whitepaper/index.html" class="btn-get-started scrollto" target="_blank">WHITEPAPER</a>
               </div>
@@ -165,12 +165,12 @@ $(function(){
             <div class="carousel-background"><img src="img/intro-carousel/2.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2 >Cotação - BRL</h2>
+                <h2 >Price chart - BRL</h2>
                 <p>
                 <script src="https://widgets.coingecko.com/coingecko-coin-price-chart-widget.js"></script>
                 <h1><coingecko-coin-price-chart-widget currency="brl" coin-id="sperocoin" locale="en" height="200" width="0"></coingecko-coin-price-chart-widget></h1>
                 </p>
-                <a href="https://www.coingecko.com/en/price_charts/sperocoin/brl#panel" class="btn-get-started scrollto" target="_blank">Ver Mais</a>
+                <a href="https://www.coingecko.com/en/price_charts/sperocoin/brl#panel" class="btn-get-started scrollto" target="_blank">See More</a>
               </div>
             </div>
           </div>
@@ -179,11 +179,12 @@ $(function(){
             <div class="carousel-background"><img src="img/intro-carousel/3.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2>Cotação - USD</h2>
+                <h2>Price chart - USD</h2>
                 <p>
+                  <script src="https://widgets.coingecko.com/coingecko-coin-price-chart-widget.js"></script>
                  <script src="https://widgets.coingecko.com/coingecko-coin-price-chart-widget.js"></script>
                     <h1><coingecko-coin-price-chart-widget currency="usd" coin-id="sperocoin" locale="en" height="200" width="0"></coingecko-coin-price-chart-widget></h1></p>
-                <a href="https://www.coingecko.com/en/price_charts/sperocoin/brl#panel" class="btn-get-started scrollto" target="_blank">Ver Mais</a>
+                <a href="https://www.coingecko.com/en/price_charts/sperocoin/brl#panel" class="btn-get-started scrollto" target="_blank">See More</a>
               </div>
             </div>
           </div>
@@ -192,10 +193,11 @@ $(function(){
             <div class="carousel-background"><img src="img/intro-carousel/2.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2>Cotação - BTC</h2>
+                <h2>Price chart - BTC</h2>
                 <script src="https://widgets.coingecko.com/coingecko-coin-price-chart-widget.js"></script>
+                 <script src="https://widgets.coingecko.com/coingecko-coin-price-chart-widget.js"></script>
                     <h1><coingecko-coin-price-chart-widget currency="btc" coin-id="sperocoin" locale="en" height="200" width="0"></coingecko-coin-price-chart-widget></h1></p>
-                <a href="https://www.coingecko.com/en/price_charts/sperocoin/brl#panel" class="btn-get-started scrollto" target="_blank">Ver Mais</a>
+                <a href="https://www.coingecko.com/en/price_charts/sperocoin/brl#panel" class="btn-get-started scrollto" target="_blank">See More</a>
               </div>
             </div>
           </div>
@@ -204,10 +206,11 @@ $(function(){
             <div class="carousel-background"><img src="img/intro-carousel/3.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2>Cotação - ETH</h2>
+                <h2>Price chart - ETH</h2>
                 <script src="https://widgets.coingecko.com/coingecko-coin-price-chart-widget.js"></script>
+                 <script src="https://widgets.coingecko.com/coingecko-coin-price-chart-widget.js"></script>
                     <h1><coingecko-coin-price-chart-widget currency="eth" coin-id="sperocoin" locale="en" height="200" width="0"></coingecko-coin-price-chart-widget></h1></p>
-                <a href="https://www.coingecko.com/en/price_charts/sperocoin/brl#panel" class="btn-get-started scrollto" target="_blank">Ver Mais</a>
+                <a href="https://www.coingecko.com/en/price_charts/sperocoin/brl#panel" class="btn-get-started scrollto" target="_blank">See More</a>
               </div>
             </div>
           </div>
@@ -241,19 +244,19 @@ $(function(){
           <div class="col-lg-4 box">
             <i class="ion-shuffle"></i>
             <h4 class="title"><a href="#featured-services">Velocity</h4>
-            <p class="description">Consiste em uma verificação de três estágios em cada bloco registrado na rede, evitando assim o gasto duplo, muito comum em várias moedas.</p>
+            <p class="description">It consists of a three-stage verification of each block registered in the network, thus preventing double spend, very common in several currencies.</p>
           </div>
 
           <div class="col-lg-4 box box-bg">
             <i class="ion-cube"></i>
             <h4 class="title"><a href="#featured-services">Adaptive Block Size(ABS)</a></h4>
-            <p class="description">A Spero não tem um tamanho de bloco específico, portanto, independentemente do número de transações, todas elas irão para o bloco se estiverem dentro dos próximos 60 segundos da última criação.</p>
+            <p class="description">Spero does not have a specific block size, so regardless of the number of transactions, all of them will go into the block if they are within 60 seconds of the last creation.</p>
           </div>
 
           <div class="col-lg-4 box">
             <i class="ion-clipboard"></i>
             <h4 class="title"><a href="#featured-services">OP_RETURN</a></h4>
-            <p class="description">Com esse recurso você pode armazenar até 240 bytes de informação diretamente no blockchain.</p>
+            <p class="description">With this feature you can store up to 240 bytes of information directly in the blockchain.</p>
           </div>
 
         </div>
@@ -267,8 +270,8 @@ $(function(){
       <div class="container">
 
         <header class="section-header">
-          <h3>Sobre</h3>
-          <p>Somos uma criptomoeda brasileira, criada na cidade de Belo Horizonte / MG.<br>Conheça um pouco mais sobre nossas ideias.</p>
+          <h3>About Us</h3>
+          <p>We are a Brazilian cryptocurrencie, created in the city of Belo Horizonte / MG.<br>Know a little more about our ideas.</p>
         </header>
 
         <div class="row about-cols">
@@ -279,9 +282,9 @@ $(function(){
                 <img src="img/about-mission.jpg" alt="" class="img-fluid">
                 <div class="icon"><i class="ion-android-person-add"></i></div>
               </div>
-              <h2 class="title"><a href="#">Nossa Missão</a></h2>
+              <h2 class="title"><a href="#">Our Mission</a></h2>
               <p>
-                Reduzir as diferenças sociais e econômicas da população desprivilegiada em todo o mundo. Isso leva à melhoria da qualidade de vida onde ela é escassa ou não existe.
+                Reduce the social and economic differences of the underprivileged population across the globe. <br>This leads to improvement in quality of life where it is scarce or does not exist.
               </p>
             </div>
           </div>
@@ -292,10 +295,10 @@ $(function(){
                 <img src="img/about-plan.jpg" alt="" class="img-fluid">
                 <div class="icon"><i class="ion-ios-list-outline"></i></div>
               </div>
-              <h2 class="title"><a href="#">Nosso Plano</a></h2>
+              <h2 class="title"><a href="#">Our Plan</a></h2>
               <p>
-               Criarmos uma moeda com uso em um mercado acessível a todos e um banco sem cobrança de taxas abusivas, mantendo apenas a taxa fixa de transação de rede (~ 0.0001 SPERO).
-                <br> Com isso, teremos o primeiro Banco e Mercado Social mantido inteiramente por uma moeda criptografada.
+                We create a currency with use in a market accessible to all and a bank without charges of abusive fees, maintaining only the fixed rate of network transaction (~ 0.0001 SPERO).
+                <br>With this we will have the first Bank and Social Market maintained entirely by a crypto-currency.
               </p>
             </div>
           </div>
@@ -306,10 +309,10 @@ $(function(){
                 <img src="img/about-vision.jpg" alt="" class="img-fluid">
                 <div class="icon"><i class="ion-ios-eye-outline"></i></div>
               </div>
-              <h2 class="title"><a href="#">Nossa Visão</a></h2>
+              <h2 class="title"><a href="#">Our Vision</a></h2>
               <p>
-               Com ajuda e companheirismo mútuos, podemos alcançar um objetivo que muitas pessoas tentam fazer sozinhas.
-               <br> Os pequeninos, quando se juntam, tornam-se gigantes.
+                With mutual help and companionship we can achieve a goal that many people try to do alone.
+                <br>The little ones, when they come together, become giants.
               </p>
             </div>
           </div>
@@ -326,51 +329,41 @@ $(function(){
       <div class="container">
 
         <header class="section-header wow fadeInUp">
-          <h3>Características Técnicas</h3>
-          <p>Conheça as informações técnicas da tecnologia de nosso software.</p>
+          <h3>Technical Characteristics</h3>
+          <p>Know the technical information of our software technology.</p>
         </header>
 
         <div class="row">
 
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
             <div class="icon"><i class="ion-code"></i></div>
-            <h4 class="title"><a href="">Algoritmo</a></h4>
-            <p class="description">
-              Este algoritmo usa 13 rodadas de hash com 13 funções hash diferentes (blake, bmw, groestl, jh, keccak, skein, luffa, cubehash, etc.), o que o torna um dos mais confiáveis ​​em um mundo moderno de criptomoedas.
-            </p>
-            </div>
+            <h4 class="title"><a href="">Algorithm</a></h4>
+            <p class="description">This algorithm uses 13 rounds of hashing with 13 different hash-functions (blake, bmw, groestl, jh, keccak, skein, luffa, cubehash, etc.), which makes it one of most reliable in a modern cryptocurrencies world.</p>
+          </div>
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
             <div class="icon"><i class="ion-ios-bolt"></i></div>
-            <h4 class="title"><a href="">Mineração Híbrida PoW e PoS</a></h4>
-            <p class="description">
-              Com a Spero você minera com prova de trabalho (PoW [ASIC, GPU, CPU, etc]) e também consegue realizar a mineração apenas deixando sua carteira com saldo ativo online, aberto e desbloqueado, a conhecida prova de participação (PoS).
-            </p>
+            <h4 class="title"><a href="">Hybrid mining PoW and PoS</a></h4>
+            <p class="description">With Spero you mining with proof of work(PoW[ASIC, GPU, CPU, etc]) and also mining just leaving your wallet with active balance online, open and unlocked, the well-known proof of stake(PoS).</p>
           </div>
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
             <div class="icon"><i class="ion-cash"></i></div>
-            <h4 class="title"><a href="">Moedas Totais</a></h4>
-            <p class="description">
-              São 7 milhões de moedas no total e foram pré-mineradas 100.000 para aplicação em diversas áreas do projeto.
-            </p>
+            <h4 class="title"><a href="">Total Coins</a></h4>
+            <p class="description">There are 7 million coins total, and were pre-mined 100,000 for application in several areas of the project.</p>
           </div>
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="icon"><i class="ion-chatbubbles"></i></div>
-            <h4 class="title"><a href="">Mensagem Encriptada (E2M)</a></h4>
-            <p class="description">
-              Com a Spero você pode enviar mensagens criptografadas para outros usuários, tendo em mãos apenas o endereço e a chave pública do destinatário.
-            </p>
+            <h4 class="title"><a href="">Encrypted Message (E2M)</a></h4>
+            <p class="description">With Spero you can send encrypted messages to other users, having in hand only the address and the public key of the recipient.</p>
           </div>
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="icon"><i class="ion-android-done-all"></i></div>
-            <h4 class="title"><a href="">Maturidade de Transação</a></h4>
-            <p class="description">Mineração: 05<br>Transações: 03</p>
+            <h4 class="title"><a href="">Transaction Maturity</a></h4>
+            <p class="description">Mining: 05<br>Transactions: 03</p>
           </div>
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="icon"><i class="ion-android-options"></i></div>
-            <h4 class="title"><a href="">Outras Informações</a></h4>
-            <p class="description">
-              Tempo de Bloco: 60 seconds<br> Dificuldade de mineração reiniciada a cada novo bloco<br> Retorno PoS: 25% por ano
-            </p>
+            <h4 class="title"><a href="">Other Information</a></h4>
+            <p class="description">Block time: 60 seconds<br> Difficulty reset to each block<br> Return PoS: 25% per year</p>
           </div>
 
         </div>
@@ -395,8 +388,8 @@ $(function(){
       <div class="container">
 
         <header class="section-header">
-          <h3>Linha do Tempo</h3>
-          <p>Descubra o que já foi feito para melhorar nosso sistema e veja em quais datas essas melhorias foram feitas.</p>
+          <h3>TimeLine</h3>
+          <p>Find out what has already been done to improve our system and see on what dates these improvements were made.</p>
         </header>
 
         <div class="skills-content">
@@ -409,27 +402,27 @@ $(function(){
           <h4 class="timeline-title"><i class="fa fa-code"></i> 25/09/2017</h4>
         </div>
         <div class="timeline-body">
-          <p>→ Criação do projeto usando a moeda MarteX<br>
-             → Geração de Merkle<br>
-                const char * pszTimestamp: "Esperança eh a ultima que morre.";
-                block.nTime: 1506335848; <br>
-                block.nNonce: 44360; <br>
-             → Geração de GenesisBlock <br>
-             → Lançamento no BitcoinTalk <br>
-             → Envio de arquivos para o <a href="https://github.com/sperocoin/sperocoin"> Github </a> <br>
-             → Parceria com pool's: pickaxe.online <br>
-             → Hope deixou o projeto </p>
+          <p>→ Creation of the project using the MarteX crypto<br>
+→ Generation of Merkle<br>
+const char* pszTimestamp: "A esperanca eh a ultima que morre.";<br>
+block.nTime: 1506335848;<br>
+block.nNonce: 44360;<br>
+Generation of GenesisBlock<br>
+→ Launching on BitcoinTalk<br>
+→ Upload files to <a href="https://github.com/sperocoin/sperocoin">Github</a><br>
+→ Pool Partnership: pickaxe.online<br>
+→ Hope closing project</p>
         </div>
       </div>
     </li>
     <li class="timeline-inverted">
       <div class="timeline-panel">
         <div class="timeline-heading">
-          <h4 class="timeline-title"><i class="fa fa-code-fork"></i> 26/09/2017</h4>
+          <h4 class="timeline-title"<i class="fa fa-code-fork"></i> 26/09/2017</h4>
         </div>
         <div class="timeline-body">
-          <p>→ Fork do projeto no GitHub por DigitalCoin<br>
-             → Reapresentação de arquivos para o GitHub</p>
+          <p>→Project Fork on GitHub by DigitalCoin<br>
+→ Resubmission of files to GitHub</p>
         </div>
       </div>
     </li>
@@ -439,10 +432,11 @@ $(function(){
           <h4 class="timeline-title"><i class="fa fa-code"></i> 01/10/2017</h4>
         </div>
         <div class="timeline-body">
-          <p>→ Atualização de código: o arquivo SperoCoin-qt.pro foi alterado para compilação no ambiente Linux<br>
-             → Desligamento oficial da equipe Hope assistência técnica no projeto<br>
-             → Criação do <a href="mailto:sperocoin@gmail.com">E-mail</a> Oficial<br>
-             → <a href="https://superocoin.wixsite.com/sperocoin">Website</a> temporário</p>
+          <p>→ Code update: SperoCoin-qt.pro file has been changed for
+compilation in the Linux environment<br>
+→ Official team shutdown Hope technical assistance in the project<br>
+→ Creation of the official <a href="mailto:sperocoin@gmail.com">E-mail</a><br>
+→ Temporary <a href="https://superocoin.wixsite.com/sperocoin">website</a> creation</p>
         </div>
       </div>
     </li>
@@ -452,8 +446,8 @@ $(function(){
           <h4 class="timeline-title"><i class="fa fa-file-code-o"></i> 02/10/2017</h4>
         </div>
         <div class="timeline-body">
-          <p>→ Abertura do Tópico em: <a href="https://cryptocurrencytalk.com/topic/88487-ann-sperocoin-x13-hybrid-powpos/">Cryptocurrencytalk</a><br>
-             → Início das votações para adicionar a moeda na Exchange <a href="https://tradesatoshi.com/Vote">TradeSatoshi</a></p>
+          <p>→ Topic opening at: <a href="https://cryptocurrencytalk.com/topic/88487-ann-sperocoin-x13-hybrid-powpos/">Cryptocurrencytalk</a><br>
+→ Start voting to add currency in Exchange <a href="https://tradesatoshi.com/Vote">TradeSatoshi</a></p>
         </div>
       </div>
     </li>
@@ -463,7 +457,7 @@ $(function(){
           <h4 class="timeline-title"><i class="fa fa-code"></i> 04/10/2017</h4>
         </div>
         <div class="timeline-body">
-          <p>→ Criação do Block Crawler / Explorer</p>
+          <p>→ Block Crawler / Explorer creation</p>
         </div>
       </div>
     </li>
@@ -473,7 +467,7 @@ $(function(){
           <h4 class="timeline-title"><i class="fa fa-code"></i> 06/10/2017</h4>
         </div>
         <div class="timeline-body">
-          <p>→ Adicionado arquivo no patch "src/leveldb/Makefile"
+          <p>→ Added file in patch "src / leveldb / Makefile"
 ​</p>
         </div>
       </div>
@@ -481,13 +475,13 @@ $(function(){
     <li class="timeline-inverted">
       <div class="timeline-panel">
         <div class="timeline-heading">
-          <h4 class="timeline-title"><i class="fa fa-code"></i> 08/10/2018</h4>
+          <h4 class="timeline-title"><i class="fa fa-code"></i> 08/10/2017</h4>
         </div>
         <div class="timeline-body">
-          <p>→ Atualização das informações sobre a fase final PoW e a fase inicial PoS;<br>
-             → Atualização da fonte qt wallet;<br>
-             → Atualização de versão;<br>
-             → Atualização de protocolo e atualizações gerais<br>
+          <p>→ Update infos about end phase of PoW and start phase PoS;<br>
+→ Update font of qt wallet;<br>
+→ Update version;<br>
+→ Update Protocol Others general's updates<br>
 ​</p>
         </div>
       </div>
@@ -498,19 +492,19 @@ $(function(){
           <h4 class="timeline-title"><i class="fa fa-code"></i> 10/10/2017</h4>
         </div>
         <div class="timeline-body">
-          <p>→ Adicionado opção de limpeza de blocos de órfãos;<br>
-             → Adicionado a opção de exibição "STAKE" na coluna "tipo" dentro da guia "Transações";<br>
-             → Adicionado "setban" no "add | remove "(bantime)" / "listbanned" e "clearbanned" no console RPC;</p>
+          <p>→ Added option of cleaning of orphans blocks;<br>
+→ Added display option "STAKE" in the "type" column inside the "Transactions" tab;<br>
+→ Added "setban" node "" add | remove "(bantime)" / "listbanned" and "clearbanned" in the RPC console;</p>
         </div>
       </div>
     </li>
         <li class="timeline-inverted">
       <div class="timeline-panel">
         <div class="timeline-heading">
-          <h4 class="timeline-title"><i class="fa fa-code"></i> 11/10/2017</h4>
+          <h4 class="timeline-title"><i class="fa fa-code"></i> /10/2017</h4>
         </div>
         <div class="timeline-body">
-          <p>→ Banimento de Forked Peers que estão presos em Getblocks Loop ​
+          <p>→ Ban Forked Peers who are stuck in a Getblocks Loop.
 ​</p>
         </div>
       </div>
@@ -521,7 +515,7 @@ $(function(){
           <h4 class="timeline-title"><i class="fa fa-database"></i> 12/10/2017</h4>
         </div>
         <div class="timeline-body">
-          <p>→ Listado agora na <a href="https://coinsmarkets.com/trade-BTC-SPERO.htm">Coins Markets</a></p>
+          <p>→ Listed right now at <a href="https://coinsmarkets.com/trade-BTC-SPERO.htm">Coins Markets</a></p>
         </div>
       </div>
     </li>
@@ -542,9 +536,9 @@ $(function(){
           <h4 class="timeline-title"><i class="fa fa-code"></i> 22/10/2017</h4>
         </div>
         <div class="timeline-body">
-          <p>→ Atualização de nomes de strings;<br>
-             → Atualização de informações no README.md <br>
-             → Atualização de informações de participação na Wallet QT</p>
+          <p>→ Update of strings names;<br>
+→ Updating information in README.md<br>
+→ Update Stake Info in QT Wallet</p>
         </div>
       </div>
     </li>
@@ -554,7 +548,7 @@ $(function(){
           <h4 class="timeline-title"><i class="fa fa-database"></i> 24/10/2017</h4>
         </div>
         <div class="timeline-body">
-          <p>→ <a href=" https://sperocoin.ddns.net/faucet">Faucet Oficial</a></p>
+          <p>→ <a href=" https://sperocoin.ddns.net/faucet">Faucet Official</a></p>
         </div>
       </div>
     </li>
@@ -564,7 +558,7 @@ $(function(){
           <h4 class="timeline-title"><i class="fa fa-code"></i> 01/11/2017</h4>
         </div>
         <div class="timeline-body">
-          <p>→ Canal criado usando <a href="httsp://sperocoin.slack.com">Slack</a></p>
+          <p>→ Channel created using <a href="httsp://sperocoin.slack.com">Slack</a></p>
         </div>
       </div>
     </li>
@@ -574,7 +568,7 @@ $(function(){
           <h4 class="timeline-title"><i class="fa fa-file-code-o"></i> 04/11/2017</h4>
         </div>
         <div class="timeline-body">
-          <p>→ Início de votação para adicionar a moeda na <a href="https://c-cex.com/?id=vote&coin=spero">C-CEX</a></p>
+          <p>→ Start voting to add currency in <a href="https://c-cex.com/?id=vote&coin=spero">C-CEX</a></p>
         </div>
       </div>
     </li>
@@ -584,7 +578,7 @@ $(function(){
           <h4 class="timeline-title"><i class="fa fa-file-code-o"></i> 11/11/2017</h4>
         </div>
         <div class="timeline-body">
-          <p>→ Parceria com o canal CURSAGRAM no aplicativo TELEGRAM com a SPERO como principal patrocinador.</p>
+          <p>→ Partnership with the CURSAGRAM channel in the TELEGRAM application with SPERO as the main sponsor.</p>
         </div>
       </div>
     </li>
@@ -595,7 +589,7 @@ $(function(){
           <h4 class="timeline-title"><i class="fa fa-file-code-o"></i> 12/11/2017</h4>
         </div>
         <div class="timeline-body">
-          <p>→ Modificação do Fórum Bitcointalk: Jr. Member</p>
+          <p>→ Forum Modification Bitcointalk: Jr. Member</p>
         </div>
       </div>
     </li>
@@ -605,7 +599,7 @@ $(function(){
           <h4 class="timeline-title"><i class="fa fa-database"></i> 24/01/2018</h4>
         </div>
         <div class="timeline-body">
-          <p>→ Lançamento oficial do aplicativo para Android baseado na Webwallet.</p>
+          <p>→ Official release of the Android application based on Webwallet.</p>
         </div>
       </div>
     </li>
@@ -615,9 +609,9 @@ $(function(){
           <h4 class="timeline-title"><i class="fa fa-database"></i> 26/03/2018</h4>
         </div>
         <div class="timeline-body">
-          <p>→ Cadastro perfil de vendedor no site brasileiro <a href="https://p2brasil.com/produto/sperocoin/" target="_blank">P2Brasil</a><br>
-             → Cadastro de moeda no site brasileiro <a href="https://catalogop2p.com.br/sperocoin" target="_blank">Catálogo P2P</a><br>
-             → Cadastro perfil de vendedor no site brasileiro <a href="https://catalogop2p.com.br/sperocoin" target="_blank">Catálogo P2P</a></p>
+          <p>→ Register seller profile on the brazilian site <a href="https://p2brasil.com/produto/sperocoin/" target="_blank">P2Brasil</a><br>
+              → Currency register on the Brazilian site <a href="https://catalogop2p.com.br/sperocoin" target="_blank">Catálogo P2P</a><br>
+              → Register seller profile on the brazilian site <a href="https://catalogop2p.com.br/sperocoin" target="_blank">Catálogo P2P</a></p>
         </div>
       </div>
     </li>
@@ -627,16 +621,16 @@ $(function(){
           <h4 class="timeline-title"><i class="fa fa-code"></i> 28/03/2018</h4>
         </div>
         <div class="timeline-body">
-          <p>→ Adicionado Comando RPC "GETWALLETINFO"<br>
-              → Atualização de icones de maturidade das transações<br>
-              → Atualização da splash screen main<br>
-              → Atualização do logo dentro da Wallet<br>
-              → Adicionado hashGenesisBlockTestNet no arquivo main.h<br>
-              → Adicionado testnet block.nNonce no arquivo main.cpp<br>
-              → Adicionado static MapCheckpoints no arquivo checkpoints.cpp<br>
-              → Alteração da letra inicial dos endereços em testnet no arquivo base58.h<br>
-              → CAlteração da letra inicial de exemplo no arquivo qt/sendcoinsdialog.cpp<br>
-              → Alterada versão para 2.6.4.3</p>
+          <p>→ Add RPC Command "GETWALLETINFO":<br>
+              → Update of transaction maturity icons<br>
+              → splash screen main update<br>
+              → Updating the logo inside the Wallet<br>
+              → Added hashGenesisBlockTestNet in main.h file<br>
+              → Added testnet block.nNonce in main.cpp file<br>
+              → Added static MapCheckpoints in the checkpoints.cpp file<br>
+              → Change the initial letter of the testnet addresses in the base58.h<br>
+              → Change the example initial letter in the file qt/sendcoinsdialog.cpp<br>
+              → Changed version to 2.6.4.3</p>
         </div>
       </div>
     </li>
@@ -647,15 +641,15 @@ $(function(){
         </div>
         <div class="timeline-body">
           <p>
-            → Adicionado comando RPC "getnetworkinfo" - Alteração nos arquivos: bitcoinrpc.cpp; bitcoinrpc.h; rpcblockchain.cpp; rpcnet.cpp<br>
-            → Adicionado comando RPC "getblockchaininfo" - Alteração nos arquivos: bitcoinrpc.cpp; bitcoinrpc.h; rpcblockchain.cpp; rpcnet.cpp<br>
-            → Adicionada Informação de Status da Wallet(Bloqueada ou Desbloqueada) no comando RPC "getinfo"<br>
-            → Adicionado novos pontos no mapa de rede atualizando o mapeamento até o bloco 130000- Alteração no arquivo: checkpoints.cpp<br>
-            → Alteração dos direitos de cópia, sendo atualizada a data de início dos trabalhos da SperoCoin, ficando: "Copyright © 2017 The SperoCoin developers" - Alteração em arquivos ".ts" da pasta "src\qt\locale"<br>
-            → Atualização de imagens "splashscreen" da QT<br>
-            → Alteração das fontes da QT para "Century Gothic"<br>
-            → Clear Orphans com atualização de página de transações automática, sem a necessidade de reiniciar a carteira<br>
-            → Alterada versão para 2.6.4.4
+            → Added RPC command "getnetworkinfo" - Change in files: bitcoinrpc.cpp; bitcoinrpc.h; rpcblockchain.cpp; rpcnet.cpp<br>
+            → Added RPC command "getblockchaininfo" - Change in files: bitcoinrpc.cpp; bitcoinrpc.h; rpcblockchain.cpp; rpcnet.cpp<br>
+            → Added Wallet Status Information (Locked or Unlocked) in the RPC command "getinfo"<br>
+            → Added new points in the network map updating the mapping up to block 130000- Change in file: checkpoints.cpp<br>
+            → Changing copyrights, updating the start date of SperoCoin works, being: "Copyright © 2017 The SperoCoin developers" - Change in ".ts" files in the "src \ qt \ locale" folder<br>
+            → Update of QT splashscreen images<br>
+            → Changing QT fonts for "Century Gothic"<br>
+            → Clear Orphans with automatic transaction page refresh, no need to restart wallet<br>
+            → Changed version to 2.6.4.4
           </p>
         </div>
       </div>
@@ -663,10 +657,10 @@ $(function(){
     <li>
       <div class="timeline-panel">
         <div class="timeline-heading">
-          <h4 class="timeline-title"><i class="fa fa-code"></i> 25/08/2018</h4>
+          <h4 class="timeline-title"><i class="fa fa-database"></i> 25/08/2018</h4>
         </div>
         <div class="timeline-body">
-          <p>→ Adiconada na exchange Altilly nos pares SPERO/BTC, SPERO/ETH e SPERO/DOGE: <a href="https://www.altilly.com/market">ALTILLY</a></p>
+          <p>→ Add in exchange Altilly in pairs SPERO/BTC, SPERO/ETH and SPERO/DOGE: <a href="https://www.altilly.com/market">ALTILLY</a></p>
         </div>
       </div>
     </li>
@@ -677,16 +671,16 @@ $(function(){
         </div>
         <div class="timeline-body">
           <p>
-            → Adicionado novos pontos no mapa da rede atualizando o mapeamento até o bloco 165962<br>
-            → Melhorias no desempenho - Maior velocidade na sincronização<br>
-            → Adicionado novos ícones<br>
-            → Alterar o estilo da barra de progresso de download de blocos de "QWindowsXPStyle" para "QWindowsVistaStyle"<br>
-            → Alterando o tamanho dos ícones em "STATUSBAR_ICONSIZE" de 16 a 64<br>
-            → Adicionando a abertura do arquivo SperoCoin.conf no menu da janela do console<br>
-            → Descrição alterada do tipo de mineração PoW<br>
-            → Descrição alterada do tipo de mineração PoS<br>
-            → Novo ícone de Mineração de PoS<br>
-            → Versão alterada para 2.6.4.5
+            → Added new points in the network map updating the mapping up to block 165962<br>
+            → Performance Enhancements - Increased Speed ​​in Synchronization<br>
+            → Added new icons<br>
+            → Change style of block download progress bar from "QWindowsXPStyle" to "QWindowsVistaStyle"<br>
+            → Changing the size of the icons in "STATUSBAR_ICONSIZE" from 16 to 64<br>
+            → Adding SperoCoin.conf file opening from the Console Window menu<br>
+            → Changed description of mining type PoW<br>
+            → Changed description of mining type PoS<br>
+            → New PoS Mining Icon<br>
+            → Changed version to 2.6.4.5
           </p>
         </div>
       </div>
@@ -729,33 +723,33 @@ $(function(){
           <header class="section-header">
           <h3>ROADMAP</h3>
           <p><center>
-            Legenda:<br>
-        <i class="fa fa-star"></i> - Tarefa Executada<br>
-        <i class="fa fa-star-half-o"></i> - Tarefa em Progresso<br>
-        <i class="fa fa-star-o"></i> - Proposta de Tarefa<br></center></p>
+            Subtitle:<br>
+        <i class="fa fa-star"></i> - Task Executed<br>
+        <i class="fa fa-star-half-o"></i> - Task In Progress<br>
+        <i class="fa fa-star-o"></i> - Task Proposal<br></center></p>
         </header>
   <ul class="timeline">
     <li>
       <div class="timeline-panel">
         <div class="timeline-heading">
-          <h4 class="timeline-title"><i class="fa fa-cogs"></i> Desenvolvimento Multiplataformas</h4>
+          <h4 class="timeline-title"><i class="fa fa-cogs"></i> Multiplatform Development</h4>
         </div>
         <div class="timeline-body">
-          <p><i class="fa fa-star"></i> Lançamento Oficial do Aplicativo Android </p>
+          <p><i class="fa fa-star"></i> Official Android Application Launch </p>
         </div>
       </div>
     </li>
     <li class="timeline-inverted">
       <div class="timeline-panel">
         <div class="timeline-heading">
-          <h4 class="timeline-title"><i class="fa fa-shopping-basket"></i> Usabilidade</h4>
+          <h4 class="timeline-title"><i class="fa fa-shopping-basket"></i> Usability</h4>
         </div>
         <div class="timeline-body">
           <p>
-            <i class="fa fa-star"></i> Site de Mineração em Nuvem Oficial<br>
-            <i class="fa fa-star"></i> Loja Virtual<br>
-            <i class="fa fa-star-o"></i> Liberação de sistema de recargas de celulares na casa de câmbio oficial<br>
-            <i class="fa fa-star-o"></i> Pagamento de Boletos Bancários na Casa de Câmbio Oficial
+            <i class="fa fa-star"></i> Official Cloud Mining Website<br>
+            <i class="fa fa-star"></i> Official WebShop<br>
+            <i class="fa fa-star-o"></i> Release of cellular recharging system at the official exchange office<br>
+            <i class="fa fa-star-o"></i> Payment of Bank Tickets at the Official Exchange Office
         </p>
         </div>
       </div>
@@ -763,14 +757,14 @@ $(function(){
     <li>
       <div class="timeline-panel">
         <div class="timeline-heading">
-          <h4 class="timeline-title"><i class="fa fa-handshake-o"></i> Exchanges e Serviços P2P - Serviços de Terceiros</h4>
+          <h4 class="timeline-title"><i class="fa fa-handshake-o"></i> Exchanges and P2P Services - Third Party Services</h4>
         </div>
         <div class="timeline-body">
           <p>
-            <i class="fa fa-star"></i> Cadastro perfil de vendedor no site brasileiro P2Brasil<br>
-            <i class="fa fa-star"></i> Cadastro de moeda no site brasileiro Catálogo P2P<br>
-            <i class="fa fa-star"></i> Cadastro perfil de vendedor no site brasileiro Catálogo P2P<br>
-            <i class="fa fa-star-o"></i> Entrada em Casa de Câmbio maior
+            <i class="fa fa-star"></i> Register seller profile on the brazilian site P2Brasil<br>
+            <i class="fa fa-star"></i> Currency register on the Brazilian site Catálogo P2P<br>
+            <i class="fa fa-star"></i> Register seller profile on the brazilian site Catálogo P2P<br>
+            <i class="fa fa-star-o"></i> Larger Currency Entry
             </p>
         </div>
       </div>
@@ -778,12 +772,13 @@ $(function(){
     <li class="timeline-inverted">
       <div class="timeline-panel">
         <div class="timeline-heading">
-          <h4 class="timeline-title"><i class="fa fa-handshake-o"></i> Exchanges e Serviços P2P - Serviços Oficiais Spero</h4>
+          <h4 class="timeline-title"><i class="fa fa-handshake-o"></i> Exchanges and Services P2P - Official Services Spero</h4>
         </div>
         <div class="timeline-body">
           <p>
-            <i class="fa fa-star-half-o"></i> Criação de Exchange própria<br>
-            <i class="fa fa-star-o"></i> Liberação de saques em Reais(BRL) na exchange oficial<br>
+            <i class="fa fa-star-o"></i> Release of withdrawals in Reais (BRL) at the official exchange office<br>
+            <i class="fa fa-star"></i> Trade SPERO ←→ DOGE at the official exchange office<br>
+            <i class="fa fa-star"></i> Trade de SPERO ←→ MERCADOPAGO at the official exchange office<br>
             </p>
         </div>
       </div>
@@ -791,13 +786,13 @@ $(function(){
     <li>
       <div class="timeline-panel">
         <div class="timeline-heading">
-          <h4 class="timeline-title"><i class="fa fa-heart"></i> Serviços Sociais</h4>
+          <h4 class="timeline-title"><i class="fa fa-heart"></i> Social Services</h4>
         </div>
         <div class="timeline-body">
           <p>
-            <i class="fa fa-star-o"></i> Participação em projetos sociais dentro da comunidade da cidade de Belo Horizonte<br>
-            <i class="fa fa-star-o"></i> Criação do Mercado Social<br>
-            <i class="fa fa-star-o"></i> Criação do Banco Social Spero
+            <i class="fa fa-star-o"></i> Participation in social projects within the community of the city of Belo Horizonte<br>
+            <i class="fa fa-star-o"></i> Creation of the Social Market<br>
+            <i class="fa fa-star-o"></i> Creation of the Spero Social Bank
           </p>
         </div>
       </div>
@@ -805,7 +800,7 @@ $(function(){
     <li class="timeline-inverted">
       <div class="timeline-panel">
         <div class="timeline-heading">
-          <h4 class="timeline-title"><i class="fa fa-group"></i> Comunidade</h4>
+          <h4 class="timeline-title"><i class="fa fa-group"></i> Community</h4>
         </div>
         <div class="timeline-body">
           <p><i class="fa fa-star-o"></i> </p>
@@ -815,7 +810,7 @@ $(function(){
     <li>
       <div class="timeline-panel">
         <div class="timeline-heading">
-          <h4 class="timeline-title"><i class="fa fa-sign-in"></i> Marketing Interno</h4>
+          <h4 class="timeline-title"><i class="fa fa-sign-in"></i> Internal Marketing</h4>
         </div>
         <div class="timeline-body">
           <p><i class="fa fa-star-o"></i> </p>
@@ -825,7 +820,7 @@ $(function(){
     <li class="timeline-inverted">
       <div class="timeline-panel">
         <div class="timeline-heading">
-          <h4 class="timeline-title"><i class="fa fa-sign-out"></i> Marketing Externo</h4>
+          <h4 class="timeline-title"><i class="fa fa-sign-out"></i> External Marketing</h4>
         </div>
         <div class="timeline-body">
           <p><i class="fa fa-star-o"></i></p>
@@ -880,29 +875,29 @@ $(function(){
       <div class="container">
 
         <header class="section-header">
-          <h3>Informação em Tempo Real</h3>
+          <h3>Real Time Information</h3>
         </header>
 
         <div class="row counters">
 
           <div class="col-lg-6 col-12 text-center">
             <span data-toggle="counter-up"><?echo $api_blockcount; ?></span>
-            <p>Blocos</p>
+            <p>Blocks</p>
           </div>
 
           <div class="col-lg-6 col-12 text-center">
             <span data-toggle="counter-up"><?echo "263251"-$api_blockcount; ?></span>
-            <p>Blocos restantes para início da mineração híbrida</p>
+            <p>Remaining Blocks to Start Hybrid Mining</p>
           </div>
 
           <div class="col-lg-6 col-12 text-center">
             <span data-toggle="counter-up"><?echo $api_getdifficulty2; ?></span>
-            <p>Dificuldade PoS</p>
+            <p>PoS Difficulty</p>
           </div>
 
           <div class="col-lg-6 col-12 text-center">
             <span data-toggle="counter-up"><?echo number_format($api_getmoneysupply, 2, '.', ','); ?></span>
-            <p>Moedas Distribuídas</p>
+            <p>Money Supply</p>
           </div>
 
         </div>
@@ -921,7 +916,7 @@ $(function(){
       <div class="container">
 
         <header class="section-header">
-          <h3 class="section-title">Onde Estamos?</h3>
+          <h3 class="section-title">Where we are?</h3>
         </header>
 
         <div class="row">
@@ -930,7 +925,7 @@ $(function(){
               <li data-filter="*" class="filter-active">All</li>
               <li data-filter=".filter-exchange">Exchanges</li>
               <li data-filter=".filter-pool">Pool</li>
-              <li data-filter=".filter-topics">Assuntos Gerais</li>
+              <li data-filter=".filter-topics">General Subjects</li>
               <li data-filter=".filter-git">GitHub</li>
               <li data-filter=".filter-official">Official SPERO</li>
             </ul>
@@ -1003,7 +998,6 @@ $(function(){
               </div>
             </div>
           </div>
-
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-exchange wow fadeInUp" data-wow-delay="0.1s">
             <div class="portfolio-wrap">
@@ -1212,7 +1206,7 @@ $(function(){
       <div class="container">
 
         <header class="section-header">
-          <h3>Nossos Parceiros</h3>
+          <h3>Our partners</h3>
         </header>
 
         <div class="owl-carousel clients-carousel">
@@ -1308,8 +1302,8 @@ $(function(){
     <section id="team">
       <div class="container">
         <div class="section-header wow fadeInUp">
-          <h3>Equipe SperoCoin</h3>
-          <p>Conheça os membros da Fundação SperoCoin e suas funções dentro do projeto</p>
+          <h3>SperoCoin Team</h3>
+          <p>Meet the members of the SperoCoin Foundation and its functions within the project</p>
         </div>
 
         <div class="row">
@@ -1320,7 +1314,7 @@ $(function(){
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Francis Santana</h4>
-                  <span>Desenvolvedor / CEO</span>
+                  <span>Developer/CEO</span>
                   <div class="social">
                   </div>
                 </div>
@@ -1334,7 +1328,7 @@ $(function(){
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Douglas Aquino</h4>
-                  <span>Relações Públicas e Assessoria</span>
+                  <span>Public Relations and Consultancy</span>
                   <div class="social">
                     <a href="https://twitter.com/akino600"><i class="fa fa-twitter"></i></a>
                     <a href="https://facebook.com/akino6000"><i class="fa fa-facebook"></i></a>
@@ -1351,7 +1345,7 @@ $(function(){
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Viviane Vieira</h4>
-                  <span>Redes Sociais e Promoções</span>
+                  <span>Social Networks and Promotions</span>
                   <div class="social">
                   </div>
                 </div>
@@ -1365,7 +1359,8 @@ $(function(){
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Leonardo Pereira</h4>
-                  <span>Desenvolvimento de Projetos</span>
+                  <span>Project Development</span>
+                  <div class="social">
                   </div>
                 </div>
               </div>
@@ -1384,7 +1379,7 @@ $(function(){
       <div class="container">
 
         <div class="section-header">
-          <h3>Contatos</h3>
+          <h3>Contact Us</h3>
         </div>
 
         <div><center>
@@ -1398,7 +1393,7 @@ $(function(){
       <div class="container">
 
         <header class="section-header">
-          <h3>Redes Sociais</h3>
+          <h3>Social</h3>
         </header>
 
         <div class="owl-carousel clients-carousel">
@@ -1421,7 +1416,7 @@ $(function(){
     <div class="container">
         <header class="section-header">
           <h3>Downloads</h3>
-          <p>Baixe aqui os arquivos necessários para começar no Spero.</p>
+          <p>Download here the files needed to start at Spero.</p>
         </header>
       <div class="row">
         <div class="col-lg-4 col-sm-6 wow fadeInLeft delay-05s">
@@ -1429,16 +1424,16 @@ $(function(){
             <div class="service-list-col1">
             </div>
             <div class="service-list-col2">
-              <a href="https://github.com/DigitalCoin1/SperoCoin_Android/releases/download/SperoCoin-v.2.6.4.6-BETA/SperoCoin-v.2.6.4.6-BETA.apk" target="_blank"><h3><i class="fa fa-android"></i> Apk Android - Versão Full Node(v.2.6.4.6-BETA)</h3>
-              <p>Wallet Android. Com essa wallet, você poderá realizar mineração PoS diretamente do seu aparelho.</p></a>
+              <a href="https://github.com/DigitalCoin1/SperoCoin_Android/releases/download/SperoCoin-v.2.6.4.6-BETA/SperoCoin-v.2.6.4.6-BETA.apk" target="_blank"><h3><i class="fa fa-android"></i> Apk Android - Version Full Node(v.2.6.4.6-BETA)</h3>
+              <p>Wallet Android. With this wallet, you can conduct PoS mining directly from your device.</p></a>
             </div>
           </div>
           <div class="service-list">
             <div class="service-list-col1">
             </div>
             <div class="service-list-col2">
-              <a href="https://sperocoin.org/files/SperoCoin-Version-LITE.apk" target="_blank"><h3><i class="fa fa-android"></i> Apk Android - Versão Lite</h3>
-              <p>Wallet Android WebBased. Conectada diretamente a nossa WebWallet, assim você tem a comodidade de acessar sua conta na palma de sua mão.</p></a>
+              <a href="https://sperocoin.org/files/SperoCoin-Version-LITE.apk" target="_blank"><h3><i class="fa fa-android"></i> Apk Android - Version Lite</h3>
+              <p>Wallet Android WebBased. Connected directly to our WebWallet, so you have the convenience of accessing your account in the palm of your hand.</p></a>
             </div>
           </div>
           <div class="service-list">
@@ -1446,7 +1441,7 @@ $(function(){
             </div>
             <div class="service-list-col2">
               <a href="https://github.com/DigitalCoin1/SperoCoin/releases/download/SperoCoin-v.2.6.4.6/SperoCoin-v.2.6.4.6.exe" target="_blank"><h3><i class="fa fa-windows"></i> Windows QT - V.2.6.4.6 - 08/12/2018</h3>
-              <p>Carteira com design gráfico. Modelo para aqueles que procuram conforto e conveniência para verificar o saldo, enviar e receber moedas de forma prática e rápida.</p></a>
+              <p>Wallet with graphic design. Model for those who seek comfort and convenience to check their balance, send and receive coins in a practical and fast.</p></a>
             </div>
           </div>
           <div class="service-list">
@@ -1454,7 +1449,7 @@ $(function(){
             </div>
             <div class="service-list-col2">
               <a href="https://github.com/DigitalCoin1/SperoCoin/releases/download/SperoCoin-v.2.6.4.6/SperoCoind-v.2.6.4.6.exe" target="_blank"><h3><i class="fa fa-windows"></i> Daemon Windows - V.2.6.4.6 - 08/12/2018</h3>
-              <p>Carteira sem design gráfico. Modelo para aqueles que buscam praticidade e menor consumo de recursos.</p></a>
+              <p>Wallet without graphic design. Model for those who seek practicality and less consumption of resources.</p></a>
             </div>
           </div>
           <!--<div class="service-list">
@@ -1462,7 +1457,7 @@ $(function(){
             </div>
             <div class="service-list-col2">
               <a href="https://github.com/DigitalCoin1/SperoCoin/releases/download/v.2.6.4.5/SperoCoin-v.2.6.4.5.-.Raspberry.5" target="_blank"><h3><i><img src="img/portfolio/raspberry.png" width="40px"/></i> Raspberry PI 3</h3>
-              <p>Carteira com design gráfico. Modelo para aqueles que procuram conforto e conveniência para verificar o saldo, enviar e receber moedas de forma prática e rápida.</p></a>
+              <p>Wallet with graphic design. Model for those who seek comfort and convenience to check their balance, send and receive coins in a practical and fast.</p></a>
             </div>
           </div>-->
             <div class="service-list">
@@ -1470,7 +1465,7 @@ $(function(){
             </div>
             <div class="service-list-col2">
               <a href="#" data-toggle="modal" data-target="#linuxcomp"><h3><i class="fa fa-terminal"></i> Compilation Linux Wallet</h3>
-              <p>Compile você mesmo o código Spero.</p></a>
+              <p>Compile Yourself Spero Code</p></a>
             </div>
           </div>
           <div class="service-list">
@@ -1478,7 +1473,7 @@ $(function(){
             </div>
             <div class="service-list-col2">
               <a href="https://github.com/DigitalCoin1/SperoCoin/releases" target="_blank"><h3><i class="fa fa-cubes"></i> BlockChain</h3>
-              <p>Baixe a cadeia de blocos completa em uma data mais recente para melhor velocidade na sincronização.</p></a>
+              <p>Download the complete blockchain at a later date for better speed in the synchronization.</p></a>
             </div>
           </div>
         <!--<figure class="col-lg-8 col-sm-6  text-right wow fadeInUp delay-02s">
@@ -1496,28 +1491,28 @@ $(function(){
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal"></button>
-          <h4 class="modal-title">Compilação Carteira Linux</h4>
+          <h4 class="modal-title">Compilation Linux Wallet</h4>
         </div>
         <div class="modal-body">
-          <p><b><i class="ion-code"></i> Baixe e instale as dependências:</b><br>
+          <p><b><i class="ion-code"></i> Download and install the dependencies:</b><br>
               sudo apt-get install build-essential libboost-all-dev libcurl4-openssl-dev libdb5.3-dev libdb5.3++-dev qt-sdk libminiupnpc-dev qrencode libqrencode-dev git libtool automake autotools-dev autoconf pkg-config libssl-dev libgmp3-dev libevent-dev bsdmainutils<br><br>
-      <b><i class="fa fa-code"></i> Clone o código fonte do github para a máquina local:</b><br>
+      <b><i class="fa fa-code"></i> Clone the github source code for the local machine:</b><br>
               git clone https://github.com/DigitalCoin1/SperoCoin
       <br><br>
-      <b><i class="fa fa-code"></i> Compile o daemon no diretório SperoCoin/src:</b><br>
+      <b><i class="fa fa-code"></i> Compile the daemon in the SperoCoin/src directory:</b><br>
               cd SperoCoin/src<br><br>
               make -f makefile.unix USE_UPNP=- USE_IPV6=1
       <br><br>
-      <b><i class="fa fa-code"></i> Execute o daemon no diretório SperoCoin/src:</b><br>
+      <b><i class="fa fa-code"></i> Run daemon in the SperoCoin/src directory:</b><br>
               ./SperoCoind
       <br><br>
-      <b><i class="fa fa-code"></i> [OPCIONAL] Compile o QT no diretório SperoCoin:</b><br>
+      <b><i class="fa fa-code"></i> [OPTIONAL]Compile the QT in the SperoCoin directory:</b><br>
               sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler libqrencode-dev<br><br>
               qmake SperoCoin-qt.pro "USE_UPNP=-" "USE_QRCODE=1"<br><br>
               make -f Makefile</p>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         </div>
       </div>
   </main>
