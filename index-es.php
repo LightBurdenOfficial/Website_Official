@@ -101,6 +101,7 @@ $(function(){
                       <li><a href="#Technical_Characteristics">Nuestro Software</a></li>
                       <li><a href="#roadmap">RoadMap</a></li>
                       <li><a href="#portfolio">Donde Estamos?</a></li>
+                      <li><a href="https://telegra.ph/FAQ-Proof-of-StakePoS---SPERO-03-31" target="_blank">FAQ PoS(Proof of Stake)</a></li>
                     </ul>
             </li>
             <!-- Menu de Informações -->
