@@ -11,11 +11,14 @@ Neste formulário deverão conter os seguintes dados:
 >		Telefone
 >		E-mail
 
-Após o preenchimento do formulário os usuários passarão por um sorteio, onde 10 serão selecionados semanalmente.
+Após o preenchimento do formulário os usuários passarão por um sorteio, onde 10 serão selecionados para participação efetiva e 05 usuários para o banco de reservas semanalmente.
 
 ## Chamada dos participantes
-Após a seleção, no sábado às 18h todos os 10 participantes terão que participar de um evento que será transmitido em um canal do `Hangouts` exclusivo para o evento. O link será disponibilizado 1 dia antes do evento.
-Serão então liberadas perguntas de modo classificatório, de acordo com o próximo item.
+Após a seleção, no sábado às 18h todos os 10 usuários selecionados terão que participar de um evento que será transmitido em um canal do `Hangouts` exclusivo para o evento. O link será disponibilizado 1 dia antes do evento.
+
+> ATENÇÃO: Os usuários do banco de reservas deverão ficar atentos, pois caso haja desistência ao iniciarmos o evento, estes usuários serão convocados.
+
+Serão então liberadas perguntas de modo desclassificatório, de acordo com o próximo item.
 
 ## Da 1ª fase
 As perguntas serão feitas em rodadas,compostas de 05 perguntas cada rodada.
