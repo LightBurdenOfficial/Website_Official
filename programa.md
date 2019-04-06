@@ -21,8 +21,9 @@ Após a seleção, no sábado às 18h todos os 10 usuários selecionados terão 
 Serão então liberadas perguntas de modo desclassificatório, de acordo com o próximo item.
 
 ## Da 1ª fase
-As perguntas serão feitas em rodadas,compostas de 05 perguntas cada rodada.
+As perguntas serão feitas em 7 rodadas, compostas de 05 perguntas cada rodada.
 Cada pergunta valerá 1 ponto.
+Cada usuário terá o prazo de 30 segundos para responder. Caso o usuário não responda ele receberá 01 ponto negativo(-1), que será deduzido da pontuação final da rodada.
 Usuários com menor número de pontos na rodada serão desclassificados.
 
 A caráter de desempate: Os participantes da LIVE, votarão no prazo de 1min para o integrante que deverá ser desclassificado. Se acontecer um empate, o primeiro participante do segundo empate que recebeu o primeiro voto será o desclassificado.
