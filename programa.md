@@ -26,7 +26,7 @@ Cada pergunta valerá 1 ponto.
 Cada usuário terá o prazo de 30 segundos para responder. Caso o usuário não responda ele receberá 01 ponto negativo(-1), que será deduzido da pontuação final da rodada.
 Usuários com menor número de pontos na rodada serão desclassificados.
 
-A caráter de desempate: Os participantes da LIVE, votarão no prazo de 1min para o integrante que deverá ser desclassificado. Se acontecer um empate, o primeiro participante do segundo empate que recebeu o primeiro voto será o desclassificado.
+A caráter de desempate: Os participantes da LIVE, votarão no prazo de 30 segundos dentro do chat disponibilizados na plataforma do Youtube para o integrante que deverá ser desclassificado, enviando o nome do participante. Se acontecer um empate, o primeiro participante do segundo empate que recebeu o primeiro voto será o desclassificado.
 
 Exemplo:
 >	Usuário 1, 2 e 3 ficaram empatados na desclassificação das perguntas.<br>
