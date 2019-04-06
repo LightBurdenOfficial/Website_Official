@@ -72,6 +72,7 @@ Pular: 2
 Perguntar ao Google: 1
 Parar: 1
 ```
+> Essas opções não estão disponíveis para a PERGUNTA EXTRA.
 
 ## Opções que poderão ser utilizadas pelo usuário final:
 ```sh 
