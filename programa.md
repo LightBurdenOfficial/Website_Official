@@ -7,7 +7,8 @@ Neste formulário deverão conter os seguintes dados:
 >		Nome
 >		Sobrenome
 >		Data de Nascimento
->		Nome de Usuário do Telegram
+>		Nome de Usuário do Telegram(opcional)
+>		Telefone
 >		E-mail
 
 Após o preenchimento do formulário os usuários passarão por um sorteio, onde 10 serão selecionados semanalmente.
