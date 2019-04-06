@@ -82,4 +82,4 @@ Parar: Nessa opção o usuário para o evento e recebe o valor de prêmio da res
 ```
 
 ## Entrega dos prêmios:
-A entrega dos prêmios será realizada após o término do evento, mediante conversa pessoal no aplicativo Telegram e posteriormente postada dentro do site da SperoCoin.
+A entrega dos prêmios será realizada após o término do evento, mediante contato de acordo com os meios enviados pelo participante via formulário de inscrição e posteriormente postada dentro do site da SperoCoin.
