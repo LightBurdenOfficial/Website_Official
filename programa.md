@@ -50,8 +50,8 @@ Exemplo:
 Ao fim desta fase já teremos conhecimento e definição dos participantes que estarão ocupando o 3º e 2º lugar.
 
 ## Da fase final
-A fase final será executada quando houver apenas 1 participante
-O usuário final terá uma série de 05 perguntas para responder, definindo assim o seu prêmio.
+A fase final será executada quando houver apenas 1 participante.
+O usuário final terá uma série de 05 perguntas com o prazo de 30 segundos para responder, definindo assim o seu prêmio.
 Em relação aos prêmios de acordo com os acertos, teremos:
 >		Primeira pergunta: 50% do prêmio
 >		Segunda pergunta: 60% do prêmio
@@ -64,7 +64,7 @@ Em relação aos prêmios de acordo com os acertos, teremos:
 ## Relação para erros e premiação:
 Caso o usuário erre a primeira pergunta, ele receberá a base da premiação que é de 40% sob o valor total do prêmio.<br>
 Se o usuário errar a partir da segunda pergunta, ele receberá o equivalente ao prêmio da resposta anterior.<br>
-Se o usuário errar a PERGUNTA EXTRA ele perde tudo.<br>
+Se o usuário errar a PERGUNTA EXTRA ele receberá apenas 20% da premiação total.<br>
 
 ## Quantidade de opção que poderão ser utilizadas pelo usuário final:
 ```sh
