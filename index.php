@@ -94,11 +94,12 @@ $(function(){
           <li class="menu-active"><a href="#intro">Início</a></li>
           <!-- Menu de Informações -->
             <li class="menu-has-children">
-                <a href="" title="Info">Informações:</a>
+                <a href="#" title="Info">Informações:</a>
                     <ul>
                       <li><a href="#about">Sobre</a></li>
                       <li><a href="#team">Equipe</a></li>
-                      <li><a href="#Technical_Characteristics">Nosso Soft</a></li>
+                      <li><a href="#Technical_Characteristics">Nosso Software</a></li>
+                      <li><a href="#timeline">Linha do Tempo</a></li>
                       <li><a href="#roadmap">RoadMap</a></li>
                       <li><a href="#portfolio">Onde Estamos?</a></li>
                       <li><a href="https://telegra.ph/FAQ-Proof-of-StakePoS---SPERO-03-31" target="_blank">FAQ PoS(Proof of Stake)</a></li>
@@ -390,309 +391,692 @@ $(function(){
     </section> --><!-- #call-to-action -->
 
     <!--==========================
-      Skills Section
+      Timeline Section
     ============================-->
-    <section id="skills">
-      <div class="container">
+<section id="timeline">
+	<div class="container">
 
-        <header class="section-header">
-          <h3>Linha do Tempo</h3>
-          <p>Descubra o que já foi feito para melhorar nosso sistema e veja em quais datas essas melhorias foram feitas.</p>
-        </header>
+<header class="section-header">
+    <h3>Linha do Tempo</h3>
+    <p>Descubra o que já foi feito para melhorar nosso sistema e veja em quais datas essas melhorias foram feitas.</p>
+</header>
 
-        <div class="skills-content">
+<div class="skills-content">
 <!-- Vertical Timeline -->
-<div class="container">
-  <ul class="timeline">
-    <li>
-      <div class="timeline-panel">
-        <div class="timeline-heading">
-          <h4 class="timeline-title"><i class="fa fa-code"></i> 25/09/2017</h4>
+<div id="accordion">
+<!-- CODE -->
+<div class="card">
+    <div class="card-header">
+    	<h5 class="mb-0">
+    		<button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#codes">
+    			<i class="fa fa-code"></i> DESENVOLVIMENTO - CÓDIGOS
+    		</button>
+    	</h5>
+    </div>
+<div id="codes" class="collapse">
+
+    <div class="card">
+        <div class="card-header">
+        	<h5 class="mb-0">
+        		<button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#25092017">
+        			<i class="fa fa-code"></i> 25/09/2017
+        		</button>
+        	</h5>
         </div>
-        <div class="timeline-body">
-          <p>→ Criação do projeto usando a moeda MarteX<br>
-             → Geração de Merkle<br>
+        <div id="25092017" class="collapse">
+        	<div class="card-body">
+          		<p><i class="fa fa-check-square-o" aria-hidden="true"></i> Criação do projeto usando a moeda MarteX<br>
+             <i class="fa fa-check-square-o" aria-hidden="true"></i> Geração de Merkle<br>
                 const char * pszTimestamp: "Esperança eh a ultima que morre.";
                 block.nTime: 1506335848; <br>
                 block.nNonce: 44360; <br>
-             → Geração de GenesisBlock <br>
-             → Lançamento no BitcoinTalk <br>
-             → Envio de arquivos para o <a href="https://github.com/sperocoin/sperocoin"> Github </a> <br>
-             → Parceria com pool's: pickaxe.online <br>
-             → Hope deixou o projeto </p>
+             <i class="fa fa-check-square-o" aria-hidden="true"></i> Geração de GenesisBlock <br>
+             <i class="fa fa-check-square-o" aria-hidden="true"></i> Envio de arquivos para o <a href="https://github.com/sperocoin/sperocoin"> Github </a> <br></p>
         </div>
       </div>
-    </li>
-    <li class="timeline-inverted">
-      <div class="timeline-panel">
-        <div class="timeline-heading">
-          <h4 class="timeline-title"><i class="fa fa-code-fork"></i> 26/09/2017</h4>
+  </div>
+
+    <div class="card">
+        <div class="card-header">
+        	<h5 class="mb-0">
+        		<button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#01102017">
+        			<i class="fa fa-code"></i> 01/10/2017
+        		</button>
+        	</h5>
         </div>
-        <div class="timeline-body">
-          <p>→ Fork do projeto no GitHub por DigitalCoin<br>
-             → Reapresentação de arquivos para o GitHub</p>
-        </div>
-      </div>
-    </li>
-    <li>
-      <div class="timeline-panel">
-        <div class="timeline-heading">
-          <h4 class="timeline-title"><i class="fa fa-code"></i> 01/10/2017</h4>
-        </div>
-        <div class="timeline-body">
-          <p>→ Atualização de código: o arquivo SperoCoin-qt.pro foi alterado para compilação no ambiente Linux<br>
-             → Desligamento oficial da equipe Hope assistência técnica no projeto<br>
-             → Criação do <a href="mailto:sperocoin@gmail.com">E-mail</a> Oficial<br>
-             → <a href="https://superocoin.wixsite.com/sperocoin">Website</a> temporário</p>
+        <div id="01102017" class="collapse">
+        	<div class="card-body">
+          		<p><i class="fa fa-check-square-o" aria-hidden="true"></i> Atualização de código: o arquivo SperoCoin-qt.pro foi alterado para compilação no ambiente Linux<br></p>
         </div>
       </div>
-    </li>
-    <li class="timeline-inverted"></i>
-      <div class="timeline-panel">
-        <div class="timeline-heading">
-          <h4 class="timeline-title"><i class="fa fa-file-code-o"></i> 02/10/2017</h4>
+  </div>
+
+    <div class="card">
+        <div class="card-header">
+        	<h5 class="mb-0">
+        		<button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#04102017">
+        			<i class="fa fa-code"></i> 04/10/2017
+        		</button>
+        	</h5>
         </div>
-        <div class="timeline-body">
-          <p>→ Abertura do Tópico em: <a href="https://cryptocurrencytalk.com/topic/88487-ann-sperocoin-x13-hybrid-powpos/">Cryptocurrencytalk</a><br>
-             → Início das votações para adicionar a moeda na Exchange <a href="https://tradesatoshi.com/Vote">TradeSatoshi</a></p>
-        </div>
-      </div>
-    </li>
-    <li>
-      <div class="timeline-panel">
-        <div class="timeline-heading">
-          <h4 class="timeline-title"><i class="fa fa-code"></i> 04/10/2017</h4>
-        </div>
-        <div class="timeline-body">
-          <p>→ Criação do Block Crawler / Explorer</p>
+        <div id="04102017" class="collapse">
+        	<div class="card-body">
+          		<p><i class="fa fa-check-square-o" aria-hidden="true"></i> Criação do Block Crawler / Explorer</p>
         </div>
       </div>
-    </li>
-    <li>
-      <div class="timeline-panel">
-        <div class="timeline-heading">
-          <h4 class="timeline-title"><i class="fa fa-code"></i> 06/10/2017</h4>
+  </div>
+
+    <div class="card">
+        <div class="card-header">
+        	<h5 class="mb-0">
+        		<button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#06102017">
+        			<i class="fa fa-code"></i> 06/10/2017
+        		</button>
+        	</h5>
         </div>
-        <div class="timeline-body">
-          <p>→ Adicionado arquivo no patch "src/leveldb/Makefile"
-​</p>
-        </div>
-      </div>
-    </li>
-    <li class="timeline-inverted">
-      <div class="timeline-panel">
-        <div class="timeline-heading">
-          <h4 class="timeline-title"><i class="fa fa-code"></i> 08/10/2018</h4>
-        </div>
-        <div class="timeline-body">
-          <p>→ Atualização das informações sobre a fase final PoW e a fase inicial PoS;<br>
-             → Atualização da fonte qt wallet;<br>
-             → Atualização de versão;<br>
-             → Atualização de protocolo e atualizações gerais<br>
-​</p>
+        <div id="06102017" class="collapse">
+        	<div class="card-body">
+          		<p><i class="fa fa-check-square-o" aria-hidden="true"></i> Adicionado arquivo no patch "src/leveldb/Makefile"</p>
         </div>
       </div>
-    </li>
-        <li>
-      <div class="timeline-panel">
-        <div class="timeline-heading">
-          <h4 class="timeline-title"><i class="fa fa-code"></i> 10/10/2017</h4>
+  </div>
+
+    <div class="card">
+        <div class="card-header">
+        	<h5 class="mb-0">
+        		<button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#08102017">
+        			<i class="fa fa-code"></i> 08/10/2018
+        		</button>
+        	</h5>
         </div>
-        <div class="timeline-body">
-          <p>→ Adicionado opção de limpeza de blocos de órfãos;<br>
-             → Adicionado a opção de exibição "STAKE" na coluna "tipo" dentro da guia "Transações";<br>
-             → Adicionado "setban" no "add | remove "(bantime)" / "listbanned" e "clearbanned" no console RPC;</p>
-        </div>
-      </div>
-    </li>
-        <li class="timeline-inverted">
-      <div class="timeline-panel">
-        <div class="timeline-heading">
-          <h4 class="timeline-title"><i class="fa fa-code"></i> 11/10/2017</h4>
-        </div>
-        <div class="timeline-body">
-          <p>→ Banimento de Forked Peers que estão presos em Getblocks Loop ​
-​</p>
+        <div id="08102017" class="collapse">
+        	<div class="card-body">
+          		<p><i class="fa fa-check-square-o" aria-hidden="true"></i> Atualização das informações sobre a fase final PoW e a fase inicial PoS;<br>
+             <i class="fa fa-check-square-o" aria-hidden="true"></i> Atualização da fonte qt wallet;<br>
+             <i class="fa fa-check-square-o" aria-hidden="true"></i> Atualização de versão;<br>
+             <i class="fa fa-check-square-o" aria-hidden="true"></i> Atualização de protocolo e atualizações gerais<br>​</p>
         </div>
       </div>
-    </li>
-    <li>
-      <div class="timeline-panel">
-        <div class="timeline-heading">
-          <h4 class="timeline-title"><i class="fa fa-database"></i> 12/10/2017</h4>
+  </div>
+
+    <div class="card">
+        <div class="card-header">
+        	<h5 class="mb-0">
+        		<button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#10102017">
+        			<i class="fa fa-code"></i> 10/10/2017
+        		</button>
+        	</h5>
         </div>
-        <div class="timeline-body">
-          <p>→ Listado agora na <a href="https://coinsmarkets.com/trade-BTC-SPERO.htm">Coins Markets</a></p>
-        </div>
-      </div>
-    </li>
-    <li class="timeline-inverted">
-      <div class="timeline-panel">
-        <div class="timeline-heading">
-          <h4 class="timeline-title"><i class="fa fa-cubes"></i> 21/10/2017</h4>
-        </div>
-        <div class="timeline-body">
-          <p>→ <a href="http://sperocoin.ddns.net:3001/">Oficial Block Explorer</a>
-​</p>
+        <div id="10102017" class="collapse">
+        	<div class="card-body">
+          		<p><i class="fa fa-check-square-o" aria-hidden="true"></i> Adicionado opção de limpeza de blocos de órfãos;<br>
+             <i class="fa fa-check-square-o" aria-hidden="true"></i> Adicionado a opção de exibição "STAKE" na coluna "tipo" dentro da guia "Transações";<br>
+             <i class="fa fa-check-square-o" aria-hidden="true"></i> Adicionado "setban" no "add | remove "(bantime)" / "listbanned" e "clearbanned" no console RPC;</p>
         </div>
       </div>
-    </li>
-        <li>
-      <div class="timeline-panel">
-        <div class="timeline-heading">
-          <h4 class="timeline-title"><i class="fa fa-code"></i> 22/10/2017</h4>
+  </div>
+
+    <div class="card">
+        <div class="card-header">
+        	<h5 class="mb-0">
+        		<button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#11102017">
+        			<i class="fa fa-code"></i> 11/10/2017
+        		</button>
+        	</h5>
         </div>
-        <div class="timeline-body">
-          <p>→ Atualização de nomes de strings;<br>
-             → Atualização de informações no README.md <br>
-             → Atualização de informações de participação na Wallet QT</p>
-        </div>
-      </div>
-    </li>
-    <li class="timeline-inverted">
-      <div class="timeline-panel">
-        <div class="timeline-heading">
-          <h4 class="timeline-title"><i class="fa fa-database"></i> 24/10/2017</h4>
-        </div>
-        <div class="timeline-body">
-          <p>→ <a href=" https://sperocoin.ddns.net/faucet">Faucet Oficial</a></p>
+        <div id="11102017" class="collapse">
+        	<div class="card-body">
+          		<p><i class="fa fa-check-square-o" aria-hidden="true"></i> Banimento de Forked Peers que estão presos em Getblocks Loop​</p>
         </div>
       </div>
-    </li>
-    <li>
-      <div class="timeline-panel">
-        <div class="timeline-heading">
-          <h4 class="timeline-title"><i class="fa fa-code"></i> 01/11/2017</h4>
+  </div>
+
+    <div class="card">
+        <div class="card-header">
+        	<h5 class="mb-0">
+        		<button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#21102017">
+        			<i class="fa fa-code"></i> 21/10/2017
+        		</button>
+        	</h5>
         </div>
-        <div class="timeline-body">
-          <p>→ Canal criado usando <a href="httsp://sperocoin.slack.com">Slack</a></p>
-        </div>
-      </div>
-    </li>
-    <li class="timeline-inverted">
-      <div class="timeline-panel">
-        <div class="timeline-heading">
-          <h4 class="timeline-title"><i class="fa fa-file-code-o"></i> 04/11/2017</h4>
-        </div>
-        <div class="timeline-body">
-          <p>→ Início de votação para adicionar a moeda na <a href="https://c-cex.com/?id=vote&coin=spero">C-CEX</a></p>
+        <div id="21102017" class="collapse">
+        	<div class="card-body">
+          		<p><i class="fa fa-check-square-o" aria-hidden="true"></i> <a href="http://sperocoin.ddns.net:3001/">Oficial Block Explorer</a>​</p>
         </div>
       </div>
-    </li>
-    <li>
-      <div class="timeline-panel">
-        <div class="timeline-heading">
-          <h4 class="timeline-title"><i class="fa fa-file-code-o"></i> 11/11/2017</h4>
+  </div>
+
+    <div class="card">
+        <div class="card-header">
+        	<h5 class="mb-0">
+        		<button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#22102017">
+        			<i class="fa fa-code"></i> 22/10/2017
+        		</button>
+        	</h5>
         </div>
-        <div class="timeline-body">
-          <p>→ Parceria com o canal CURSAGRAM no aplicativo TELEGRAM com a SPERO como principal patrocinador.</p>
-        </div>
-      </div>
-    </li>
-    </li>
-    <li class="timeline-inverted">
-      <div class="timeline-panel">
-        <div class="timeline-heading">
-          <h4 class="timeline-title"><i class="fa fa-file-code-o"></i> 12/11/2017</h4>
-        </div>
-        <div class="timeline-body">
-          <p>→ Modificação do Fórum Bitcointalk: Jr. Member</p>
+        <div id="22102017" class="collapse">
+        	<div class="card-body">
+          		<p><i class="fa fa-check-square-o" aria-hidden="true"></i> Atualização de nomes de strings;<br>
+             <i class="fa fa-check-square-o" aria-hidden="true"></i> Atualização de informações no README.md <br>
+             <i class="fa fa-check-square-o" aria-hidden="true"></i> Atualização de informações de participação na Wallet QT</p>
         </div>
       </div>
-    </li>
-    <li>
-      <div class="timeline-panel">
-        <div class="timeline-heading">
-          <h4 class="timeline-title"><i class="fa fa-database"></i> 24/01/2018</h4>
+  </div>
+
+    <div class="card">
+        <div class="card-header">
+        	<h5 class="mb-0">
+        		<button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#28032018">
+        			<i class="fa fa-code"></i> 28/03/2018
+        		</button>
+        	</h5>
         </div>
-        <div class="timeline-body">
-          <p>→ Lançamento oficial do aplicativo para Android baseado na Webwallet.</p>
-        </div>
-      </div>
-    </li>
-    <li class="timeline-inverted">
-      <div class="timeline-panel">
-        <div class="timeline-heading">
-          <h4 class="timeline-title"><i class="fa fa-database"></i> 26/03/2018</h4>
-        </div>
-        <div class="timeline-body">
-          <p>→ Cadastro perfil de vendedor no site brasileiro <a href="https://p2brasil.com/produto/sperocoin/" target="_blank">P2Brasil</a><br>
-             → Cadastro de moeda no site brasileiro <a href="https://catalogop2p.com.br/sperocoin" target="_blank">Catálogo P2P</a><br>
-             → Cadastro perfil de vendedor no site brasileiro <a href="https://catalogop2p.com.br/sperocoin" target="_blank">Catálogo P2P</a></p>
-        </div>
-      </div>
-    </li>
-    <li>
-      <div class="timeline-panel">
-        <div class="timeline-heading">
-          <h4 class="timeline-title"><i class="fa fa-code"></i> 28/03/2018</h4>
-        </div>
-        <div class="timeline-body">
-          <p>→ Adicionado Comando RPC "GETWALLETINFO"<br>
-              → Atualização de icones de maturidade das transações<br>
-              → Atualização da splash screen main<br>
-              → Atualização do logo dentro da Wallet<br>
-              → Adicionado hashGenesisBlockTestNet no arquivo main.h<br>
-              → Adicionado testnet block.nNonce no arquivo main.cpp<br>
-              → Adicionado static MapCheckpoints no arquivo checkpoints.cpp<br>
-              → Alteração da letra inicial dos endereços em testnet no arquivo base58.h<br>
-              → CAlteração da letra inicial de exemplo no arquivo qt/sendcoinsdialog.cpp<br>
-              → Alterada versão para 2.6.4.3</p>
+        <div id="28032018" class="collapse">
+        	<div class="card-body">
+          		<p><i class="fa fa-check-square-o" aria-hidden="true"></i> Adicionado Comando RPC "GETWALLETINFO"<br>
+              <i class="fa fa-check-square-o" aria-hidden="true"></i> Atualização de icones de maturidade das transações<br>
+              <i class="fa fa-check-square-o" aria-hidden="true"></i> Atualização da splash screen main<br>
+              <i class="fa fa-check-square-o" aria-hidden="true"></i> Atualização do logo dentro da Wallet<br>
+              <i class="fa fa-check-square-o" aria-hidden="true"></i> Adicionado hashGenesisBlockTestNet no arquivo main.h<br>
+              <i class="fa fa-check-square-o" aria-hidden="true"></i> Adicionado testnet block.nNonce no arquivo main.cpp<br>
+              <i class="fa fa-check-square-o" aria-hidden="true"></i> Adicionado static MapCheckpoints no arquivo checkpoints.cpp<br>
+              <i class="fa fa-check-square-o" aria-hidden="true"></i> Alteração da letra inicial dos endereços em testnet no arquivo base58.h<br>
+              <i class="fa fa-check-square-o" aria-hidden="true"></i> CAlteração da letra inicial de exemplo no arquivo qt/sendcoinsdialog.cpp<br>
+              <i class="fa fa-check-square-o" aria-hidden="true"></i> Alterada versão para 2.6.4.3</p>
         </div>
       </div>
-    </li>
-    <li class="timeline-inverted">
-      <div class="timeline-panel">
-        <div class="timeline-heading">
-          <h4 class="timeline-title"><i class="fa fa-code"></i> 15/07/2018</h4>
+  </div>
+
+    <div class="card">
+        <div class="card-header">
+        	<h5 class="mb-0">
+        		<button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#15072018">
+        			<i class="fa fa-code"></i> 15/07/2018
+        		</button>
+        	</h5>
         </div>
-        <div class="timeline-body">
-          <p>
-            → Adicionado comando RPC "getnetworkinfo" - Alteração nos arquivos: bitcoinrpc.cpp; bitcoinrpc.h; rpcblockchain.cpp; rpcnet.cpp<br>
-            → Adicionado comando RPC "getblockchaininfo" - Alteração nos arquivos: bitcoinrpc.cpp; bitcoinrpc.h; rpcblockchain.cpp; rpcnet.cpp<br>
-            → Adicionada Informação de Status da Wallet(Bloqueada ou Desbloqueada) no comando RPC "getinfo"<br>
-            → Adicionado novos pontos no mapa de rede atualizando o mapeamento até o bloco 130000- Alteração no arquivo: checkpoints.cpp<br>
-            → Alteração dos direitos de cópia, sendo atualizada a data de início dos trabalhos da SperoCoin, ficando: "Copyright © 2017 The SperoCoin developers" - Alteração em arquivos ".ts" da pasta "src\qt\locale"<br>
-            → Atualização de imagens "splashscreen" da QT<br>
-            → Alteração das fontes da QT para "Century Gothic"<br>
-            → Clear Orphans com atualização de página de transações automática, sem a necessidade de reiniciar a carteira<br>
-            → Alterada versão para 2.6.4.4
-          </p>
-        </div>
-      </div>
-    </li>
-    <li>
-      <div class="timeline-panel">
-        <div class="timeline-heading">
-          <h4 class="timeline-title"><i class="fa fa-code"></i> 25/08/2018</h4>
-        </div>
-        <div class="timeline-body">
-          <p>→ Adiconada na exchange Altilly nos pares SPERO/BTC, SPERO/ETH e SPERO/DOGE: <a href="https://www.altilly.com/market">ALTILLY</a></p>
+        <div id="15072018" class="collapse">
+        	<div class="card-body">
+          		<p><i class="fa fa-check-square-o" aria-hidden="true"></i> Adicionado comando RPC "getnetworkinfo" - Alteração nos arquivos: bitcoinrpc.cpp; bitcoinrpc.h; rpcblockchain.cpp; rpcnet.cpp<br>
+            <i class="fa fa-check-square-o" aria-hidden="true"></i> Adicionado comando RPC "getblockchaininfo" - Alteração nos arquivos: bitcoinrpc.cpp; bitcoinrpc.h; rpcblockchain.cpp; rpcnet.cpp<br>
+            <i class="fa fa-check-square-o" aria-hidden="true"></i> Adicionada Informação de Status da Wallet(Bloqueada ou Desbloqueada) no comando RPC "getinfo"<br>
+            <i class="fa fa-check-square-o" aria-hidden="true"></i> Adicionado novos pontos no mapa de rede atualizando o mapeamento até o bloco 130000- Alteração no arquivo: checkpoints.cpp<br>
+            <i class="fa fa-check-square-o" aria-hidden="true"></i> Alteração dos direitos de cópia, sendo atualizada a data de início dos trabalhos da SperoCoin, ficando: "Copyright © 2017 The SperoCoin developers" - Alteração em arquivos ".ts" da pasta "src\qt\locale"<br>
+            <i class="fa fa-check-square-o" aria-hidden="true"></i> Atualização de imagens "splashscreen" da QT<br>
+            <i class="fa fa-check-square-o" aria-hidden="true"></i> Alteração das fontes da QT para "Century Gothic"<br>
+            <i class="fa fa-check-square-o" aria-hidden="true"></i> Clear Orphans com atualização de página de transações automática, sem a necessidade de reiniciar a carteira<br>
+            <i class="fa fa-check-square-o" aria-hidden="true"></i> Alterada versão para 2.6.4.4</p>
         </div>
       </div>
-    </li>
-    <li class="timeline-inverted">
-      <div class="timeline-panel">
-        <div class="timeline-heading">
-          <h4 class="timeline-title"><i class="fa fa-code"></i> 27/10/2018</h4>
+  </div>
+
+    <div class="card">
+        <div class="card-header">
+        	<h5 class="mb-0">
+        		<button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#27102018">
+        			<i class="fa fa-code"></i> 27/10/2018
+        		</button>
+        	</h5>
         </div>
-        <div class="timeline-body">
-          <p>
-            → Adicionado novos pontos no mapa da rede atualizando o mapeamento até o bloco 165962<br>
-            → Melhorias no desempenho - Maior velocidade na sincronização<br>
-            → Adicionado novos ícones<br>
-            → Alterar o estilo da barra de progresso de download de blocos de "QWindowsXPStyle" para "QWindowsVistaStyle"<br>
-            → Alterando o tamanho dos ícones em "STATUSBAR_ICONSIZE" de 16 a 64<br>
-            → Adicionando a abertura do arquivo SperoCoin.conf no menu da janela do console<br>
-            → Descrição alterada do tipo de mineração PoW<br>
-            → Descrição alterada do tipo de mineração PoS<br>
-            → Novo ícone de Mineração de PoS<br>
-            → Versão alterada para 2.6.4.5
-          </p>
+        <div id="27102018" class="collapse">
+        	<div class="card-body">
+          		<p><i class="fa fa-check-square-o" aria-hidden="true"></i> Adicionado novos pontos no mapa da rede atualizando o mapeamento até o bloco 165962<br>
+            <i class="fa fa-check-square-o" aria-hidden="true"></i> Melhorias no desempenho - Maior velocidade na sincronização<br>
+            <i class="fa fa-check-square-o" aria-hidden="true"></i> Adicionado novos ícones<br>
+            <i class="fa fa-check-square-o" aria-hidden="true"></i> Alterar o estilo da barra de progresso de download de blocos de "QWindowsXPStyle" para "QWindowsVistaStyle"<br>
+            <i class="fa fa-check-square-o" aria-hidden="true"></i> Alterando o tamanho dos ícones em "STATUSBAR_ICONSIZE" de 16 a 64<br>
+            <i class="fa fa-check-square-o" aria-hidden="true"></i> Adicionando a abertura do arquivo SperoCoin.conf no menu da janela do console<br>
+            <i class="fa fa-check-square-o" aria-hidden="true"></i> Descrição alterada do tipo de mineração PoW<br>
+            <i class="fa fa-check-square-o" aria-hidden="true"></i> Descrição alterada do tipo de mineração PoS<br>
+            <i class="fa fa-check-square-o" aria-hidden="true"></i> Novo ícone de Mineração de PoS<br>
+            <i class="fa fa-check-square-o" aria-hidden="true"></i> Versão alterada para 2.6.4.5</p>
         </div>
       </div>
-    </li>
-  </ul>
+  </div>
+
+    <div class="card">
+        <div class="card-header">
+        	<h5 class="mb-0">
+        		<button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#08122018">
+        			<i class="fa fa-code"></i> 08/12/2018
+        		</button>
+        	</h5>
+        </div>
+        <div id="08122018" class="collapse">
+        	<div class="card-body">
+          		<p><i class="fa fa-check-square-o" aria-hidden="true"></i> Alterada Versão para 2.6.4.6;<br>
+            <i class="fa fa-check-square-o" aria-hidden="true"></i> Altercada versão do protocolo para mínimo 700001;<br>
+            <i class="fa fa-check-square-o" aria-hidden="true"></i> Adicionada Introdução;<br>
+            <i class="fa fa-check-square-o" aria-hidden="true"></i> Adicionado pontos de checagem de blocos até o bloco 180000<br>
+            <i class="fa fa-check-square-o" aria-hidden="true"></i> AAgradecimento ao usuário vinnystifler pela contribuição na correção de
+erros  com a QT: https://github.com/vinnystifler<br></p>
+        </div>
+      </div>
+  </div>
+
+    <div class="card">
+        <div class="card-header">
+        	<h5 class="mb-0">
+        		<button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#17122018">
+        			<i class="fa fa-code"></i> 17/12/2018
+        		</button>
+        	</h5>
+        </div>
+        <div id="17122018" class="collapse">
+        	<div class="card-body">
+          		<p><i class="fa fa-check-square-o" aria-hidden="true"></i> Correção de hash de transação incorreto
+<br></p>
+        </div>
+      </div>
+  </div>
+
+</div>
+</div>
+<!-- FORKS -->
+<div class="card">
+    <div class="card-header">
+    	<h5 class="mb-0">
+    		<button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#forks">
+    			<i class="fa fa-code-fork"></i> HARD E SOFT FORKS
+    		</button>
+    	</h5>
+    </div>
+<div id="forks" class="collapse">
+
+    <div class="card">
+        <div class="card-header">
+        	<h5 class="mb-0">
+        		<button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#26092017">
+        			<i class="fa fa-code-fork"></i> 26/09/2017
+        		</button>
+        	</h5>
+        </div>
+        <div id="26092017" class="collapse">
+        	<div class="card-body">
+          		<p><i class="fa fa-check-square-o" aria-hidden="true"></i> Fork do projeto no GitHub por DigitalCoin<br>
+             <i class="fa fa-check-square-o" aria-hidden="true"></i> Reapresentação de arquivos para o GitHub</p>
+        </div>
+      </div>
+  </div>
+
+</div>
+</div>
+<!-- MÍDIA E SOCIAL -->
+<div class="card">
+    <div class="card-header">
+    	<h5 class="mb-0">
+    		<button type="button" class="btn btn-success" data-toggle="collapse" data-target="#midiasocial">
+    			<i class="fa fa-thumbs-up"></i> MÍDIAS E SOCIAL
+    		</button>
+    	</h5>
+    </div>
+<div id="midiasocial" class="collapse">
+
+    <div class="card">
+        <div class="card-header">
+        	<h5 class="mb-0">
+        		<button type="button" class="btn btn-success" data-toggle="collapse" data-target="#25092017a">
+        			<i class="fa fa-thumbs-up"></i> 25/09/2017
+        		</button>
+        	</h5>
+        </div>
+        <div id="25092017a" class="collapse">
+        	<div class="card-body">
+          		<p>             <i class="fa fa-check-square-o" aria-hidden="true"></i> Lançamento no BitcoinTalk <br></p>
+        </div>
+      </div>
+  </div>
+
+
+    <div class="card">
+        <div class="card-header">
+        	<h5 class="mb-0">
+        		<button type="button" class="btn btn-success" data-toggle="collapse" data-target="#01102017b">
+        			<i class="fa fa-thumbs-up"></i> 01/10/2017
+        		</button>
+        	</h5>
+        </div>
+        <div id="01102017b" class="collapse">
+        	<div class="card-body">
+          		<p><i class="fa fa-check-square-o" aria-hidden="true"></i> Criação do <a href="mailto:sperocoin@gmail.com">E-mail</a> Oficial<br>
+             <i class="fa fa-check-square-o" aria-hidden="true"></i> <a href="https://superocoin.wixsite.com/sperocoin">Website</a> temporário</p>
+        </div>
+      </div>
+  </div>
+
+    <div class="card">
+        <div class="card-header">
+        	<h5 class="mb-0">
+        		<button type="button" class="btn btn-success" data-toggle="collapse" data-target="#02102017">
+        			<i class="fa fa-thumbs-up"></i> 02/10/2017
+        		</button>
+        	</h5>
+        </div>
+        <div id="02102017" class="collapse">
+        	<div class="card-body">
+          		<p><i class="fa fa-check-square-o" aria-hidden="true"></i> Abertura do Tópico em: <a href="https://cryptocurrencytalk.com/topic/88487-ann-sperocoin-x13-hybrid-powpos/">Cryptocurrencytalk</a><br></p>
+        </div>
+      </div>
+  </div>
+
+    <div class="card">
+        <div class="card-header">
+        	<h5 class="mb-0">
+        		<button type="button" class="btn btn-success" data-toggle="collapse" data-target="#11112017">
+        			<i class="fa fa-thumbs-up"></i> 11/11/2017
+        		</button>
+        	</h5>
+        </div>
+        <div id="11112017" class="collapse">
+        	<div class="card-body">
+          		<p><i class="fa fa-check-square-o" aria-hidden="true"></i> Parceria com o canal CURSAGRAM no aplicativo TELEGRAM com a SPERO como principal patrocinador.</p>
+        </div>
+      </div>
+  </div>
+
+    <div class="card">
+        <div class="card-header">
+        	<h5 class="mb-0">
+        		<button type="button" class="btn btn-success" data-toggle="collapse" data-target="#12112017">
+        			<i class="fa fa-thumbs-up"></i> 12/11/2017
+        		</button>
+        	</h5>
+        </div>
+        <div id="12112017" class="collapse">
+        	<div class="card-body">
+          		<p><i class="fa fa-check-square-o" aria-hidden="true"></i> Modificação do Fórum Bitcointalk: Jr. Member</p>
+        </div>
+      </div>
+  </div>
+
+</div>
+</div>
+<!-- INFORMAÇÕES GERAIS -->
+<div class="card">
+    <div class="card-header">
+    	<h5 class="mb-0">
+    		<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#infogeneral">
+    			<i class="fa fa-info"></i> INFORMAÇÕES GERAIS
+    		</button>
+    	</h5>
+    </div>
+<div id="infogeneral" class="collapse">
+
+    <div class="card">
+        <div class="card-header">
+        	<h5 class="mb-0">
+        		<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#25092017b">
+        			<i class="fa fa-info"></i> 25/09/2017
+        		</button>
+        	</h5>
+        </div>
+        <div id="25092017b" class="collapse">
+        	<div class="card-body">
+          		<p>             <i class="fa fa-check-square-o" aria-hidden="true"></i> Parceria com pool's: pickaxe.online <br>
+          			             <i class="fa fa-check-square-o" aria-hidden="true"></i> Hope deixou o projeto </p>
+        </div>
+      </div>
+  </div>
+
+    <div class="card">
+        <div class="card-header">
+        	<h5 class="mb-0">
+        		<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#01102017a">
+        			<i class="fa fa-info"></i> 01/10/2017
+        		</button>
+        	</h5>
+        </div>
+        <div id="01102017a" class="collapse">
+        	<div class="card-body">
+          		<p><i class="fa fa-check-square-o" aria-hidden="true"></i> Desligamento oficial da equipe Hope assistência técnica no projeto<br></p>
+        </div>
+      </div>
+  </div>
+
+    <div class="card">
+        <div class="card-header">
+        	<h5 class="mb-0">
+        		<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#02102017a">
+        			<i class="fa fa-info"></i> 02/10/2017
+        		</button>
+        	</h5>
+        </div>
+        <div id="02102017a" class="collapse">
+        	<div class="card-body">
+          		<p><i class="fa fa-check-square-o" aria-hidden="true"></i> Início das votações para adicionar a moeda na Exchange <a href="https://tradesatoshi.com/Vote">TradeSatoshi</a></p>
+        </div>
+      </div>
+  </div>
+
+    <div class="card">
+        <div class="card-header">
+        	<h5 class="mb-0">
+        		<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#12102017">
+        			<i class="fa fa-info"></i> 12/10/2017
+        		</button>
+        	</h5>
+        </div>
+        <div id="12102017" class="collapse">
+        	<div class="card-body">
+          		<p><i class="fa fa-check-square-o" aria-hidden="true"></i> Listado agora na <a href="https://coinsmarkets.com/trade-BTC-SPERO.htm">Coins Markets</a></p>
+        </div>
+      </div>
+  </div>
+
+    <div class="card">
+        <div class="card-header">
+        	<h5 class="mb-0">
+        		<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#24102017">
+        			<i class="fa fa-info"></i> 24/10/2017
+        		</button>
+        	</h5>
+        </div>
+        <div id="24102017" class="collapse">
+        	<div class="card-body">
+          		<p><i class="fa fa-check-square-o" aria-hidden="true"></i> <a href=" https://sperocoin.ddns.net/faucet">Faucet Oficial</a></p>
+        </div>
+      </div>
+  </div>
+
+    <div class="card">
+        <div class="card-header">
+        	<h5 class="mb-0">
+        		<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#01112017">
+        			<i class="fa fa-info"></i> 01/11/2017
+        		</button>
+        	</h5>
+        </div>
+        <div id="01112017" class="collapse">
+        	<div class="card-body">
+          		<p><i class="fa fa-check-square-o" aria-hidden="true"></i> Canal criado usando <a href="httsp://sperocoin.slack.com">Slack</a></p>
+        </div>
+      </div>
+  </div>
+
+    <div class="card">
+        <div class="card-header">
+        	<h5 class="mb-0">
+        		<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#04112017">
+        			<i class="fa fa-info"></i> 04/11/2017
+        		</button>
+        	</h5>
+        </div>
+        <div id="04112017" class="collapse">
+        	<div class="card-body">
+          		<p><i class="fa fa-check-square-o" aria-hidden="true"></i> Início de votação para adicionar a moeda na <a href="https://c-cex.com/?id=vote&coin=spero">C-CEX</a></p>
+        </div>
+      </div>
+  </div>
+
+    <div class="card">
+        <div class="card-header">
+        	<h5 class="mb-0">
+        		<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#24012018">
+        			<i class="fa fa-info"></i> 24/01/2018
+        		</button>
+        	</h5>
+        </div>
+        <div id="24012018" class="collapse">
+        	<div class="card-body">
+          		<p><i class="fa fa-check-square-o" aria-hidden="true"></i> Lançamento oficial do aplicativo para Android baseado na Webwallet.</p>
+        </div>
+      </div>
+  </div>
+
+    <div class="card">
+        <div class="card-header">
+        	<h5 class="mb-0">
+        		<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#26032018">
+        			<i class="fa fa-info"></i> 26/03/2018
+        		</button>
+        	</h5>
+        </div>
+        <div id="26032018" class="collapse">
+        	<div class="card-body">
+          		<p><i class="fa fa-check-square-o" aria-hidden="true"></i> Cadastro perfil de vendedor no site brasileiro <a href="https://p2brasil.com/produto/sperocoin/" target="_blank">P2Brasil</a><br>
+             <i class="fa fa-check-square-o" aria-hidden="true"></i> Cadastro de moeda no site brasileiro <a href="https://catalogop2p.com.br/sperocoin" target="_blank">Catálogo P2P</a><br>
+             <i class="fa fa-check-square-o" aria-hidden="true"></i> Cadastro perfil de vendedor no site brasileiro <a href="https://catalogop2p.com.br/sperocoin" target="_blank">Catálogo P2P</a></p>
+        </div>
+      </div>
+  </div>
+
+    <div class="card">
+        <div class="card-header">
+        	<h5 class="mb-0">
+        		<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#25082018">
+        			<i class="fa fa-info"></i> 25/08/2018
+        		</button>
+        	</h5>
+        </div>
+        <div id="25082018" class="collapse">
+        	<div class="card-body">
+          		<p><i class="fa fa-check-square-o" aria-hidden="true"></i> Adiconada na exchange Altilly nos pares SPERO/BTC, SPERO/ETH e SPERO/DOGE: <a href="https://www.altilly.com/market">ALTILLY</a></p>
+        </div>
+      </div>
+  </div>
+
+    <div class="card">
+        <div class="card-header">
+        	<h5 class="mb-0">
+        		<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#05102018">
+        			<i class="fa fa-info"></i> 05/10/2018
+        		</button>
+        	</h5>
+        </div>
+        <div id="05102018" class="collapse">
+        	<div class="card-body">
+          		<p><i class="fa fa-check-square-o" aria-hidden="true"></i> Listagem na <a href="https://cryptostake.es">CryptoStake</a></p>
+        </div>
+      </div>
+  </div>
+
+    <div class="card">
+        <div class="card-header">
+        	<h5 class="mb-0">
+        		<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#06102018">
+        			<i class="fa fa-info"></i> 06/10/2018
+        		</button>
+        	</h5>
+        </div>
+        <div id="06102018" class="collapse">
+        	<div class="card-body">
+          		<p><i class="fa fa-check-square-o" aria-hidden="true"></i> Listagem na <a href="https://staking.world/Pages/index.aspx">Staking World</a></p>
+        </div>
+      </div>
+  </div>
+
+    <div class="card">
+        <div class="card-header">
+        	<h5 class="mb-0">
+        		<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#06122018">
+        			<i class="fa fa-info"></i> 06/12/2018
+        		</button>
+        	</h5>
+        </div>
+        <div id="06122018" class="collapse">
+        	<div class="card-body">
+          		<p><i class="fa fa-check-square-o" aria-hidden="true"></i> Listagem na <a href="https://nanu.exchange/exchange#btc_spero">Nanu Exchange</a></p>
+        </div>
+      </div>
+  </div>
+
+    <div class="card">
+        <div class="card-header">
+        	<h5 class="mb-0">
+        		<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#08012019">
+        			<i class="fa fa-info"></i> 08/01/2019
+        		</button>
+        	</h5>
+        </div>
+        <div id="08012019" class="collapse">
+        	<div class="card-body">
+          		<p><i class="fa fa-check-square-o" aria-hidden="true"></i> Listagem no aplicativo <a href="https://blockfolio.com/#get-app">Blockfolio</a></p>
+        </div>
+      </div>
+  </div>
+
+    <div class="card">
+        <div class="card-header">
+        	<h5 class="mb-0">
+        		<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#11012019">
+        			<i class="fa fa-info"></i> 11/01/2019
+        		</button>
+        	</h5>
+        </div>
+        <div id="11012019" class="collapse">
+        	<div class="card-body">
+          		<p><i class="fa fa-check-square-o" aria-hidden="true"></i> Listagem no aplicativo <a href="https://delta.app/">Delta</a></p>
+        </div>
+      </div>
+  </div>
+
+    <div class="card">
+        <div class="card-header">
+        	<h5 class="mb-0">
+        		<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#14012019">
+        			<i class="fa fa-info"></i> 14/01/2019
+        		</button>
+        	</h5>
+        </div>
+        <div id="14012019" class="collapse">
+        	<div class="card-body">
+          		<p><i class="fa fa-check-square-o" aria-hidden="true"></i> Listagem no site <a href="https://coincodex.com/crypto/sperocoin">CoinCodex</a></p>
+        </div>
+      </div>
+  </div>
+
+    <div class="card">
+        <div class="card-header">
+        	<h5 class="mb-0">
+        		<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#31012019">
+        			<i class="fa fa-info"></i> 31/01/2019
+        		</button>
+        	</h5>
+        </div>
+        <div id="31012019" class="collapse">
+        	<div class="card-body">
+          		<p><i class="fa fa-check-square-o" aria-hidden="true"></i> Listagem na <a href="https://bitsahani.com/exchange/SPERO-DOGE">Bitsahani</a></p>
+        </div>
+      </div>
+  </div>
+
+    <div class="card">
+        <div class="card-header">
+        	<h5 class="mb-0">
+        		<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#18022019">
+        			<i class="fa fa-info"></i> 18/02/2019
+        		</button>
+        	</h5>
+        </div>
+        <div id="18022019" class="collapse">
+        	<div class="card-body">
+          		<p><i class="fa fa-check-square-o" aria-hidden="true"></i> Listagem na <a href="https://www.4stake.com/sperocoin">4Stake</a></p>
+        </div>
+      </div>
+  </div>
+
+</div>
+</div>
 <!-- Vertical Timeline -->
 
 <!-- BARRAS - PODEM SER ÚTEIS
