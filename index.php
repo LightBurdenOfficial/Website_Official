@@ -128,7 +128,6 @@ $(function(){
                 <a href="" title="Language">IDIOMA:</a>
                     <ul>
                       <li><a href="index-en.php">ING</a></li>
-                      <li><a href="index.php">PT</a></li>
                       <li><a href="index-es.php">ES</a></li>
                       <!-- <li><a href="index-es.php">ESP</a></li> -->
                     </ul>

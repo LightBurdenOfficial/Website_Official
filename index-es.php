@@ -130,7 +130,6 @@ $(function(){
                     <ul>
                       <li><a href="index-en.php">EN</a></li>
                       <li><a href="index.php">PT</a></li>
-                      <li><a href="index-es.php">ES</a></li>
                     </ul>
             </li>
             <!-- Menu de Linguagem -->

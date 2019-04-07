@@ -128,7 +128,6 @@ $(function(){
             <li class="menu-has-children">
                 <a href="" title="Language">LANG:</a>
                     <ul>
-                      <li><a href="index-en.php">EN</a></li>
                       <li><a href="index.php">PT</a></li>
                       <li><a href="index-es.php">ES</a></li>
                     </ul>
