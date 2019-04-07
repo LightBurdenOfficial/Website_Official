@@ -44,6 +44,11 @@ $api_getmoneysupply = $be_getmoneysupply_api;
   <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
   <link href="css/animate.css" rel="stylesheet" type="text/css">
 
+<style type="text/css">
+	.btn-space {
+    margin-top: 5px;
+}
+</style>
 
   <link rel="stylesheet" type="text/css" href="css/vertical_timeline">
 
@@ -231,6 +236,188 @@ $(function(){
   </section><!-- #intro -->
 
   <main id="main">
+
+    <!--==========================
+      Downloads Section
+    ============================-->
+
+<section id="downloads" class="section-bg wow fadeInUp">
+    <div class="container">
+        <header class="section-header">
+          <h3>Downloads</h3>
+        </header>
+      <div class="row">
+      	<div class="col-md-2 col-sm-12 btn-space">
+      		<a href="#" data-toggle="modal" data-target="#androidfull"><button type="button" class="btn btn-outline-warning btn-block"><i class="fa fa-android"></i> FullNode</button></a>
+      	</div>
+      	<div class="col-md-2 col-sm-12 btn-space">
+      		<a href="#" data-toggle="modal" data-target="#androidlite"><button type="button" class="btn btn-outline-warning btn-block"><i class="fa fa-android"></i> LITE</button></a>
+      	</div>
+      	<div class="col-md-2 col-sm-12 btn-space">
+      		<a href="#" data-toggle="modal" data-target="#windowsqt"><button type="button" class="btn btn-outline-info btn-block"><i class="fa fa-windows"></i> QT</button></a>
+      	</div>
+      	<div class="col-md-2 col-sm-12 btn-space">
+      		<a href="#" data-toggle="modal" data-target="#windowsdaemon"><button type="button" class="btn btn-outline-info btn-block"><i class="fa fa-windows"></i> Daemon</button></a>
+      	</div>
+      	<div class="col-md-2 col-sm-12 btn-space">
+      		<a href="#" data-toggle="modal" data-target="#linuxcomp"><button type="button" class="btn btn-outline-secondary btn-block"><i class="fa fa-terminal"></i> Linux</button></a>
+      	</div>
+      	<div class="col-md-2 col-sm-12 btn-space">
+      		<a href="#" data-toggle="modal" data-target="#blockchain"><button type="button" class="btn btn-outline-success btn-block"><i class="fa fa-cubes"></i> BlockChain</button></a>
+      	</div>
+    </div>
+</div>
+</section>
+<br>
+<!-- Modal Android FullNode-->
+<div class="modal fade" id="androidfull" role="dialog">
+  <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"></button>
+          <h4 class="modal-title">Android FullNode</h4>
+        </div>
+        <div class="modal-body">
+          <p><center>Wallet Android. Com essa wallet, você poderá realizar mineração PoS diretamente do seu aparelho.<br>
+          	<br>
+          	<a href="https://github.com/DigitalCoin1/SperoCoin_Android/releases/download/SperoCoin-v.2.6.4.6-BETA/SperoCoin-v.2.6.4.6-BETA.apk" target="_blank"><button class="btn"><i class="fa fa-download"></i> Download v.2.6.4.6</button></a>
+          </center></p>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+  </div>
+</div>
+<!-- Modal Android LITE-->
+<div class="modal fade" id="androidlite" role="dialog">
+  <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"></button>
+          <h4 class="modal-title">Android LITE</h4>
+        </div>
+        <div class="modal-body">
+          <p><center>Wallet Android WebBased. Conectada diretamente a nossa WebWallet, assim você tem a comodidade de acessar sua conta na palma de sua mão.<br>
+          	<br>
+          	<a href="https://play.google.com/store/apps/details?id=appinventor.ai_sperocoin.SPEROCOIN2" target="_blank"><button class="btn"><i class="fa fa-download"></i> Download v.1.4-BETA</button></a>
+          </center></p>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+  </div>
+</div>
+<!-- Modal QT Windows-->
+<div class="modal fade" id="windowsqt" role="dialog">
+  <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"></button>
+          <h4 class="modal-title">QT Windows</h4>
+        </div>
+        <div class="modal-body">
+          <p><center>Carteira com design gráfico. Modelo para aqueles que procuram conforto e conveniência para verificar o saldo, enviar e receber moedas de forma prática e rápida.<br>
+          	<br>
+          	<a href="https://github.com/DigitalCoin1/SperoCoin/releases/download/SperoCoin-v.2.6.4.6/SperoCoin-v.2.6.4.6.exe" target="_blank"><button class="btn"><i class="fa fa-download"></i> Download v.2.6.4.6</button></a>
+          </center></p>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+  </div>
+</div>
+<!-- Modal Daemon Windows-->
+<div class="modal fade" id="windowsdaemon" role="dialog">
+  <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"></button>
+          <h4 class="modal-title">Daemon Windows</h4>
+        </div>
+        <div class="modal-body">
+          <p><center>Carteira sem design gráfico. Modelo para aqueles que buscam praticidade e menor consumo de recursos.<br>
+          	<br>
+          	<a href="https://github.com/DigitalCoin1/SperoCoin/releases/download/SperoCoin-v.2.6.4.6/SperoCoind-v.2.6.4.6.exe" target="_blank"><button class="btn"><i class="fa fa-download"></i> Download v.2.6.4.6</button></a>
+          </center></p>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+  </div>
+</div>
+<!-- Modal Blockchain-->
+<div class="modal fade" id="blockchain" role="dialog">
+  <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"></button>
+          <h4 class="modal-title">Blockchain</h4>
+        </div>
+        <div class="modal-body">
+          <p><center>Baixe a cadeia de blocos completa em uma data mais recente para melhor velocidade na sincronização.<br>
+          	<br>
+          	<a href="https://github.com/DigitalCoin1/SperoCoin/releases" target="_blank"><button class="btn"><i class="fa fa-download"></i> Download</button></a>
+          </center></p>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+  </div>
+</div>
+<!-- Modal Linux -->
+<div class="modal fade" id="linuxcomp" role="dialog">
+  <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"></button>
+          <h4 class="modal-title">Compilação Carteira Linux</h4>
+        </div>
+        <div class="modal-body">
+          <p><b><i class="ion-code"></i> Baixe e instale as dependências:</b><br>
+              sudo apt-get install build-essential libboost-all-dev libcurl4-openssl-dev libdb5.3-dev libdb5.3++-dev qt-sdk libminiupnpc-dev qrencode libqrencode-dev git libtool automake autotools-dev autoconf pkg-config libssl-dev libgmp3-dev libevent-dev bsdmainutils<br><br>
+      <b><i class="fa fa-code"></i> Clone o código fonte do github para a máquina local:</b><br>
+              git clone https://github.com/DigitalCoin1/SperoCoin
+      <br><br>
+      <b><i class="fa fa-code"></i> Compile o daemon no diretório SperoCoin/src:</b><br>
+              cd SperoCoin/src<br><br>
+              make -f makefile.unix USE_UPNP=- USE_IPV6=1
+      <br><br>
+      <b><i class="fa fa-code"></i> Execute o daemon no diretório SperoCoin/src:</b><br>
+              ./SperoCoind
+      <br><br>
+      <b><i class="fa fa-code"></i> [OPCIONAL] Compile o QT no diretório SperoCoin:</b><br>
+              sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler libqrencode-dev<br><br>
+              qmake SperoCoin-qt.pro "USE_UPNP=-" "USE_QRCODE=1"<br><br>
+              make -f Makefile</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+  </div>
+</div>
 
     <!--==========================
       Featured Services Section
@@ -1799,111 +1986,6 @@ erros  com a QT: https://github.com/vinnystifler<br></p>
       </div>
     </section>
     <!-- #contact -->
-
-    <!--main-section-start-->
-<section id="downloads" class="section-bg wow fadeInUp">
-    <div class="container">
-        <header class="section-header">
-          <h3>Downloads</h3>
-          <p>Baixe aqui os arquivos necessários para começar no Spero.</p>
-        </header>
-      <div class="row">
-        <div class="col-lg-4 col-sm-6 wow fadeInLeft delay-05s">
-          <div class="service-list">
-            <div class="service-list-col1">
-            </div>
-            <div class="service-list-col2">
-              <a href="https://github.com/DigitalCoin1/SperoCoin_Android/releases/download/SperoCoin-v.2.6.4.6-BETA/SperoCoin-v.2.6.4.6-BETA.apk" target="_blank"><h3><i class="fa fa-android"></i> Apk Android - Versão Full Node(v.2.6.4.6-BETA)</h3>
-              <p>Wallet Android. Com essa wallet, você poderá realizar mineração PoS diretamente do seu aparelho.</p></a>
-            </div>
-          </div>
-          <div class="service-list">
-            <div class="service-list-col1">
-            </div>
-            <div class="service-list-col2">
-              <a href="https://sperocoin.org/files/SperoCoin-Version-LITE.apk" target="_blank"><h3><i class="fa fa-android"></i> Apk Android - Versão Lite</h3>
-              <p>Wallet Android WebBased. Conectada diretamente a nossa WebWallet, assim você tem a comodidade de acessar sua conta na palma de sua mão.</p></a>
-            </div>
-          </div>
-          <div class="service-list">
-            <div class="service-list-col1">
-            </div>
-            <div class="service-list-col2">
-              <a href="https://github.com/DigitalCoin1/SperoCoin/releases/download/SperoCoin-v.2.6.4.6/SperoCoin-v.2.6.4.6.exe" target="_blank"><h3><i class="fa fa-windows"></i> Windows QT - V.2.6.4.6 - 08/12/2018</h3>
-              <p>Carteira com design gráfico. Modelo para aqueles que procuram conforto e conveniência para verificar o saldo, enviar e receber moedas de forma prática e rápida.</p></a>
-            </div>
-          </div>
-          <div class="service-list">
-            <div class="service-list-col1">
-            </div>
-            <div class="service-list-col2">
-              <a href="https://github.com/DigitalCoin1/SperoCoin/releases/download/SperoCoin-v.2.6.4.6/SperoCoind-v.2.6.4.6.exe" target="_blank"><h3><i class="fa fa-windows"></i> Daemon Windows - V.2.6.4.6 - 08/12/2018</h3>
-              <p>Carteira sem design gráfico. Modelo para aqueles que buscam praticidade e menor consumo de recursos.</p></a>
-            </div>
-          </div>
-          <!--<div class="service-list">
-            <div class="service-list-col1">
-            </div>
-            <div class="service-list-col2">
-              <a href="https://github.com/DigitalCoin1/SperoCoin/releases/download/v.2.6.4.5/SperoCoin-v.2.6.4.5.-.Raspberry.5" target="_blank"><h3><i><img src="img/portfolio/raspberry.png" width="40px"/></i> Raspberry PI 3</h3>
-              <p>Carteira com design gráfico. Modelo para aqueles que procuram conforto e conveniência para verificar o saldo, enviar e receber moedas de forma prática e rápida.</p></a>
-            </div>
-          </div>-->
-            <div class="service-list">
-            <div class="service-list-col1">
-            </div>
-            <div class="service-list-col2">
-              <a href="#" data-toggle="modal" data-target="#linuxcomp"><h3><i class="fa fa-terminal"></i> Compilation Linux Wallet</h3>
-              <p>Compile você mesmo o código Spero.</p></a>
-            </div>
-          </div>
-          <div class="service-list">
-            <div class="service-list-col1">
-            </div>
-            <div class="service-list-col2">
-              <a href="https://github.com/DigitalCoin1/SperoCoin/releases" target="_blank"><h3><i class="fa fa-cubes"></i> BlockChain</h3>
-              <p>Baixe a cadeia de blocos completa em uma data mais recente para melhor velocidade na sincronização.</p></a>
-            </div>
-          </div>
-        <!--<figure class="col-lg-8 col-sm-6  text-right wow fadeInUp delay-02s">
-          <img src="img/wallet.png" alt="" width="524">
-        </figure>-->
-      </div>
-    </div>
-</div>
-</section>
-<!-- Modal -->
-  <div class="modal fade" id="linuxcomp" role="dialog">
-    <div class="modal-dialog">
-
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal"></button>
-          <h4 class="modal-title">Compilação Carteira Linux</h4>
-        </div>
-        <div class="modal-body">
-          <p><b><i class="ion-code"></i> Baixe e instale as dependências:</b><br>
-              sudo apt-get install build-essential libboost-all-dev libcurl4-openssl-dev libdb5.3-dev libdb5.3++-dev qt-sdk libminiupnpc-dev qrencode libqrencode-dev git libtool automake autotools-dev autoconf pkg-config libssl-dev libgmp3-dev libevent-dev bsdmainutils<br><br>
-      <b><i class="fa fa-code"></i> Clone o código fonte do github para a máquina local:</b><br>
-              git clone https://github.com/DigitalCoin1/SperoCoin
-      <br><br>
-      <b><i class="fa fa-code"></i> Compile o daemon no diretório SperoCoin/src:</b><br>
-              cd SperoCoin/src<br><br>
-              make -f makefile.unix USE_UPNP=- USE_IPV6=1
-      <br><br>
-      <b><i class="fa fa-code"></i> Execute o daemon no diretório SperoCoin/src:</b><br>
-              ./SperoCoind
-      <br><br>
-      <b><i class="fa fa-code"></i> [OPCIONAL] Compile o QT no diretório SperoCoin:</b><br>
-              sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler libqrencode-dev<br><br>
-              qmake SperoCoin-qt.pro "USE_UPNP=-" "USE_QRCODE=1"<br><br>
-              make -f Makefile</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
-        </div>
-      </div>
   </main>
 
   <!--==========================
