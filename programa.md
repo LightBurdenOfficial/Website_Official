@@ -1,57 +1,203 @@
-# Formato
-O programa será uma LIVE no Youtube todos os sábados às 18h. Nele os participantes irão responder ao vivo perguntas relacionadas ao mundo das criptomoedas, bem como perguntas de conhecimento geral.
-
-## Inscrição dos usuários
-Os usuários deverão se inscrever via formulário que estará disponível no site da SperoCoin.
-Neste formulário deverão conter os seguintes dados:
+# Formato<br>
+O programa será uma LIVE no Youtube todos os sábados às 18h. Nele os participantes irão responder ao vivo perguntas relacionadas ao mundo das criptomoedas, bem como perguntas de conhecimento geral.<br>
+<br>
+## Inscrição dos usuários<br>
+Os usuários deverão se inscrever via formulário que estará disponível no site da SperoCoin.<br>
+Neste formulário deverão conter os seguintes dados:<br>
 >		Nome
 >		Sobrenome
 >		Data de Nascimento
 >		Nome de Usuário do Telegram(opcional)
 >		Telefone
 >		E-mail
-
-Após o preenchimento do formulário os usuários passarão por um sorteio, onde 10 serão selecionados para participação efetiva e 05 usuários para o banco de reservas semanalmente.
+<br>
+Após o preenchimento do formulário os usuários passarão por um sorteio, onde 10 serão selecionados para participação efetiva e 05 usuários para o banco de reservas semanalmente.<br>
 
 ## Chamada dos participantes
-Após a seleção, no sábado às 18h todos os 10 usuários selecionados terão que participar de um evento que será transmitido em um canal do `Hangouts` exclusivo para o evento. O link será disponibilizado 1 dia antes do evento.
-
+Após a seleção, no sábado às 18h todos os 10 usuários selecionados participarão de um evento que será transmitido em um canal do `Hangouts` exclusivo para o evento. O link será disponibilizado 1 dia antes do evento.<br>
+<br>
 > ATENÇÃO: Os usuários do banco de reservas deverão ficar atentos, pois caso haja desistência ao iniciarmos o evento, estes usuários serão convocados.
+<br>
+Serão então liberadas perguntas de modo desclassificatório, de acordo com o próximo item.<br>
 
-Serão então liberadas perguntas de modo desclassificatório, de acordo com o próximo item.
+## Cronograma
+O evento irá respeitar o cronograma conforme exemplificado abaixo.<br>
+<p align="center">
+  <img width="700" height="400" src="https://github.com/DigitalCoin1/imagens/blob/master/etc/cronograma.png">
+</p>
+Sendo que cada fase correrá de acordo com o que se segue.<br>
 
-## Da 1ª fase
-As perguntas serão feitas em 7 rodadas, compostas de 05 perguntas cada rodada.
-Cada pergunta valerá 1 ponto.
-Cada usuário terá o prazo de 30 segundos para responder. Caso o usuário não responda ele receberá 01 ponto negativo(-1), que será deduzido da pontuação final da rodada.
+## Da 1ª semana
+> Número de Participantes: 03<br>
+> Usuários Participantes: USUÁRIO 01, USUÁRIO 09, USUÁRIO 05.<br>
+
+Serão realizadas 15 perguntas, de forma única para todos os participantes da semana.<br>
+Cada pergunta valerá 1 ponto.<br>
+Cada usuário terá o prazo de 30 segundos para responder. Caso o usuário não responda, sua resposta será considerada nula, tendo seu valor de pontos zerado.<br>
 Usuários com menor número de pontos na rodada serão desclassificados.
+<br>
+A caráter de desempate: Os participantes da LIVE, votarão no prazo de 30 segundos dentro do chat disponibilizados na plataforma do Youtube para o integrante que deverá ser desclassificado, enviando o nome do participante. Se acontecer um empate, o primeiro participante do segundo empate que recebeu o primeiro voto será o desclassificado.<br>
+<br>
+Exemplo:<br>
+>	Usuário 1, 9 e 5 ficaram empatados na desclassificação das perguntas.<br>
+>	Em votação usuários 1 e 9 ficaram empatados.<br>
+>	Em ordem cronológica o usuário 1 foi o primeiro a ter seu nome apresentado pela votação, logo ele será o eliminado.<br>
 
-A caráter de desempate: Os participantes da LIVE, votarão no prazo de 30 segundos dentro do chat disponibilizados na plataforma do Youtube para o integrante que deverá ser desclassificado, enviando o nome do participante. Se acontecer um empate, o primeiro participante do segundo empate que recebeu o primeiro voto será o desclassificado.
 
-Exemplo:
->	Usuário 1, 2 e 3 ficaram empatados na desclassificação das perguntas.<br>
->	Em votação usuários 1 e 2 ficaram empatados.<br>
->	Em ordem cronológica o usuário 1 foi o primeiro a ter seu nome apresentado pela votação, logo ele será o eliminado.
+## Da 2ª semana
+> Número de Participantes: 03<br>
+> Usuários Participantes: USUÁRIO 02, USUÁRIO 08, USUÁRIO 04.<br>
 
-## Da 2ª Fase
-Essa fase ocorrerá quando tivermos apenas 03 participantes restantes.
-As perguntas serão feitas em 02 rodadas,compostas de 03 perguntas cada rodada.
-Cada pergunta valerá 1 ponto.
-Cada usuário terá o prazo de 30 segundos para responder. Caso o usuário não responda ele receberá 01 ponto negativo(-1), que será deduzido da pontuação final da rodada.
-Usuários com menor número de pontos na rodada serão desclassificados.
+Serão realizadas 15 perguntas, de forma única para todos os participantes da semana.<br>
+Cada pergunta valerá 1 ponto.<br>
+Cada usuário terá o prazo de 30 segundos para responder. Caso o usuário não responda, sua resposta será considerada nula, tendo seu valor de pontos zerado.<br>
+Usuários com menor número de pontos na rodada serão desclassificados.<br>
+<br>
+A caráter de desempate: Os participantes da LIVE, votarão no prazo de 30 segundos dentro do chat disponibilizados na plataforma do Youtube para o integrante que deverá ser desclassificado, enviando o nome do participante. Se acontecer um empate, o primeiro participante do segundo empate que recebeu o primeiro voto será o desclassificado.<br>
+<br>
+Exemplo:<br>
+>	Usuário 2, 8 e 4 ficaram empatados na desclassificação das perguntas.<br>
+>	Em votação usuários 2 e 8 ficaram empatados.<br>
+>	Em ordem cronológica o usuário 2 foi o primeiro a ter seu nome apresentado pela votação, logo ele será o eliminado.<br>
 
-A caráter de desempate: Os participantes da LIVE, votarão no prazo de 30 segundos dentro do chat disponibilizados na plataforma do Youtube para o integrante que deverá ser desclassificado, enviando o nome do participante. Se acontecer um empate, o primeiro participante do segundo empate que recebeu o primeiro voto será o desclassificado.
+## Da 3ª semana
+> Número de Participantes: 03<br>
+> Usuários Participantes: USUÁRIO 03, USUÁRIO 07, USUÁRIO 06.<br>
 
-Exemplo:
->	Usuário 1, 2 e 3 ficaram empatados na desclassificação das perguntas.<br>
->	Em votação usuários 1 e 2 ficaram empatados.<br>
->	Em ordem cronológica o usuário 1 foi o primeiro a ter seu nome apresentado pela votação, logo ele será o eliminado.
+Serão realizadas 15 perguntas, de forma única para todos os participantes da semana.<br>
+Cada pergunta valerá 1 ponto.<br>
+Cada usuário terá o prazo de 30 segundos para responder. Caso o usuário não responda, sua resposta será considerada nula, tendo seu valor de pontos zerado.<br>
+Usuários com menor número de pontos na rodada serão desclassificados.<br>
 
-Ao fim desta fase já teremos conhecimento e definição dos participantes que estarão ocupando o 3º e 2º lugar.
+A caráter de desempate: Os participantes da LIVE, votarão no prazo de 30 segundos dentro do chat disponibilizados na plataforma do Youtube para o integrante que deverá ser desclassificado, enviando o nome do participante. Se acontecer um empate, o primeiro participante do segundo empate que recebeu o primeiro voto será o desclassificado.<br>
+<br>
+Exemplo:<br>
+>	Usuário 3, 7 e 6 ficaram empatados na desclassificação das perguntas.<br>
+>	Em votação usuários 3 e 7 ficaram empatados.<br>
+>	Em ordem cronológica o usuário 3 foi o primeiro a ter seu nome apresentado pela votação, logo ele será o eliminado.<br>
 
-## Da fase final
-A fase final será executada quando houver apenas 1 participante.
-O usuário final terá uma série de 05 perguntas com o prazo de 30 segundos para responder, definindo assim o seu prêmio.
+## Da 4ª semana
+> Número de Participantes: 02
+> Usuários Participantes: PRIMEIRO USUÁRIO VENCEDOR DA SEMANA 01 vs SEGUNDO USUÁRIO VENCEDOR DA SEMANA 01.
+
+Serão realizadas 15 perguntas, de forma única para todos os participantes da semana.<br>
+Cada pergunta valerá 1 ponto.<br>
+Cada usuário terá o prazo de 30 segundos para responder. Caso o usuário não responda, sua resposta será considerada nula, tendo seu valor de pontos zerado.<br>
+Usuários com menor número de pontos na rodada serão desclassificados.<br>
+<br>
+A caráter de desempate: Os participantes da LIVE, votarão no prazo de 30 segundos dentro do chat disponibilizados na plataforma do Youtube para o integrante que deverá ser desclassificado, enviando o nome do participante. Se acontecer um empate, o primeiro participante do segundo empate que recebeu o primeiro voto será o desclassificado.<br>
+<br>
+Exemplo:<br>
+>	Os usuários ficaram empatados na desclassificação das perguntas.<br>
+>	Em votação usuários ficaram empatados.<br>
+>	Em ordem cronológica o usuário X foi o primeiro a ter seu nome apresentado pela votação, logo ele será o eliminado.<br>
+
+## Da 5ª semana
+> Número de Participantes: 02<br>
+> Usuários Participantes: PRIMEIRO USUÁRIO VENCEDOR DA SEMANA 02 vs SEGUNDO USUÁRIO VENCEDOR DA SEMANA 02.<br>
+
+Serão realizadas 15 perguntas, de forma única para todos os participantes da semana.<br>
+Cada pergunta valerá 1 ponto.<br>
+Cada usuário terá o prazo de 30 segundos para responder. Caso o usuário não responda, sua resposta será considerada nula, tendo seu valor de pontos zerado.<br>
+Usuários com menor número de pontos na rodada serão desclassificados.<br>
+<br>
+A caráter de desempate: Os participantes da LIVE, votarão no prazo de 30 segundos dentro do chat disponibilizados na plataforma do Youtube para o integrante que deverá ser desclassificado, enviando o nome do participante. Se acontecer um empate, o primeiro participante do segundo empate que recebeu o primeiro voto será o desclassificado.<br>
+<br>
+Exemplo:<br>
+>	Os usuários ficaram empatados na desclassificação das perguntas.<br>
+>	Em votação usuários ficaram empatados.<br>
+>	Em ordem cronológica o usuário X foi o primeiro a ter seu nome apresentado pela votação, logo ele será o eliminado.<br>
+
+## Da 6ª semana
+> Número de Participantes: 02<br>
+> Usuários Participantes: PRIMEIRO USUÁRIO VENCEDOR DA SEMANA 03 vs SEGUNDO USUÁRIO VENCEDOR DA SEMANA 03.<br>
+
+Serão realizadas 15 perguntas, de forma única para todos os participantes da semana.<br>
+Cada pergunta valerá 1 ponto.<br>
+Cada usuário terá o prazo de 30 segundos para responder. Caso o usuário não responda, sua resposta será considerada nula, tendo seu valor de pontos zerado.<br>
+Usuários com menor número de pontos na rodada serão desclassificados.<br>
+<br>
+A caráter de desempate: Os participantes da LIVE, votarão no prazo de 30 segundos dentro do chat disponibilizados na plataforma do Youtube para o integrante que deverá ser desclassificado, enviando o nome do participante. Se acontecer um empate, o primeiro participante do segundo empate que recebeu o primeiro voto será o desclassificado.<br>
+<br>
+Exemplo:<br>
+>	Os usuários ficaram empatados na desclassificação das perguntas.<br>
+>	Em votação usuários ficaram empatados.<br>
+>	Em ordem cronológica o usuário X foi o primeiro a ter seu nome apresentado pela votação, logo ele será o eliminado.<br>
+
+## Da 7ª semana
+> Número de Participantes: 02<br>
+> Usuários Participantes: USUÁRIO VENCEDOR DA SEMANA 04 vs VENCEDOR DA SEMANA 05.<br>
+
+Serão realizadas 15 perguntas, de forma única para todos os participantes da semana.<br>
+Cada pergunta valerá 1 ponto.<br>
+Cada usuário terá o prazo de 30 segundos para responder. Caso o usuário não responda, sua resposta será considerada nula, tendo seu valor de pontos zerado.<br>
+Usuários com menor número de pontos na rodada serão desclassificados.<br>
+<br>
+A caráter de desempate: Os participantes da LIVE, votarão no prazo de 30 segundos dentro do chat disponibilizados na plataforma do Youtube para o integrante que deverá ser desclassificado, enviando o nome do participante. Se acontecer um empate, o primeiro participante do segundo empate que recebeu o primeiro voto será o desclassificado.<br>
+<br>
+Exemplo:<br>
+>	Os usuários ficaram empatados na desclassificação das perguntas.<br>
+>	Em votação usuários ficaram empatados.<br>
+>	Em ordem cronológica o usuário X foi o primeiro a ter seu nome apresentado pela votação, logo ele será o eliminado.<br>
+
+## Da 8ª semana
+> Número de Participantes: 02<br>
+> Usuários Participantes: USUÁRIO VENCEDOR DA SEMANA 04 vs USUÁRIO 10.<br>
+
+Serão realizadas 15 perguntas, de forma única para todos os participantes da semana.<br>
+Cada pergunta valerá 1 ponto.<br>
+Cada usuário terá o prazo de 30 segundos para responder. Caso o usuário não responda, sua resposta será considerada nula, tendo seu valor de pontos zerado.<br>
+Usuários com menor número de pontos na rodada serão desclassificados.<br>
+<br>
+A caráter de desempate: Os participantes da LIVE, votarão no prazo de 30 segundos dentro do chat disponibilizados na plataforma do Youtube para o integrante que deverá ser desclassificado, enviando o nome do participante. Se acontecer um empate, o primeiro participante do segundo empate que recebeu o primeiro voto será o desclassificado.<br>
+<br>
+Exemplo:<br>
+>	Os usuários ficaram empatados na desclassificação das perguntas.<br>
+>	Em votação usuários ficaram empatados.<br>
+>	Em ordem cronológica o usuário X foi o primeiro a ter seu nome apresentado pela votação, logo ele será o eliminado.<br>
+
+# DENIFIÇÃO DO 3º LUGAR
+
+## Da 9ª semana
+> Número de Participantes: 02<br>
+> Usuários Participantes: PERDEDOR DA SEMANA 07 vs PERDEDOR DA SEMANA 08.<br>
+
+Serão realizadas 15 perguntas, de forma única para todos os participantes da semana.<br>
+Cada pergunta valerá 1 ponto.<br>
+Cada usuário terá o prazo de 30 segundos para responder. Caso o usuário não responda, sua resposta será considerada nula, tendo seu valor de pontos zerado.<br>
+Usuários com menor número de pontos na rodada serão desclassificados.<br>
+<br>
+A caráter de desempate: Os participantes da LIVE, votarão no prazo de 30 segundos dentro do chat disponibilizados na plataforma do Youtube para o integrante que deverá ser desclassificado, enviando o nome do participante. Se acontecer um empate, o primeiro participante do segundo empate que recebeu o primeiro voto será o desclassificado.<br>
+<br>
+Exemplo:<br>
+>	Os usuários ficaram empatados na desclassificação das perguntas.<br>
+>	Em votação usuários ficaram empatados.<br>
+>	Em ordem cronológica o usuário X foi o primeiro a ter seu nome apresentado pela votação, logo ele será o eliminado.<br>
+
+# DENIFIÇÃO DO 1º LUGAR E 2º LUGAR
+
+## Da 10ª semana
+> Número de Participantes: 02<br>
+> Usuários Participantes: USUÁRIO VENCEDOR DA SEMANA 07 vs USUÁRIO VENCEDOR DA SEMANA 08.<br>
+
+Serão realizadas 15 perguntas, de forma única para todos os participantes da semana.<br>
+Cada pergunta valerá 1 ponto.<br>
+Cada usuário terá o prazo de 30 segundos para responder. Caso o usuário não responda, sua resposta será considerada nula, tendo seu valor de pontos zerado.<br>
+Usuários com menor número de pontos na rodada serão desclassificados.<br>
+
+A caráter de desempate: Os participantes da LIVE, votarão no prazo de 30 segundos dentro do chat disponibilizados na plataforma do Youtube para o integrante que deverá ser desclassificado, enviando o nome do participante. Se acontecer um empate, o primeiro participante do segundo empate que recebeu o primeiro voto será o desclassificado.<br>
+
+Exemplo:<br>
+>	Os usuários ficaram empatados na desclassificação das perguntas.<br>
+>	Em votação usuários ficaram empatados.<br>
+>	Em ordem cronológica o usuário X foi o primeiro a ter seu nome apresentado pela votação, logo ele será o eliminado.<br>
+
+# FINAL
+
+## Da 11ª semana
+> A fase final será executada quando houver apenas 1 participante.<br>
+
+O usuário final terá uma série de 05 perguntas com o prazo de 30 segundos para responder, definindo assim o seu prêmio.<br>
 Em relação aos prêmios de acordo com os acertos, teremos:
 >		Primeira pergunta: 50% do prêmio
 >		Segunda pergunta: 60% do prêmio
