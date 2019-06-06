@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'name_smileregular';
+    src: url('https://sperocoin.org/whitepaper/assets/fonts/name_smile-webfont.woff2') format('woff2'),
+         url('https://sperocoin.org/whitepaper/assets/fonts/name_smile-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

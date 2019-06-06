@@ -282,7 +282,7 @@ $(function(){
         <div class="modal-body">
           <p><center>Wallet Android. Con esta wallet, podrás realizar mineración PoS directamente desde tu celular/tablet.<br>
             <br>
-            <a href="https://github.com/DigitalCoin1/SperoCoin_Android/releases/download/SperoCoin-v.2.6.4.6-BETA/SperoCoin-v.2.6.4.6-BETA.apk" target="_blank"><button class="btn"><i class="fa fa-download"></i> Download v.2.6.4.6</button></a>
+            <a href="https://github.com/DigitalCoin1/SperoCoin_Android/releases/download/SperoCoin-v.2.6.4.7-BETA/SperoCoin-v.2.6.4.7-BETA.apk" target="_blank"><button class="btn"><i class="fa fa-download"></i> Download v.2.6.4.7</button></a>
           </center></p>
 
         </div>
@@ -328,7 +328,9 @@ $(function(){
         <div class="modal-body">
           <p><center>Wallet designer con gráfico. Modelo para aquellos que buscan confort y conveniencia para verificar saldo, enviar y recibir monedas de forma prática y rápida.<br>
             <br>
-            <a href="https://github.com/DigitalCoin1/SperoCoin/releases/download/SperoCoin-v.2.6.4.6/SperoCoin-v.2.6.4.6.exe" target="_blank"><button class="btn"><i class="fa fa-download"></i> Download v.2.6.4.6</button></a>
+            <a href="https://github.com/DigitalCoin1/SperoCoin/releases/download/SperoCoin-v.2.6.4.7/SperoCoin-qt-v2.6.4.7_x86.exe" target="_blank"><button class="btn"><i class="fa fa-download"></i> Download v.2.6.4.7 - 32bits</button></a>
+            <br><br>
+            <a href="https://github.com/DigitalCoin1/SperoCoin/releases/download/SperoCoin-v.2.6.4.7/SperoCoin-qt-v2.6.4.7_x64.exe" target="_blank"><button class="btn"><i class="fa fa-download"></i> Download v.2.6.4.7 - 64bits</button></a>
           </center></p>
 
         </div>
@@ -351,7 +353,9 @@ $(function(){
         <div class="modal-body">
           <p><center>Wallet designer sin graficos.  Modelo para aquellos que buscan praticidad y menor consumo de recursos.<br>
             <br>
-            <a href="https://github.com/DigitalCoin1/SperoCoin/releases/download/SperoCoin-v.2.6.4.6/SperoCoind-v.2.6.4.6.exe" target="_blank"><button class="btn"><i class="fa fa-download"></i> Download v.2.6.4.6</button></a>
+            <a href="https://github.com/DigitalCoin1/SperoCoin/releases/download/SperoCoin-v.2.6.4.7/SperoCoind-v2.6.4.7_x86.exe" target="_blank"><button class="btn"><i class="fa fa-download"></i> Download v.2.6.4.7 - 32bits</button></a>
+            <br><br>
+            <a href="https://github.com/DigitalCoin1/SperoCoin/releases/download/SperoCoin-v.2.6.4.7/SperoCoind-v2.6.4.7_x64.exe" target="_blank"><button class="btn"><i class="fa fa-download"></i> Download v.2.6.4.7 - 64bits</button></a>
           </center></p>
 
         </div>
@@ -856,6 +860,86 @@ errores con QT: https://github.com/vinnystifler<br></p>
       </div>
   </div>
 
+
+    <div class="card">
+        <div class="card-header">
+          <h5 class="mb-0">
+            <button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#11032019">
+              <i class="fa fa-code"></i> 11/03/2019
+            </button>
+          </h5>
+        </div>
+        <div id="11032019" class="collapse">
+          <div class="card-body">
+              <p><i class="fa fa-check-square-o" aria-hidden="true"></i> [RPC] Implementación del comando -zapwallettxes y del sistema FILE_DESCRIPTORS
+<br></p>
+        </div>
+      </div>
+  </div>
+
+    <div class="card">
+        <div class="card-header">
+          <h5 class="mb-0">
+            <button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#16032019">
+              <i class="fa fa-code"></i> 16/03/2019
+            </button>
+          </h5>
+        </div>
+        <div id="16032019" class="collapse">
+          <div class="card-body">
+              <p><i class="fa fa-check-square-o" aria-hidden="true"></i> Copias de seguridad automáticas del archivo wallet.dat<br></p>
+        </div>
+      </div>
+  </div>
+
+    <div class="card">
+        <div class="card-header">
+          <h5 class="mb-0">
+            <button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#09042019">
+              <i class="fa fa-code"></i> 09/04/2019
+            </button>
+          </h5>
+        </div>
+        <div id="09042019" class="collapse">
+          <div class="card-body">
+              <p><i class="fa fa-check-square-o" aria-hidden="true"></i> Activación de la cuenta de base SPERO en PoW<br></p>
+        </div>
+      </div>
+  </div>
+
+    <div class="card">
+        <div class="card-header">
+          <h5 class="mb-0">
+            <button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#17042019">
+              <i class="fa fa-code"></i> 17/04/2019
+            </button>
+          </h5>
+        </div>
+        <div id="17042019" class="collapse">
+          <div class="card-body">
+              <p><i class="fa fa-check-square-o" aria-hidden="true"></i> Adición del sistema Charity PoS<br></p>
+        </div>
+      </div>
+  </div>
+
+    <div class="card">
+        <div class="card-header">
+          <h5 class="mb-0">
+            <button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#22052019">
+              <i class="fa fa-code"></i> 22/05/2019
+            </button>
+          </h5>
+        </div>
+        <div id="22052019" class="collapse">
+          <div class="card-body">
+              <p><i class="fa fa-check-square-o" aria-hidden="true"></i> Lanzamiento de la versión 2.6.4.7<br></p>
+        <br></p>
+        </div>
+      </div>
+  </div>
+
+
+
 </div>
 </div>
 <!-- FORKS -->
@@ -1257,6 +1341,21 @@ errores con QT: https://github.com/vinnystifler<br></p>
         <div id="18022019" class="collapse">
           <div class="card-body">
               <p><i class="fa fa-check-square-o" aria-hidden="true"></i> Listado en <a href="https://www.4stake.com/sperocoin">4Stake</a></p>
+        </div>
+      </div>
+  </div>
+
+    <div class="card">
+        <div class="card-header">
+          <h5 class="mb-0">
+            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#24052019">
+              <i class="fa fa-info"></i> 24/05/2019
+            </button>
+          </h5>
+        </div>
+        <div id="24052019" class="collapse">
+          <div class="card-body">
+              <p><i class="fa fa-check-square-o" aria-hidden="true"></i> Listado en <a href="https://app.troca.ninja/detail/SPERO">Troca.Ninja</a></p>
         </div>
       </div>
   </div>
@@ -1733,19 +1832,6 @@ errores con QT: https://github.com/vinnystifler<br></p>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-pool wow fadeInUp" data-wow-delay="0.2s">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="img/portfolio/cryptostake.jpg" class="img-fluid" alt="">
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="https://cryptostake.es/" target="_blank">Crypto Stake</a></h4>
-                <p>Pool Stake</p>
-              </div>
-            </div>
-          </div>
-
           <div class="col-lg-4 col-md-6 portfolio-item filter-topics wow fadeInUp" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
               <figure>
@@ -1791,7 +1877,6 @@ errores con QT: https://github.com/vinnystifler<br></p>
           <!-- ALTILLY --><a href="https://www.altilly.com/?a=f46ba" target="_blank"><img src="img/clients/client-1.png" alt=""></a>
           <!-- CATALOGO P2P --><a href="https://catalogop2p.com.br" target="_blank"><img src="img/clients/client-2.png" alt=""></a>
           <!-- STAKING WORLD --><a href="https://staking.world" target="_blank"><img src="img/clients/client-3.png" alt=""></a>
-          <!-- CRYPTOSTAKE --><a href="https://cryptostake.es?__wallets_faucet_ref=6412684e6793ba02" target="_blank"><img src="img/clients/client-4.png" alt=""></a>
           <!-- HOPE ASSISTENCIA --><a href="" target="_blank"><img src="img/clients/client-5.png" alt=""></a>
           <!-- MDINVEST --><a href="https://mdinvest.nl" target="_blank"><img src="img/clients/client-6.png" alt=""></a>
           <!-- FANATICOS CRIPTOSFM --><a href="http://fanaticoscriptosfm.com" target="_blank"><img src="img/clients/client-7.png" alt=""></a>

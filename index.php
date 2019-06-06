@@ -74,8 +74,9 @@ $(function(){
     Author: BootstrapMade.com
     License: https://bootstrapmade.com/license/
   ======================================================= -->
-</head>
 
+<meta name="norton-safeweb-site-verification" content="zlwq-tz37fainozehl0su7pvltv7g5khc1zondg-ymyhzjyxn1asv1246ca5-nbgmheunwse9x1ec0492qk5chwn1ehibldr2x24s41nxhhu8ktpu9j5fydxztz0vpad" />
+</head>
 <body>
 
   <!--==========================
@@ -123,6 +124,7 @@ $(function(){
                       <li><a href="https://sperocoin.org/paperwallet" target="_blank">PaperWallet</a></li>
                       <li><a href="https://cloudmining.sperocoin.org" target="_blank">CloudMining</a></li>
                       <li><a href="https://loja.sperocoin.org" target="_blank">Loja Virtual</a></li>
+                      <li><a href="https://sperocoin.org/sperogame/" target="_blank">SperoGame</a></li>
                     </ul>
             </li>
             <!-- Menu de Serviços -->
@@ -282,7 +284,7 @@ $(function(){
         <div class="modal-body">
           <p><center>Wallet Android. Com essa wallet, você poderá realizar mineração PoS diretamente do seu aparelho.<br>
           	<br>
-          	<a href="https://github.com/DigitalCoin1/SperoCoin_Android/releases/download/SperoCoin-v.2.6.4.6-BETA/SperoCoin-v.2.6.4.6-BETA.apk" target="_blank"><button class="btn"><i class="fa fa-download"></i> Download v.2.6.4.6</button></a>
+          	<a href="https://github.com/DigitalCoin1/SperoCoin_Android/releases/download/SperoCoin-v.2.6.4.7-BETA/SperoCoin-v.2.6.4.7-BETA.apk" target="_blank"><button class="btn"><i class="fa fa-download"></i> Download v.2.6.4.7</button></a>
           </center></p>
 
         </div>
@@ -328,7 +330,9 @@ $(function(){
         <div class="modal-body">
           <p><center>Carteira com design gráfico. Modelo para aqueles que procuram conforto e conveniência para verificar o saldo, enviar e receber moedas de forma prática e rápida.<br>
           	<br>
-          	<a href="https://github.com/DigitalCoin1/SperoCoin/releases/download/SperoCoin-v.2.6.4.6/SperoCoin-v.2.6.4.6.exe" target="_blank"><button class="btn"><i class="fa fa-download"></i> Download v.2.6.4.6</button></a>
+          	<a href="https://github.com/DigitalCoin1/SperoCoin/releases/download/SperoCoin-v.2.6.4.7/SperoCoin-qt-v2.6.4.7_x86.exe" target="_blank"><button class="btn"><i class="fa fa-download"></i> Download v.2.6.4.7 - 32bits</button></a>
+            <br><br>
+            <a href="https://github.com/DigitalCoin1/SperoCoin/releases/download/SperoCoin-v.2.6.4.7/SperoCoin-qt-v2.6.4.7_x64.exe" target="_blank"><button class="btn"><i class="fa fa-download"></i> Download v.2.6.4.7 - 64bits</button></a>
           </center></p>
 
         </div>
@@ -351,7 +355,9 @@ $(function(){
         <div class="modal-body">
           <p><center>Carteira sem design gráfico. Modelo para aqueles que buscam praticidade e menor consumo de recursos.<br>
           	<br>
-          	<a href="https://github.com/DigitalCoin1/SperoCoin/releases/download/SperoCoin-v.2.6.4.6/SperoCoind-v.2.6.4.6.exe" target="_blank"><button class="btn"><i class="fa fa-download"></i> Download v.2.6.4.6</button></a>
+          	<a href="https://github.com/DigitalCoin1/SperoCoin/releases/download/SperoCoin-v.2.6.4.7/SperoCoind-v2.6.4.7_x86.exe" target="_blank"><button class="btn"><i class="fa fa-download"></i> Download v.2.6.4.7 - 32bits</button></a>
+            <br><br>
+            <a href="https://github.com/DigitalCoin1/SperoCoin/releases/download/SperoCoin-v.2.6.4.7/SperoCoind-v2.6.4.7_x64.exe" target="_blank"><button class="btn"><i class="fa fa-download"></i> Download v.2.6.4.7 - 64bits</button></a>
           </center></p>
 
         </div>
@@ -850,8 +856,84 @@ erros  com a QT: https://github.com/vinnystifler<br></p>
         </div>
         <div id="17122018" class="collapse">
         	<div class="card-body">
-          		<p><i class="fa fa-check-square-o" aria-hidden="true"></i> Correção de hash de transação incorreto
+          		<p><i class="fa fa-check-square-o" aria-hidden="true"></i> Correção de hash de transação incorreto<br></p>
+        </div>
+      </div>
+  </div>
+
+    <div class="card">
+        <div class="card-header">
+          <h5 class="mb-0">
+            <button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#11032019">
+              <i class="fa fa-code"></i> 11/03/2019
+            </button>
+          </h5>
+        </div>
+        <div id="11032019" class="collapse">
+          <div class="card-body">
+              <p><i class="fa fa-check-square-o" aria-hidden="true"></i> [RPC] Implementação do comando -zapwallettxes e do sistema FILE_DESCRIPTORS
 <br></p>
+        </div>
+      </div>
+  </div>
+
+    <div class="card">
+        <div class="card-header">
+          <h5 class="mb-0">
+            <button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#16032019">
+              <i class="fa fa-code"></i> 16/03/2019
+            </button>
+          </h5>
+        </div>
+        <div id="16032019" class="collapse">
+          <div class="card-body">
+              <p><i class="fa fa-check-square-o" aria-hidden="true"></i> Backup automáticos do arquivo wallet.dat<br></p>
+        </div>
+      </div>
+  </div>
+
+    <div class="card">
+        <div class="card-header">
+          <h5 class="mb-0">
+            <button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#09042019">
+              <i class="fa fa-code"></i> 09/04/2019
+            </button>
+          </h5>
+        </div>
+        <div id="09042019" class="collapse">
+          <div class="card-body">
+              <p><i class="fa fa-check-square-o" aria-hidden="true"></i> Ativação da conta Foundation SPERO em PoW<br></p>
+        </div>
+      </div>
+  </div>
+
+    <div class="card">
+        <div class="card-header">
+          <h5 class="mb-0">
+            <button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#17042019">
+              <i class="fa fa-code"></i> 17/04/2019
+            </button>
+          </h5>
+        </div>
+        <div id="17042019" class="collapse">
+          <div class="card-body">
+              <p><i class="fa fa-check-square-o" aria-hidden="true"></i> Adição do Sistema Charity PoS<br></p>
+        </div>
+      </div>
+  </div>
+
+    <div class="card">
+        <div class="card-header">
+          <h5 class="mb-0">
+            <button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#22052019">
+              <i class="fa fa-code"></i> 22/05/2019
+            </button>
+          </h5>
+        </div>
+        <div id="22052019" class="collapse">
+          <div class="card-body">
+              <p><i class="fa fa-check-square-o" aria-hidden="true"></i> Lançamento da versão 2.6.4.7<br></p>
+        <br></p>
         </div>
       </div>
   </div>
@@ -1260,6 +1342,23 @@ erros  com a QT: https://github.com/vinnystifler<br></p>
         </div>
       </div>
   </div>
+
+    <div class="card">
+        <div class="card-header">
+          <h5 class="mb-0">
+            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#24052019">
+              <i class="fa fa-info"></i> 24/05/2019
+            </button>
+          </h5>
+        </div>
+        <div id="24052019" class="collapse">
+          <div class="card-body">
+              <p><i class="fa fa-check-square-o" aria-hidden="true"></i> Listagem na <a href="https://app.troca.ninja/detail/SPERO">Troca.Ninja</a></p>
+        </div>
+      </div>
+  </div>
+
+
 
 </div>
 </div>
@@ -1732,19 +1831,6 @@ erros  com a QT: https://github.com/vinnystifler<br></p>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-pool wow fadeInUp" data-wow-delay="0.2s">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="img/portfolio/cryptostake.jpg" class="img-fluid" alt="">
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="https://cryptostake.es/" target="_blank">Crypto Stake</a></h4>
-                <p>Pool Stake</p>
-              </div>
-            </div>
-          </div>
-
           <div class="col-lg-4 col-md-6 portfolio-item filter-topics wow fadeInUp" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
               <figure>
@@ -1790,7 +1876,6 @@ erros  com a QT: https://github.com/vinnystifler<br></p>
           <!-- ALTILLY --><a href="https://www.altilly.com/?a=f46ba" target="_blank"><img src="img/clients/client-1.png" alt=""></a>
           <!-- CATALOGO P2P --><a href="https://catalogop2p.com.br" target="_blank"><img src="img/clients/client-2.png" alt=""></a>
           <!-- STAKING WORLD --><a href="https://staking.world" target="_blank"><img src="img/clients/client-3.png" alt=""></a>
-          <!-- CRYPTOSTAKE --><a href="https://cryptostake.es?__wallets_faucet_ref=6412684e6793ba02" target="_blank"><img src="img/clients/client-4.png" alt=""></a>
           <!-- HOPE ASSISTENCIA --><a href="" target="_blank"><img src="img/clients/client-5.png" alt=""></a>
           <!-- MDINVEST --><a href="https://mdinvest.nl" target="_blank"><img src="img/clients/client-6.png" alt=""></a>
           <!-- FANATICOS CRIPTOSFM --><a href="http://fanaticoscriptosfm.com" target="_blank"><img src="img/clients/client-7.png" alt=""></a>
