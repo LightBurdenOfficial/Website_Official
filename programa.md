@@ -280,4 +280,5 @@ A entrega dos prêmios será realizada após o término do evento, mediante cont
 
 9.5.1 - Os prêmios não reclamados no prazo de 7(sete) dias corridos serão utilizados na temporada seguinte.
 
-* A SPEROCOIN se reserva no direito de alterar/remover quaisquer um dos itens sem aviso prévio, de modo a preservar a boa disputa entre os participantes e um melhor aproveitamento do programa.
+## A SPEROCOIN se reserva no direito de alterar quaisquer um dos itens sem aviso prévio, de modo a preservar a boa disputa entre os participantes e um melhor aproveitamento do programa.
+
