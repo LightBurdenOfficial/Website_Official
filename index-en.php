@@ -1795,14 +1795,15 @@ errors with QT: https://github.com/vinnystifler<br></p>
             </div>
           </div>
 
+
           <div class="col-lg-4 col-md-6 portfolio-item filter-exchange wow fadeInUp" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
               <figure>
-                <img src="img/portfolio/p2brasil.png" class="img-fluid" alt="">
+                <img src="img/portfolio/trocanj.png" class="img-fluid" alt="">
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="https://p2brasil.com/produto/sperocoin/" target="_blank">P2Brasil</a></h4>
+                <h4><a href="https://app.troca.ninja/offer/SPERO" target="_blank">Troca.Ninja</a></h4>
                 <p>Exchange P2P</p>
               </div>
             </div>
