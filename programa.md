@@ -249,19 +249,24 @@ Parar: Nessa opção o usuário interrompe o evento e recebe o valor de prêmio 
 ```
 9.3.1 - Caso o usuário selecione a opção Perguntar ao Chat, e após corridos os 10 segundos para que o mesmo escolha a sua reposta ele ainda não o tenha feito, a resposta será considerada incorreta, resultando na eliminação do participante e término do evento.
 
+## 9.4 Da Pergunta Extra:
+9.4.1 - A pergunta extra será realizada apenas se o participante concordar com os termos referentes à mesma, incluindo a perda de saldo em caso de erro da pergunta.
+9.4.2 - Serão dados 4 temas em que o participante poderá escolher qualquer um deles para determinar a categoria da pergunta extra.
+9.4.3 - A pergunta será realizada de forma ditada pelo apresentador e posteriormente será exibida no YouTube, assim que a exibição for iniciada no Youtube, o usuário terá o prazo de 10 segundos para responder. Caso o usuário não responda, sua resposta será considerada nula, resultando na eliminação do participante e término do evento.
+9.4.4 - Não será possível utilizar quaisquer opções de ajuda, como pular ou perguntar ao chat.
 
-## 9.4 Da Premiação:
-9.4.1 - Toda a arrecadação corresponde à 100% do prêmio final, sendo todo os custos para a manutenção do evento realizada por parte da equipe SPERO.<br>
-9.4.2 - Os prêmios serão distribuídos de forma percentual, de acordo com cada colocação dos 03(três) primeiros colocados, sendo:
+## 9.5 Da Premiação:
+9.5.1 - Toda a arrecadação corresponde à 100% do prêmio final, sendo todo os custos para a manutenção do evento realizada por parte da equipe SPERO.<br>
+9.5.2 - Os prêmios serão distribuídos de forma percentual, de acordo com cada colocação dos 03(três) primeiros colocados, sendo:
 
-### 9.4.1 - 3º Lugar
-9.4.1.1 - O 3º colocado do evento receberá um total de 10% de todos os prêmios arrecadados para o evento;
+### 9.5.1.1 - 3º Lugar
+9.5.1.1.1 - O 3º colocado do evento receberá um total de 10% de todos os prêmios arrecadados para o evento;
 
-### 9.4.2 - 2º Lugar
-9.4.2.1 - O 2º colocado do evento receberá um total de 20% de todos os prêmios arrecadados para o evento;
+### 9.5.1.2 - 2º Lugar
+9.5.2.1 - O 2º colocado do evento receberá um total de 20% de todos os prêmios arrecadados para o evento;
 
-### 9.4.3 - 1º Lugar
-9.4.3.1 - O 1º colocado receberá de acordo com as respostas corretas que obtiver na final, conforme abaixo:
+### 9.5.1.3 - 1º Lugar
+9.5.1.3 - O 1º colocado receberá de acordo com as respostas corretas que obtiver na final, conforme abaixo:
 >		Primeira pergunta: 50% do prêmio
 >		Segunda pergunta: 60% do prêmio
 >		Terceira pergunta: 75% do prêmio
@@ -270,15 +275,14 @@ Parar: Nessa opção o usuário interrompe o evento e recebe o valor de prêmio 
 >
 >		Pergunta Extra(Opcional): 100% do prêmio + bônus
 
-### 9.4.4 - Relação para erros e premiação:
-9.4.4.1 - Caso o usuário erre a primeira pergunta, ele receberá a base da premiação que é de 40% sob o valor total do prêmio.<br>
-9.4.4.2 - Se o usuário errar a partir da segunda pergunta, ele receberá o equivalente ao prêmio da resposta anterior.<br>
-9.4.4.3 - Se o usuário errar a PERGUNTA EXTRA ele receberá apenas 20% da premiação total.<br>
+### 9.6 - Relação para erros e premiação:
+9.6.1 - Caso o usuário erre a primeira pergunta, ele receberá a base da premiação que é de 40% sob o valor total do prêmio.<br>
+9.6.2 - Se o usuário errar a partir da segunda pergunta, ele receberá o equivalente ao prêmio da resposta anterior.<br>
+9.6.3 - Se o usuário errar a PERGUNTA EXTRA ele receberá apenas 20% da premiação total.<br>
 
-## 9.5 Entrega dos prêmios:
+## 9.7 Entrega dos prêmios:
 A entrega dos prêmios será realizada após o término do evento, mediante contato de acordo com os meios enviados pelo participante via formulário de inscrição e posteriormente postada dentro do site da SperoCoin, com prazo de resposta por meio dos participantes de até 7(sete) dias corridos.
 
-9.5.1 - Os prêmios não reclamados no prazo de 7(sete) dias corridos serão utilizados na temporada seguinte.
+9.7.1 - Os prêmios não reclamados no prazo de 7(sete) dias corridos serão utilizados na temporada seguinte.
 
 ## A SPEROCOIN se reserva no direito de remover/alterar quaisquer um dos itens sem aviso prévio, de modo a preservar a boa disputa entre os participantes e um melhor aproveitamento do programa.
-
