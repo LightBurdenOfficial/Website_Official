@@ -231,7 +231,7 @@ Exemplo:<br>
 > A fase final será executada quando houver apenas 1 participante.<br>
 
 9.1.1 - O usuário final terá uma série de 05 perguntas com o prazo de 10 segundos para responder, definindo assim o seu prêmio.<br>
-9.1.2 - A pergunta será realizada de forma ditada pelo apresentador e posteriormente será exibida no YouTube, assim que a exibição for iniciada no Youtube, o usuário terá o prazo de 15 segundos para responder. Caso o usuário não responda, sua resposta será considerada nula, resultando na eliminação do participante e término do evento.
+9.1.2 - A pergunta será realizada de forma ditada pelo apresentador e posteriormente será exibida no YouTube, assim que a exibição for iniciada no Youtube, o usuário terá o prazo de 10 segundos para responder. Caso o usuário não responda, sua resposta será considerada nula, resultando na eliminação do participante e término do evento.
 
 ## 9.2 Quantidade de opção que poderão ser utilizadas pelo usuário final:
 ```sh
@@ -244,7 +244,7 @@ Parar: 1
 ## 9.3 Opções que poderão ser utilizadas pelo usuário final:
 ```sh 
 Pular: Nessa modalidade o usuário poderá cancelar a pergunta atual e seguir para a próxima.
-Perguntar ao Chat: Nessa modalidade a pergunta será direcionada para o chat do Youtube e os participantes terão o prazo de 20 segundos para responderem, após o término do tempo, o participante terá 10 segundos para fazer a escolha da resposta.
+Perguntar ao Chat: Nessa modalidade a pergunta será direcionada para o chat do Youtube e os participantes terão o prazo de 30 segundos para responderem, após o término do tempo, o participante terá 10 segundos para fazer a escolha da resposta.
 Parar: Nessa opção o usuário interrompe o evento e recebe o valor de prêmio da resposta anterior, exceto se for a primeira pergunta.
 ```
 9.3.1 - Caso o usuário selecione a opção Perguntar ao Chat, e após corridos os 10 segundos para que o mesmo escolha a sua reposta ele ainda não o tenha feito, a resposta será considerada incorreta, resultando na eliminação do participante e término do evento.
@@ -280,5 +280,5 @@ A entrega dos prêmios será realizada após o término do evento, mediante cont
 
 9.5.1 - Os prêmios não reclamados no prazo de 7(sete) dias corridos serão utilizados na temporada seguinte.
 
-## A SPEROCOIN se reserva no direito de alterar quaisquer um dos itens sem aviso prévio, de modo a preservar a boa disputa entre os participantes e um melhor aproveitamento do programa.
+## A SPEROCOIN se reserva no direito de remover/alterar quaisquer um dos itens sem aviso prévio, de modo a preservar a boa disputa entre os participantes e um melhor aproveitamento do programa.
 
