@@ -280,9 +280,9 @@ Parar: Nessa opção o usuário interrompe o evento e recebe o valor de prêmio 
 9.6.2 - Se o usuário errar a partir da segunda pergunta, ele receberá o equivalente ao prêmio da resposta anterior.<br>
 9.6.3 - Se o usuário errar a PERGUNTA EXTRA ele receberá apenas 20% da premiação total.<br>
 
-## 9.7 Entrega dos prêmios:
+# 10. Entrega dos prêmios:
 A entrega dos prêmios será realizada após o término do evento, mediante contato de acordo com os meios enviados pelo participante via formulário de inscrição e posteriormente postada dentro do site da SperoCoin, com prazo de resposta por meio dos participantes de até 7(sete) dias corridos.
 
-9.7.1 - Os prêmios não reclamados no prazo de 7(sete) dias corridos serão utilizados na temporada seguinte.
+10.1 - Os prêmios não reclamados no prazo de 7(sete) dias corridos serão utilizados na temporada seguinte.
 
 ## A SPEROCOIN se reserva no direito de remover/alterar quaisquer um dos itens sem aviso prévio, de modo a preservar a boa disputa entre os participantes e um melhor aproveitamento do programa.
