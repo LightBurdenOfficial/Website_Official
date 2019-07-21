@@ -247,12 +247,12 @@ Pular: Nessa modalidade o usuário poderá cancelar a pergunta atual e seguir pa
 Perguntar ao Chat: Nessa modalidade a pergunta será direcionada para o chat do Youtube e os participantes terão o prazo de 30 segundos para responderem, após o término do tempo, o participante terá 10 segundos para fazer a escolha da resposta.
 Parar: Nessa opção o usuário interrompe o evento e recebe o valor de prêmio da resposta anterior, exceto se for a primeira pergunta.
 ```
-9.3.1 - Caso o usuário selecione a opção Perguntar ao Chat, e após corridos os 10 segundos para que o mesmo escolha a sua reposta ele ainda não o tenha feito, a resposta será considerada incorreta, resultando na eliminação do participante e término do evento.
+9.3.1 - Caso o usuário selecione a opção Perguntar ao Chat, e após corridos os 10 segundos para que o mesmo escolha a sua resposta ele ainda não o tenha feito, a resposta será considerada incorreta, resultando na eliminação do participante e término do evento.
 
 ## 9.4 Da Pergunta Extra:
-9.4.1 - A pergunta extra será realizada apenas se o participante concordar com os termos referentes à mesma, incluindo a perda de saldo em caso de erro da pergunta.
-9.4.2 - Serão dados 4 temas em que o participante poderá escolher qualquer um deles para determinar a categoria da pergunta extra.
-9.4.3 - A pergunta será realizada de forma ditada pelo apresentador e posteriormente será exibida no YouTube, assim que a exibição for iniciada no Youtube, o usuário terá o prazo de 10 segundos para responder. Caso o usuário não responda, sua resposta será considerada nula, resultando na eliminação do participante e término do evento.
+9.4.1 - A pergunta extra será realizada apenas se o participante concordar com os termos referentes à mesma, incluindo a perda de saldo em caso de erro da pergunta.<br>
+9.4.2 - Serão dados 4 temas em que o participante poderá escolher qualquer um deles para determinar a categoria da pergunta extra.<br>
+9.4.3 - A pergunta será realizada de forma ditada pelo apresentador e posteriormente será exibida no YouTube, assim que a exibição for iniciada no Youtube, o usuário terá o prazo de 10 segundos para responder. Caso o usuário não responda, sua resposta será considerada nula, resultando na eliminação do participante e término do evento.<br>
 9.4.4 - Não será possível utilizar quaisquer opções de ajuda, como pular ou perguntar ao chat.
 
 ## 9.5 Da Premiação:
