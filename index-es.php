@@ -1,22 +1,6 @@
 <!DOCTYPE html>
 <?php
 include_once('arrecada.php');
-//BLOCK EXPLORER
-$be_blockcount = 'http://52.67.138.144:3001/api/getblockcount'; // BLOCK COUNT
-$be_blockcount_api = json_decode(file_get_contents($be_blockcount), true);
-$api_blockcount = $be_blockcount_api;
-
-$be_getdifficulty = 'http://52.67.138.144:3001/api/getdifficulty'; // GET DIFFICULTY POW
-$be_getdifficulty_api = json_decode(file_get_contents($be_getdifficulty), true);
-$api_getdifficulty = $be_getdifficulty_api['proof-of-work'];
-
-$be_getdifficulty2 = 'http://52.67.138.144:3001/api/getdifficulty'; // GET DIFFICULTY POS
-$be_getdifficulty_api2 = json_decode(file_get_contents($be_getdifficulty2), true);
-$api_getdifficulty2 = $be_getdifficulty_api2['proof-of-stake'];
-
-$be_getmoneysupply = 'http://52.67.138.144:3001/ext/getmoneysupply'; //MONEY SUPPLY
-$be_getmoneysupply_api = json_decode(file_get_contents($be_getmoneysupply), true);
-$api_getmoneysupply = $be_getmoneysupply_api;
 ?>
 <html lang="en">
 <head>
@@ -117,12 +101,13 @@ $(function(){
             <li class="menu-has-children">
                 <a href="" title="Services">Serviços:</a>
                     <ul>
-                      <li><a href="http://sperocoin.ddns.net:3001/" target="_blank">Block Explorer </a></li>
+                      <li><a href="https://explorer.sperocoin.org/" target="_blank">Block Explorer </a></li>
                       <li><a href="http://52.67.138.144:3001/" target="_blank">Block Explorer 2</a></li>
                       <li><a href="https://sperocoin.org/webwallet" target="_blank">WebWallet</a></li>
                       <li><a href="https://sperocoin.org/faucet" target="_blank">Faucet</a></li>
                       <li><a href="https://sperocoin.org/paperwallet" target="_blank">PaperWallet</a></li>
                       <li><a href="https://cloudmining.sperocoin.org" target="_blank">CloudMining</a></li>
+                      <li><a href="https://pool.echo-terminal.org/" target="_blank">Pool PoW</a></li>
                       <li><a href="https://loja.sperocoin.org" target="_blank">WebShop</a></li>
                     </ul>
             </li>
@@ -160,76 +145,14 @@ $(function(){
               <div class="carousel-content">
                 <h2>Bienvenido a Spero Coin</h2>
                 <p><h3 style="color: white">Sustentabilidade en Tecnología</h3></p>
-                  <p>Somos una criptomoneda ecologicamente correta que visa elimienar el desperdício de energia elétrica.
+                  <p>Somos una criptomoneda sostenible que tiene como objetivo reducir las diferencias sociales y económicas de la población mundial.
                 </p>
                 <a href="whitepaper/index.html" class="btn-get-started scrollto" target="_blank">WHITEPAPER</a>
               </div>
             </div>
           </div>
 
-          <div class="carousel-item">
-            <div class="carousel-background"><img src="img/intro-carousel/2.jpg" alt=""></div>
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2 >Cotización - BRL</h2>
-                <p>
-                <script src="https://widgets.coingecko.com/coingecko-coin-price-chart-widget.js"></script>
-                <h1><coingecko-coin-price-chart-widget currency="brl" coin-id="sperocoin" locale="en" height="200" width="0"></coingecko-coin-price-chart-widget></h1>
-                </p>
-                <a href="https://www.coingecko.com/en/price_charts/sperocoin/brl#panel" class="btn-get-started scrollto" target="_blank">Ver Más</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <div class="carousel-background"><img src="img/intro-carousel/3.jpg" alt=""></div>
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2>Cotización - USD</h2>
-                <p>
-                 <script src="https://widgets.coingecko.com/coingecko-coin-price-chart-widget.js"></script>
-                    <h1><coingecko-coin-price-chart-widget currency="usd" coin-id="sperocoin" locale="en" height="200" width="0"></coingecko-coin-price-chart-widget></h1></p>
-                <a href="https://www.coingecko.com/en/price_charts/sperocoin/brl#panel" class="btn-get-started scrollto" target="_blank">Ver Más</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <div class="carousel-background"><img src="img/intro-carousel/2.jpg" alt=""></div>
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2>Cotización - BTC</h2>
-                <script src="https://widgets.coingecko.com/coingecko-coin-price-chart-widget.js"></script>
-                    <h1><coingecko-coin-price-chart-widget currency="btc" coin-id="sperocoin" locale="en" height="200" width="0"></coingecko-coin-price-chart-widget></h1></p>
-                <a href="https://www.coingecko.com/en/price_charts/sperocoin/brl#panel" class="btn-get-started scrollto" target="_blank">Ver Más</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <div class="carousel-background"><img src="img/intro-carousel/3.jpg" alt=""></div>
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2>Cotización - ETH</h2>
-                <script src="https://widgets.coingecko.com/coingecko-coin-price-chart-widget.js"></script>
-                    <h1><coingecko-coin-price-chart-widget currency="eth" coin-id="sperocoin" locale="en" height="200" width="0"></coingecko-coin-price-chart-widget></h1></p>
-                <a href="https://www.coingecko.com/en/price_charts/sperocoin/brl#panel" class="btn-get-started scrollto" target="_blank">Ver Más</a>
-              </div>
-            </div>
-          </div>
-
-
         </div>
-
-        <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
-          <span class="sr-only">Prévio</span>
-        </a>
-
-        <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
-          <span class="sr-only">Siguiente</span>
-        </a>
 
       </div>
     </div>
@@ -282,7 +205,7 @@ $(function(){
         <div class="modal-body">
           <p><center>Wallet Android. Con esta wallet, podrás realizar mineración PoS directamente desde tu celular/tablet.<br>
             <br>
-            <a href="https://github.com/DigitalCoin1/SperoCoin_Android/releases/download/SperoCoin-v.2.6.4.7-BETA/SperoCoin-v.2.6.4.7-BETA.apk" target="_blank"><button class="btn"><i class="fa fa-download"></i> Download v.2.6.4.7</button></a>
+            <a href="https://github.com/DigitalCoin1/SperoCoin_Android/releases/download/SperoCoin-v.2.6.4.9-BETA/SperoCoin-v.2.6.4.9-BETA.apk" target="_blank"><button class="btn"><i class="fa fa-download"></i> Download v.2.6.4.9</button></a>
           </center></p>
 
         </div>
@@ -328,9 +251,9 @@ $(function(){
         <div class="modal-body">
           <p><center>Wallet designer con gráfico. Modelo para aquellos que buscan confort y conveniencia para verificar saldo, enviar y recibir monedas de forma prática y rápida.<br>
             <br>
-            <a href="https://github.com/DigitalCoin1/SperoCoin/releases/download/SperoCoin-v.2.6.4.7/SperoCoin-qt-v2.6.4.7_x86.exe" target="_blank"><button class="btn"><i class="fa fa-download"></i> Download v.2.6.4.7 - 32bits</button></a>
+            <a href="https://github.com/DigitalCoin1/SperoCoin/releases/download/SperoCoin-v.2.6.4.9/SperoCoin-qt-v2.6.4.9_x86.exe" target="_blank"><button class="btn"><i class="fa fa-download"></i> Download v2.6.4.9 - 32bits</button></a>
             <br><br>
-            <a href="https://github.com/DigitalCoin1/SperoCoin/releases/download/SperoCoin-v.2.6.4.7/SperoCoin-qt-v2.6.4.7_x64.exe" target="_blank"><button class="btn"><i class="fa fa-download"></i> Download v.2.6.4.7 - 64bits</button></a>
+            <a href="https://github.com/DigitalCoin1/SperoCoin/releases/download/SperoCoin-v.2.6.4.9/SperoCoin-qt-v2.6.4.9_x64.exe" target="_blank"><button class="btn"><i class="fa fa-download"></i> Download v2.6.4.9 - 64bits</button></a>
           </center></p>
 
         </div>
@@ -353,9 +276,9 @@ $(function(){
         <div class="modal-body">
           <p><center>Wallet designer sin graficos.  Modelo para aquellos que buscan praticidad y menor consumo de recursos.<br>
             <br>
-            <a href="https://github.com/DigitalCoin1/SperoCoin/releases/download/SperoCoin-v.2.6.4.7/SperoCoind-v2.6.4.7_x86.exe" target="_blank"><button class="btn"><i class="fa fa-download"></i> Download v.2.6.4.7 - 32bits</button></a>
+            <a href="https://github.com/DigitalCoin1/SperoCoin/releases/download/SperoCoin-v.2.6.4.9/SperoCoind-v2.6.4.9_x86.exe" target="_blank"><button class="btn"><i class="fa fa-download"></i> Download v2.6.4.9 - 32bits</button></a>
             <br><br>
-            <a href="https://github.com/DigitalCoin1/SperoCoin/releases/download/SperoCoin-v.2.6.4.7/SperoCoind-v2.6.4.7_x64.exe" target="_blank"><button class="btn"><i class="fa fa-download"></i> Download v.2.6.4.7 - 64bits</button></a>
+            <a href="https://github.com/DigitalCoin1/SperoCoin/releases/download/SperoCoin-v.2.6.4.9/SperoCoind-v2.6.4.9_x64.exe" target="_blank"><button class="btn"><i class="fa fa-download"></i> Download v2.6.4.9 - 64bits</button></a>
           </center></p>
 
         </div>
@@ -406,7 +329,8 @@ $(function(){
       <br><br>
       <b><i class="fa fa-code"></i> Compile el Daemon en el diretório SperoCoin/src:</b><br>
               cd SperoCoin/src<br><br>
-              make -f makefile.unix USE_UPNP=- USE_IPV6=1
+              make -f makefile.unix USE_UPNP=- USE_IPV6=1<br><br>
+              strip SperoCoind
       <br><br>
       <b><i class="fa fa-code"></i> Ejecute el Daemon en el diretório SperoCoin/src:</b><br>
               ./SperoCoind
@@ -525,40 +449,34 @@ $(function(){
         <div class="row">
 
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-code"></i></div>
             <h4 class="title"><a href="">Algoritmo</a></h4>
             <p class="description">
               Este algoritmo usa 13 rodadas de hash con 13 funciones hash diferentes (blake, bmw, groestl, jh, keccak, skein, luffa, cubehash, etc.), lo que lo toren la uen la de los mas confiábles ​​en el mundo moderen la de criptomonedas.
             </p>
             </div>
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-ios-bolt"></i></div>
             <h4 class="title"><a href="">Mineración Híbrida PoW y PoS</a></h4>
             <p class="description">
               Con  Spero mineras con prueba de trabajo (PoW [ASIC, GPU, CPU, etc]) y también conseguis realizar mineración apenas dejando tu cartera con saldo ativo online, abierto y desbloqueado, la conocida prueba de participación (PoS).
             </p>
           </div>
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-cash"></i></div>
             <h4 class="title"><a href="">Monedas Totales</a></h4>
             <p class="description">
               Son un total de 7 millones de monedas y fueron pre-mineradas 100.00 para aplicaciónes en diversas áreas del projecto.
             </p>
           </div>
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-chatbubbles"></i></div>
-            <h4 class="title"><a href="">Mensaje encriptada (E2M)</a></h4>
+            <h4 class="title"><a href="">Servicios oficiales</a></h4>
             <p class="description">
-              Con Spero puedes enviar mensajes criptografadas para otros usuários, solamente con la direccion y la llave pública del destinatário.
+              Contamos con desarrolladores que producen aplicaciones y sitios web oficiales, que ofrecen seguridad, transparencia y velocidad en su ejecución.
             </p>
           </div>
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-android-done-all"></i></div>
             <h4 class="title"><a href="">Maturidad de Transacción</a></h4>
             <p class="description">Mineración: 05<br>transacciones: 03</p>
           </div>
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-android-options"></i></div>
             <h4 class="title"><a href="">Otras informaciones</a></h4>
             <p class="description">
               Tienpo de Bloque: 60 segundos<br> Dificultad de mineracion reiniciada a cada nuevo bloque<br> Retorno PoS: 25% por año
@@ -731,7 +649,7 @@ $(function(){
         </div>
         <div id="21102017" class="collapse">
           <div class="card-body">
-              <p><i class="fa fa-check-square-o" aria-hidden="true"></i> <a href="http://sperocoin.ddns.net:3001/">Oficial Block Explorer</a>​</p>
+              <p><i class="fa fa-check-square-o" aria-hidden="true"></i> <a href="https://explorer.sperocoin.org/">Oficial Block Explorer</a>​</p>
         </div>
       </div>
   </div>
@@ -1213,21 +1131,6 @@ errores con QT: https://github.com/vinnystifler<br></p>
     <div class="card">
         <div class="card-header">
           <h5 class="mb-0">
-            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#25082018">
-              <i class="fa fa-info"></i> 25/08/2018
-            </button>
-          </h5>
-        </div>
-        <div id="25082018" class="collapse">
-          <div class="card-body">
-              <p><i class="fa fa-check-square-o" aria-hidden="true"></i> Adicción en la exchange Altilly en los pares SPERO/BTC, SPERO/ETH e SPERO/DOGE: <a href="https://www.altilly.com/market">ALTILLY</a></p>
-        </div>
-      </div>
-  </div>
-
-    <div class="card">
-        <div class="card-header">
-          <h5 class="mb-0">
             <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#05102018">
               <i class="fa fa-info"></i> 05/10/2018
             </button>
@@ -1547,43 +1450,6 @@ errores con QT: https://github.com/vinnystifler<br></p>
     <!--==========================
       Facts Section
     ============================-->
-    <section id="facts"  class="wow fadeIn">
-      <div class="container">
-
-        <header class="section-header">
-          <h3>Informaciones en Tiempo Real</h3>
-        </header>
-
-        <div class="row counters">
-
-          <div class="col-lg-6 col-12 text-center">
-            <span data-toggle="counter-up"><?echo $api_blockcount; ?></span>
-            <p>Bloques</p>
-          </div>
-
-          <div class="col-lg-6 col-12 text-center">
-            <span data-toggle="counter-up"><?echo "263251"-$api_blockcount; ?></span>
-            <p>Bloques Restantes para Início de la Mineración Híbrida</p>
-          </div>
-
-          <div class="col-lg-6 col-12 text-center">
-            <span data-toggle="counter-up"><?echo $api_getdifficulty2; ?></span>
-            <p>Dificuldad PoS</p>
-          </div>
-
-          <div class="col-lg-6 col-12 text-center">
-            <span data-toggle="counter-up"><?echo $api_getmoneysupply; ?></span>
-            <p>Monedas Distribuídas</p>
-          </div>
-
-        </div>
-
-        <div class="facts-img">
-          <img src="img/facts-img.png" alt="" class="img-fluid">
-        </div>
-
-      </div>
-    </section><!-- #facts -->
 
     <!--==========================
       Portfolio Section
@@ -1636,46 +1502,6 @@ errores con QT: https://github.com/vinnystifler<br></p>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-exchange wow fadeInUp" data-wow-delay="0.2s">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="img/portfolio/altilly.jpg" class="img-fluid" alt="">
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="https://www.altilly.com/market/SPERO_BTC">Altilly - BTC Pair</a></h4>
-                <p>Exchanges</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-exchange wow fadeInUp">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="img/portfolio/altilly.jpg" class="img-fluid" alt="">
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="https://www.altilly.com/market/SPERO_ETH" target="_blank">Altilly - ETH Pair</a></h4>
-                <p>Exchanges</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-exchange wow fadeInUp" data-wow-delay="0.1s">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="img/portfolio/altilly.jpg" class="img-fluid" alt="">
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="https://www.altilly.com/market/SPERO_DOGE" target="_blank">Altilly - DOGE Pair</a></h4>
-                <p>Exchanges</p>
-              </div>
-            </div>
-          </div>
-
-
           <div class="col-lg-4 col-md-6 portfolio-item filter-exchange wow fadeInUp" data-wow-delay="0.1s">
             <div class="portfolio-wrap">
               <figure>
@@ -1710,19 +1536,6 @@ errores con QT: https://github.com/vinnystifler<br></p>
 
               <div class="portfolio-info">
                 <h4><a href="https://nanu.exchange/exchange#btc_spero" target="_blank">NANU EXCHANGE</a></h4>
-                <p>Exchanges</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-exchange wow fadeInUp">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="img/portfolio/monex.png" class="img-fluid" alt="">
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="https://ico.monexexchange.com/voting" target="_blank">MONEX(In Voting)</a></h4>
                 <p>Exchanges</p>
               </div>
             </div>
@@ -1780,6 +1593,19 @@ errores con QT: https://github.com/vinnystifler<br></p>
             </div>
           </div>
 
+          <div class="col-lg-4 col-md-6 portfolio-item filter-topics wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/youtube.png" class="img-fluid" alt="">
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="https://www.youtube.com/watch?v=w-KVjx7SHQg" target="_blank">BITNOOB</a></h4>
+                <p>Youtube Channel</p>
+              </div>
+            </div>
+          </div>
+
           <div class="col-lg-4 col-md-6 portfolio-item filter-official wow fadeInUp" data-wow-delay="0.1s">
             <div class="portfolio-wrap">
               <figure>
@@ -1787,7 +1613,7 @@ errores con QT: https://github.com/vinnystifler<br></p>
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="http://sperocoin.ddns.net:3001/" target="_blank">Block Explorer</a></h4>
+                <h4><a href="https://explorer.sperocoin.org/" target="_blank">Block Explorer</a></h4>
                 <p>Github</p>
               </div>
             </div>
@@ -1858,6 +1684,19 @@ errores con QT: https://github.com/vinnystifler<br></p>
             </div>
           </div>
 
+          <div class="col-lg-4 col-md-6 portfolio-item filter-pool wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/logo.png" class="img-fluid" alt="">
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="https://pool.sperocoin.org/" target="_blank">SperoCoin Pool PoW</a></h4>
+                <p>Pool PoW</p>
+              </div>
+            </div>
+          </div>
+
         </div>
 
       </div>
@@ -1874,7 +1713,6 @@ errores con QT: https://github.com/vinnystifler<br></p>
         </header>
 
         <div class="owl-carousel clients-carousel">
-          <!-- ALTILLY --><a href="https://www.altilly.com/?a=f46ba" target="_blank"><img src="img/clients/client-1.png" alt=""></a>
           <!-- CATALOGO P2P --><a href="https://catalogop2p.com.br" target="_blank"><img src="img/clients/client-2.png" alt=""></a>
           <!-- STAKING WORLD --><a href="https://staking.world" target="_blank"><img src="img/clients/client-3.png" alt=""></a>
           <!-- HOPE ASSISTENCIA --><a href="" target="_blank"><img src="img/clients/client-5.png" alt=""></a>
@@ -2017,18 +1855,28 @@ errores con QT: https://github.com/vinnystifler<br></p>
           </div>
 -->
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-            <div class="menber">
+            <div class="member">
               <img src="img/team-3.jpg" class="img-fluid" alt="">
-              <div class="menber-info">
-                <div class="menber-info-content">
+              <div class="member-info">
+                <div class="member-info-content">
                   <h4>Leonardo Pereira</h4>
-                  <span>Desarrollo de Proyectos</span>
-                  <div class="social">
+                  <span>Investidor Alpha</span>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="member">
+              <img src="img/team-5.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Eli Sandro</h4>
+                  <span>CKO</span>
+                  </div>
+                </div>
+              </div>
+            </div>
 
         </div>
 
@@ -2046,8 +1894,8 @@ errores con QT: https://github.com/vinnystifler<br></p>
         </div>
 
         <div><center>
-              <a class="twitter-timeline" data-width="450" data-height="400" data-dnt="true" href="https://twitter.com/Spero_Official?ref_src=twsrc%5Etfw">Tweets by Spero_Official</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-              <iframe src="https://discordapp.com/widget?id=386676506199588864&theme=dark" width="400" height="400" allowtransparency="true" frameborder="0"></iframe>
+              <a class="twitter-timeline" data-width="300" data-height="400" data-dnt="true" href="https://twitter.com/Spero_Official?ref_src=twsrc%5Etfw">Tweets by Spero_Official</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              <iframe src="https://discordapp.com/widget?id=386676506199588864&theme=dark" width="300" height="400" allowtransparency="true" frameborder="0"></iframe>
           </center>
         </div>
       </div>
@@ -2066,7 +1914,6 @@ errores con QT: https://github.com/vinnystifler<br></p>
          <a href="https://sperocoin.slack.com" target="_blank"><img src="img/c-liogo4.png" alt=""></a>
          <a href="https://twitter.com/Spero_Official" target="_blank"><img src="img/c-liogo5.png" alt=""></a>
          <a href="https://trello.com/b/jYZvXKDs/sperocoin" target="_blank"><img src="img/c-liogo6.png" alt=""></a>
-         <a href="https://chat.whatsapp.com/8WmXf5ujFD7AtQgdwkUtVN" target="_blank"><img src="img/c-liogo7.png" alt=""></a>
          <a href="https://discord.gg/CVRFwC7" target="_blank"><img src="img/c-liogo8.png" alt=""></a>
         </div>
 
@@ -2083,7 +1930,7 @@ errores con QT: https://github.com/vinnystifler<br></p>
     <div class="footer-top">
       <div class="container"><center>
       <div class="footer-logo"><img src="img/footer-logo.png" alt="" width="160px"></div>
-      <span class="copyright">&copy; SperoCoin - 2017<br> All Rights Reserved</span>
+      <span class="copyright">&copy; SperoCoin - Desde 2017<br> All Rights Reserved</span>
       </center></div>
     </div>
   </footer><!-- #footer -->
