@@ -102,8 +102,8 @@ $(function(){
                     <ul>
                       <li><a href="https://explorer.sperocoin.org/" target="_blank">Block Explorer</a></li>
                       <li><a href="http://52.67.138.144:3001/" target="_blank">Block Explorer 2</a></li>
-                      <li><a href="https://sperocoin.org/webwallet" target="_blank">WebWallet</a></li>
-                      <li><a href="https://sperocoin.org/faucet" target="_blank">Faucet</a></li>
+                      <li><a href="https://webwallet.sperocoin.org" target="_blank">WebWallet</a></li>
+                      <li><a href="https://faucet.sperocoin.org" target="_blank">Faucet</a></li>
                       <li><a href="https://sperocoin.org/paperwallet" target="_blank">PaperWallet</a></li>
                       <li><a href="https://cloudmining.sperocoin.org" target="_blank">CloudMining</a></li>
                       <li><a href="https://pool.echo-terminal.org/" target="_blank">Pool PoW</a></li>
@@ -151,7 +151,42 @@ $(function(){
             </div>
           </div>
 
+        <div class="carousel-item"> 
+            <div class="carousel-background"><img src="img/intro-carousel/2.jpg" alt=""></div>  
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>Wallet Android FullNode</h2>
+                <p><h3 style="color: white">The mobile wallet that mines stake!</h3></p>
+                  <p>We have the only android wallet in Brazil that performs PoS mining directly on the smartphone using the same structure as the desktop wallets!
+                </p>
+                <a href="#downloads" class="btn-get-started scrollto" target="_blank">DOWNLOAD!</a>
+              </div>
+            </div>
+          </div>
+
+        <div class="carousel-item"> 
+            <div class="carousel-background"><img src="img/intro-carousel/3.jpg" alt=""></div>  
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>Buying and Selling Made Easy</h2>
+                <p><h3 style="color: white">Purchase and sell SPERO officially</h3></p>
+                  <p>With our SPERO buying and selling platform, you are more confident about the origin and destination of your assets! Access now!
+                </p>
+                <a href="https://speropay.sperocoin.org" class="btn-get-started scrollto" target="_blank">ACCESS!</a>
+              </div>
+            </div>
+          </div>
+
         </div>
+        <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev"> 
+          <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>  
+          <span class="sr-only">Previous</span> 
+        </a>  
+
+        <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next"> 
+          <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span> 
+          <span class="sr-only">Next</span> 
+        </a>
 
       </div>
     </div>
