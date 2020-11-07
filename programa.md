@@ -1,17 +1,17 @@
 # FORMATO DO PROGRAMA
 <br>
-O programa é uma LIVE no Youtube que ocorre todos os sábados às 20h. Nele os participantes respondem ao vivo perguntas relacionadas ao mundo das criptomoedas, bem como perguntas de conhecimento geral.<br>
+O programa é uma LIVE no Youtube que ocorre todos as segundas às 19h. Nele os participantes respondem ao vivo perguntas relacionadas ao mundo das criptomoedas, bem como perguntas de conhecimento geral.<br>
 O intuito da criação do evento é propagar o conhecimento sobre criptomoedas, sendo os pagamentos dos prêmios realizados inteiramente em moedas digitais.<br>
 Utilizando o conceito de uso de perguntas de conhecimentos gerais, damos a oportunidade a qualquer pessoa, inclusive quem não conhece o mundo das criptomoedas, de participarem e de se divertirem com o evento apresentado.<br>
 
-O evento será realizado em temporadas de aproximadamente 11 semanas, sendo distribuído conforme o Regulamento abaixo.
+O evento será realizado em 13 semanas, sendo distribuído conforme o Regulamento abaixo.
 <br>
 
 # REGULAMENTO
 <br>
 
 ## 1. Inscrição dos participantes<br>
-1.1 - Os participantes deverão se inscrever via formulário, que se encontra disponível no site [SperoGame](https://sperocoin.org/sperogame/quiz).<br>
+1.1 - Os participantes deverão se inscrever via formulário, que se encontra disponível no site [SperoGame](https://speroquiz.sperocoin.org).<br>
 1.2 - Neste formulário deverão conter os seguintes dados:<br>
 >		Nome
 >		Sobrenome
@@ -22,10 +22,10 @@ O evento será realizado em temporadas de aproximadamente 11 semanas, sendo dist
 
 <br>
 
-1.3 - Após o preenchimento do formulário os participantes passarão por um sorteio ao vivo no Canal Oficial da SPERO no [Youtube](https://youtube.com/c/SperoCoin), onde 10 serão selecionados para participação efetiva e 10 participantes para o banco de reservas.<br>
+1.3 - Após o preenchimento do formulário os participantes passarão por um sorteio ao vivo no Canal Oficial da SPERO no [Youtube](https://youtube.com/c/SperoCoin), onde 12 serão selecionados para participação efetiva e 12 participantes para o banco de reservas.<br>
 
 ## 2. Chamada dos participantes
-2.1 - Após a seleção, no sábado às 20h todos os 10 participantes selecionados participarão de um evento que será transmitido em um canal do [`Hangouts`](https://hangouts.google.com/?hl=pt-BR) exclusivo para o evento. O link será disponibilizado 1 dia antes do evento.<br>
+2.1 - Após a seleção, na segunda às 19h todos os 12 participantes selecionados participarão do evento diretamente no aplicativo oficial do SperoQuiz, sendo liberado o acesso ao aplicativo 30(trinta) minutos antes do evento iniciar.<br>
 <br>
 > ATENÇÃO: Os participantes do banco de reservas deverão ficar atentos, pois caso haja desistência ao iniciarmos o evento, estes participantes serão convocados.
 <br>
@@ -34,73 +34,91 @@ O evento será realizado em temporadas de aproximadamente 11 semanas, sendo dist
 ## 3 Cronograma
 3.1 - O evento irá respeitar o cronograma conforme exemplificado abaixo.<br>
 <p align="center">
-  <img width="700" height="400" src="https://github.com/DigitalCoin1/imagens/blob/master/etc/cronograma.png">
+  <img width="700" height="400" src="https://github.com/DigitalCoin1/imagens/blob/master/etc/cronograma2.png">
 </p>
 3.2 - Cada fase correrá de acordo com o que se segue.<br>
 
 # 4. 1ª FASE
 ## 4.1 - Da 1ª semana
 > Número de Participantes: 03<br>
-> Participantes: USUÁRIO 01, USUÁRIO 09, USUÁRIO 05.<br>
+> Participantes: USUÁRIO 07, USUÁRIO 11, USUÁRIO 05.<br>
 
 4.1.1 - Serão realizadas 15 perguntas, de forma única para todos os participantes da semana.<br>
 4.1.2 - Cada pergunta valerá 1 ponto.<br>
-4.1.3 - A pergunta será realizada de forma ditada pelo apresentador e posteriormente será exibida no YouTube, assim que a exibição for iniciada no Youtube, cada usuário terá o prazo de 15 segundos para responder. Caso o usuário não responda, sua resposta será considerada nula, tendo seu valor de pontos zerado.<br>
+4.1.3 - A pergunta será realizada de forma ditada pelo apresentador e posteriormente será exibida no YouTube, assim que a exibição for iniciada no Youtube, cada usuário terá o prazo de 15 segundos para responder, sendo que a resposta será informada diretamente no aplicativo. Caso o usuário não responda, sua resposta será considerada nula, tendo seu valor de pontos zerado.<br>
 4.1.4 - Participantes com menor número de pontos na rodada serão desclassificados.
 <br>
 4.1.5 - A caráter de desempate: Os participantes da LIVE, votarão no prazo de 30 segundos dentro do chat disponibilizados na plataforma do Youtube para o integrante que deverá ser desclassificado, enviando o nome do participante. Se acontecer um empate, o primeiro participante do segundo empate que recebeu o primeiro voto será o desclassificado.<br>
 <br>
 Exemplo:<br>
->	Usuário 1, 9 e 5 ficaram empatados na desclassificação das perguntas.<br>
->	Em votação participantes 1 e 9 ficaram empatados.<br>
->	Em ordem cronológica o usuário 1 foi o primeiro a ter seu nome apresentado pela votação, logo ele será o eliminado.<br>
+>	Usuário 7, 11 e 5 ficaram empatados na desclassificação das perguntas.<br>
+>	Em votação participantes 7 e 5 ficaram empatados.<br>
+>	Em ordem cronológica o usuário 7 foi o primeiro a ter seu nome apresentado pela votação, logo ele será o eliminado.<br>
 
-4.1.6 - Participantes que não se apresentarem no link disponibilizado para o grupo do Hangouts restando 15 minutos antes do evento, serão desclassificados, entrando em seu lugar o próximo usuário do banco de reservas.<br>
+4.1.6 - Participantes que não se apresentarem no aplicativo SperoQuiz 15 minutos antes do evento, serão desclassificados, entrando em seu lugar o próximo usuário do banco de reservas.<br>
 
 ## 4.2 Da 2ª semana
 > Número de Participantes: 03<br>
-> Participantes: USUÁRIO 02, USUÁRIO 08, USUÁRIO 04.<br>
+> Participantes: USUÁRIO 02, USUÁRIO 09, USUÁRIO 04.<br>
 
 4.2.1 - Serão realizadas 15 perguntas, de forma única para todos os participantes da semana.<br>
 4.2.1 - Cada pergunta valerá 1 ponto.<br>
-4.2.3 - A pergunta será realizada de forma ditada pelo apresentador e posteriormente será exibida no YouTube, assim que a exibição for iniciada no Youtube, cada usuário terá o prazo de 15 segundos para responder. Caso o usuário não responda, sua resposta será considerada nula, tendo seu valor de pontos zerado.<br>
+4.2.3 - A pergunta será realizada de forma ditada pelo apresentador e posteriormente será exibida no YouTube, assim que a exibição for iniciada no Youtube, cada usuário terá o prazo de 15 segundos para responder, sendo que a resposta será informada diretamente no aplicativo. Caso o usuário não responda, sua resposta será considerada nula, tendo seu valor de pontos zerado.<br>
 4.2.4 - Participantes com menor número de pontos na rodada serão desclassificados.<br>
 <br>
 4.2.5 - A caráter de desempate: Os participantes da LIVE, votarão no prazo de 30 segundos dentro do chat disponibilizados na plataforma do Youtube para o integrante que deverá ser desclassificado, enviando o nome do participante. Se acontecer um empate, o primeiro participante do segundo empate que recebeu o primeiro voto será o desclassificado.<br>
 <br>
 Exemplo:<br>
->	Usuário 2, 8 e 4 ficaram empatados na desclassificação das perguntas.<br>
->	Em votação participantes 2 e 8 ficaram empatados.<br>
+>	Usuário 2, 9 e 4 ficaram empatados na desclassificação das perguntas.<br>
+>	Em votação participantes 2 e 9 ficaram empatados.<br>
 >	Em ordem cronológica o usuário 2 foi o primeiro a ter seu nome apresentado pela votação, logo ele será o eliminado.<br>
 
-4.2.6 - Participantes que não se apresentarem no link disponibilizado para o grupo do Hangouts restando 15 minutos antes do evento, serão desclassificados, entrando em seu lugar o próximo usuário do banco de reservas.<br>
+4.2.6 - Participantes que não se apresentarem no aplicativo SperoQuiz 15 minutos antes do evento, serão desclassificados, entrando em seu lugar o próximo usuário do banco de reservas.<br>
 
 ## 4.3 Da 3ª semana
 > Número de Participantes: 03<br>
-> Participantes: USUÁRIO 03, USUÁRIO 07, USUÁRIO 06.<br>
+> Participantes: USUÁRIO 03, USUÁRIO 01, USUÁRIO 06.<br>
 
 4.3.1 - Serão realizadas 15 perguntas, de forma única para todos os participantes da semana.<br>
 4.3.2 - Cada pergunta valerá 1 ponto.<br>
-4.3.3 - A pergunta será realizada de forma ditada pelo apresentador e posteriormente será exibida no YouTube, assim que a exibição for iniciada no Youtube, cada usuário terá o prazo de 15 segundos para responder. Caso o usuário não responda, sua resposta será considerada nula, tendo seu valor de pontos zerado.<br>
+4.3.3 - A pergunta será realizada de forma ditada pelo apresentador e posteriormente será exibida no YouTube, assim que a exibição for iniciada no Youtube, cada usuário terá o prazo de 15 segundos para responder, sendo que a resposta será informada diretamente no aplicativo. Caso o usuário não responda, sua resposta será considerada nula, tendo seu valor de pontos zerado.<br>
 4.3.4 - Participantes com menor número de pontos na rodada serão desclassificados.<br>
 
 4.3.5 - A caráter de desempate: Os participantes da LIVE, votarão no prazo de 30 segundos dentro do chat disponibilizados na plataforma do Youtube para o integrante que deverá ser desclassificado, enviando o nome do participante. Se acontecer um empate, o primeiro participante do segundo empate que recebeu o primeiro voto será o desclassificado.<br>
 <br>
 Exemplo:<br>
->	Usuário 3, 7 e 6 ficaram empatados na desclassificação das perguntas.<br>
->	Em votação participantes 3 e 7 ficaram empatados.<br>
+>	Usuário 3, 1 e 6 ficaram empatados na desclassificação das perguntas.<br>
+>	Em votação participantes 3 e 1 ficaram empatados.<br>
 >	Em ordem cronológica o usuário 3 foi o primeiro a ter seu nome apresentado pela votação, logo ele será o eliminado.<br>
 
-4.3.6 - Participantes que não se apresentarem no link disponibilizado para o grupo do Hangouts restando 15 minutos antes do evento, serão desclassificados, entrando em seu lugar o próximo usuário do banco de reservas.<br>
+4.3.6 - Participantes que não se apresentarem no aplicativo SperoQuiz 15 minutos antes do evento, serão desclassificados, entrando em seu lugar o próximo usuário do banco de reservas.<br>
+
+## 4.4 Da 4ª semana
+> Número de Participantes: 03<br>
+> Participantes: USUÁRIO 10, USUÁRIO 08, USUÁRIO 12.<br>
+
+4.4.1 - Serão realizadas 15 perguntas, de forma única para todos os participantes da semana.<br>
+4.4.2 - Cada pergunta valerá 1 ponto.<br>
+4.4.3 - A pergunta será realizada de forma ditada pelo apresentador e posteriormente será exibida no YouTube, assim que a exibição for iniciada no Youtube, cada usuário terá o prazo de 15 segundos para responder, sendo que a resposta será informada diretamente no aplicativo. Caso o usuário não responda, sua resposta será considerada nula, tendo seu valor de pontos zerado.<br>
+4.4.4 - Participantes com menor número de pontos na rodada serão desclassificados.<br>
+
+4.4.5 - A caráter de desempate: Os participantes da LIVE, votarão no prazo de 30 segundos dentro do chat disponibilizados na plataforma do Youtube para o integrante que deverá ser desclassificado, enviando o nome do participante. Se acontecer um empate, o primeiro participante do segundo empate que recebeu o primeiro voto será o desclassificado.<br>
+<br>
+Exemplo:<br>
+>	Usuário 10, 8 e 12 ficaram empatados na desclassificação das perguntas.<br>
+>	Em votação participantes 10 e 12 ficaram empatados.<br>
+>	Em ordem cronológica o usuário 12 foi o primeiro a ter seu nome apresentado pela votação, logo ele será o eliminado.<br>
+
+4.4.6 - Participantes que não se apresentarem no aplicativo SperoQuiz 15 minutos antes do evento, serão desclassificados, entrando em seu lugar o próximo usuário do banco de reservas.<br>
 
 # 5. 2ª FASE
-## 5.1 Da 4ª semana
+## 5.1 Da 5ª semana
 > Número de Participantes: 02<br>
-> Participantes: PRIMEIRO USUÁRIO VENCEDOR DA SEMANA 01 vs SEGUNDO USUÁRIO VENCEDOR DA SEMANA 01.
+> Participantes: PRIMEIRO PARTICIPANTE VENCEDOR DA SEMANA 01 vs SEGUNDO PARTICIPANTE VENCEDOR DA SEMANA 01.
 
 5.1.1 - Serão realizadas 15 perguntas, de forma única para todos os participantes da semana.<br>
 5.1.2 - Cada pergunta valerá 1 ponto.<br>
-5.1.3 - A pergunta será realizada de forma ditada pelo apresentador e posteriormente será exibida no YouTube, assim que a exibição for iniciada no Youtube, cada usuário terá o prazo de 15 segundos para responder. Caso o usuário não responda, sua resposta será considerada nula, tendo seu valor de pontos zerado.<br>
+5.1.3 - A pergunta será realizada de forma ditada pelo apresentador e posteriormente será exibida no YouTube, assim que a exibição for iniciada no Youtube, cada usuário terá o prazo de 15 segundos para responder, sendo que a resposta será informada diretamente no aplicativo. Caso o usuário não responda, sua resposta será considerada nula, tendo seu valor de pontos zerado.<br>
 5.1.4 - Participantes com menor número de pontos na rodada serão desclassificados.<br>
 <br>
 5.1.5 - A caráter de desempate: Os participantes da LIVE, votarão no prazo de 30 segundos dentro do chat disponibilizados na plataforma do Youtube para o integrante que deverá ser desclassificado, enviando o nome do participante. Se acontecer um empate, o primeiro participante do segundo empate que recebeu o primeiro voto será o desclassificado.<br>
@@ -110,15 +128,15 @@ Exemplo:<br>
 >	Em votação participantes ficaram empatados.<br>
 >	Em ordem cronológica o usuário X foi o primeiro a ter seu nome apresentado pela votação, logo ele será o eliminado.<br>
 
-5.1.6 - Participantes que não se apresentarem no link disponibilizado para o grupo do Hangouts restando 15 minutos antes do evento, serão desclassificados, entrando em seu lugar o próximo usuário do banco de reservas.<br>
+5.1.6 - Participantes que não se apresentarem no aplicativo SperoQuiz 15 minutos antes do evento, serão desclassificados, entrando em seu lugar o próximo usuário do banco de reservas.<br>
 
-## 5.2 Da 5ª semana
+## 5.2 Da 6ª semana
 > Número de Participantes: 02<br>
-> Participantes: PRIMEIRO USUÁRIO VENCEDOR DA SEMANA 02 vs SEGUNDO USUÁRIO VENCEDOR DA SEMANA 02.<br>
+> Participantes: PRIMEIRO PARTICIPANTE VENCEDOR DA SEMANA 02 vs SEGUNDO PARTICIPANTE VENCEDOR DA SEMANA 02.<br>
 
 5.2.1 - Serão realizadas 15 perguntas, de forma única para todos os participantes da semana.<br>
 5.2.2 - Cada pergunta valerá 1 ponto.<br>
-5.2.3 - A pergunta será realizada de forma ditada pelo apresentador e posteriormente será exibida no YouTube, assim que a exibição for iniciada no Youtube, cada usuário terá o prazo de 15 segundos para responder. Caso o usuário não responda, sua resposta será considerada nula, tendo seu valor de pontos zerado.<br>
+5.2.3 - A pergunta será realizada de forma ditada pelo apresentador e posteriormente será exibida no YouTube, assim que a exibição for iniciada no Youtube, cada usuário terá o prazo de 15 segundos para responder, sendo que a resposta será informada diretamente no aplicativo. Caso o usuário não responda, sua resposta será considerada nula, tendo seu valor de pontos zerado.<br>
 5.2.4 - Participantes com menor número de pontos na rodada serão desclassificados.<br>
 <br>
 5.2.5 - A caráter de desempate: Os participantes da LIVE, votarão no prazo de 30 segundos dentro do chat disponibilizados na plataforma do Youtube para o integrante que deverá ser desclassificado, enviando o nome do participante. Se acontecer um empate, o primeiro participante do segundo empate que recebeu o primeiro voto será o desclassificado.<br>
@@ -128,15 +146,15 @@ Exemplo:<br>
 >	Em votação participantes ficaram empatados.<br>
 >	Em ordem cronológica o usuário X foi o primeiro a ter seu nome apresentado pela votação, logo ele será o eliminado.<br>
 
-5.2.6 - Participantes que não se apresentarem no link disponibilizado para o grupo do Hangouts restando 15 minutos antes do evento, serão desclassificados, entrando em seu lugar o próximo usuário do banco de reservas.<br>
+5.2.6 - Participantes que não se apresentarem no aplicativo SperoQuiz 15 minutos antes do evento, serão desclassificados, entrando em seu lugar o próximo usuário do banco de reservas.<br>
 
-## 5.3 Da 6ª semana
+## 5.3 Da 7ª semana
 > Número de Participantes: 02<br>
-> Participantes: PRIMEIRO USUÁRIO VENCEDOR DA SEMANA 03 vs SEGUNDO USUÁRIO VENCEDOR DA SEMANA 03.<br>
+> Participantes: PRIMEIRO PARTICIPANTE VENCEDOR DA SEMANA 03 vs SEGUNDO PARTICIPANTE VENCEDOR DA SEMANA 03.<br>
 
 5.3.1 - Serão realizadas 15 perguntas, de forma única para todos os participantes da semana.<br>
 5.3.2 - Cada pergunta valerá 1 ponto.<br>
-5.3.3 - A pergunta será realizada de forma ditada pelo apresentador e posteriormente será exibida no YouTube, assim que a exibição for iniciada no Youtube, cada usuário terá o prazo de 15 segundos para responder. Caso o usuário não responda, sua resposta será considerada nula, tendo seu valor de pontos zerado.<br>
+5.3.3 - A pergunta será realizada de forma ditada pelo apresentador e posteriormente será exibida no YouTube, assim que a exibição for iniciada no Youtube, cada usuário terá o prazo de 15 segundos para responder, sendo que a resposta será informada diretamente no aplicativo. Caso o usuário não responda, sua resposta será considerada nula, tendo seu valor de pontos zerado.<br>
 5.3.4 - Participantes com menor número de pontos na rodada serão desclassificados.<br>
 <br>
 5.3.5 - A caráter de desempate: Os participantes da LIVE, votarão no prazo de 30 segundos dentro do chat disponibilizados na plataforma do Youtube para o integrante que deverá ser desclassificado, enviando o nome do participante. Se acontecer um empate, o primeiro participante do segundo empate que recebeu o primeiro voto será o desclassificado.<br>
@@ -146,16 +164,34 @@ Exemplo:<br>
 >	Em votação participantes ficaram empatados.<br>
 >	Em ordem cronológica o usuário X foi o primeiro a ter seu nome apresentado pela votação, logo ele será o eliminado.<br>
 
-5.3.6 - Participantes que não se apresentarem no link disponibilizado para o grupo do Hangouts restando 15 minutos antes do evento, serão desclassificados, entrando em seu lugar o próximo usuário do banco de reservas.<br>
+5.3.6 - Participantes que não se apresentarem no aplicativo SperoQuiz 15 minutos antes do evento, serão desclassificados, entrando em seu lugar o próximo usuário do banco de reservas.<br>
+
+## 5.4 Da 8ª semana
+> Número de Participantes: 02<br>
+> Participantes: PRIMEIRO PARTICIPANTE VENCEDOR DA SEMANA 04 vs SEGUNDO PARTICIPANTE VENCEDOR DA SEMANA 04.<br>
+
+5.3.1 - Serão realizadas 15 perguntas, de forma única para todos os participantes da semana.<br>
+5.3.2 - Cada pergunta valerá 1 ponto.<br>
+5.3.3 - A pergunta será realizada de forma ditada pelo apresentador e posteriormente será exibida no YouTube, assim que a exibição for iniciada no Youtube, cada usuário terá o prazo de 15 segundos para responder, sendo que a resposta será informada diretamente no aplicativo. Caso o usuário não responda, sua resposta será considerada nula, tendo seu valor de pontos zerado.<br>
+5.3.4 - Participantes com menor número de pontos na rodada serão desclassificados.<br>
+<br>
+5.3.5 - A caráter de desempate: Os participantes da LIVE, votarão no prazo de 30 segundos dentro do chat disponibilizados na plataforma do Youtube para o integrante que deverá ser desclassificado, enviando o nome do participante. Se acontecer um empate, o primeiro participante do segundo empate que recebeu o primeiro voto será o desclassificado.<br>
+<br>
+Exemplo:<br>
+>	Os participantes ficaram empatados na desclassificação das perguntas.<br>
+>	Em votação participantes ficaram empatados.<br>
+>	Em ordem cronológica o usuário X foi o primeiro a ter seu nome apresentado pela votação, logo ele será o eliminado.<br>
+
+5.3.6 - Participantes que não se apresentarem no aplicativo SperoQuiz 15 minutos antes do evento, serão desclassificados, entrando em seu lugar o próximo usuário do banco de reservas.<br>
 
 # 6 3ª FASE
-## 6.1 Da 7ª semana
+## 6.1 Da 9ª semana
 > Número de Participantes: 02<br>
-> Participantes: USUÁRIO VENCEDOR DA SEMANA 04 vs VENCEDOR DA SEMANA 05.<br>
+> Participantes: PARTICIPANTE VENCEDOR DA SEMANA 05 vs PARTICIPANTE VENCEDOR DA SEMANA 06.<br>
 
 6.1.1 - Serão realizadas 15 perguntas, de forma única para todos os participantes da semana.<br>
 6.1.2 - Cada pergunta valerá 1 ponto.<br>
-6.1.3 - A pergunta será realizada de forma ditada pelo apresentador e posteriormente será exibida no YouTube, assim que a exibição for iniciada no Youtube, cada usuário terá o prazo de 15 segundos para responder. Caso o usuário não responda, sua resposta será considerada nula, tendo seu valor de pontos zerado.<br>
+6.1.3 - A pergunta será realizada de forma ditada pelo apresentador e posteriormente será exibida no YouTube, assim que a exibição for iniciada no Youtube, cada usuário terá o prazo de 15 segundos para responder, sendo que a resposta será informada diretamente no aplicativo. Caso o usuário não responda, sua resposta será considerada nula, tendo seu valor de pontos zerado.<br>
 6.1.4 - Participantes com menor número de pontos na rodada serão desclassificados.<br>
 <br>
 6.1.5 - A caráter de desempate: Os participantes da LIVE, votarão no prazo de 30 segundos dentro do chat disponibilizados na plataforma do Youtube para o integrante que deverá ser desclassificado, enviando o nome do participante. Se acontecer um empate, o primeiro participante do segundo empate que recebeu o primeiro voto será o desclassificado.<br>
@@ -165,15 +201,15 @@ Exemplo:<br>
 >	Em votação participantes ficaram empatados.<br>
 >	Em ordem cronológica o usuário X foi o primeiro a ter seu nome apresentado pela votação, logo ele será o eliminado.<br>
 
-6.1.6 - Participantes que não se apresentarem no link disponibilizado para o grupo do Hangouts restando 15 minutos antes do evento, serão desclassificados, entrando em seu lugar o próximo usuário do banco de reservas.<br>
+6.1.6 - Participantes que não se apresentarem no aplicativo SperoQuiz 15 minutos antes do evento, serão desclassificados, entrando em seu lugar o próximo usuário do banco de reservas.<br>
 
-## 6.2 Da 8ª semana
+## 6.2 Da 10ª semana
 > Número de Participantes: 02<br>
-> Participantes: USUÁRIO VENCEDOR DA SEMANA 04 vs USUÁRIO 10.<br>
+> Participantes: PARTICIPANTE VENCEDOR DA SEMANA 07 vs PARTICIPANTE VENCEDOR DA SEMANA 08.<br>
 
 6.2.1 - Serão realizadas 15 perguntas, de forma única para todos os participantes da semana.<br>
 6.2.2 - Cada pergunta valerá 1 ponto.<br>
-6.2.3 - A pergunta será realizada de forma ditada pelo apresentador e posteriormente será exibida no YouTube, assim que a exibição for iniciada no Youtube, cada usuário terá o prazo de 15 segundos para responder. Caso o usuário não responda, sua resposta será considerada nula, tendo seu valor de pontos zerado.<br>
+6.2.3 - A pergunta será realizada de forma ditada pelo apresentador e posteriormente será exibida no YouTube, assim que a exibição for iniciada no Youtube, cada usuário terá o prazo de 15 segundos para responder, sendo que a resposta será informada diretamente no aplicativo. Caso o usuário não responda, sua resposta será considerada nula, tendo seu valor de pontos zerado.<br>
 6.2.4 - Participantes com menor número de pontos na rodada serão desclassificados.<br>
 <br>
 6.2.5 - A caráter de desempate: Os participantes da LIVE, votarão no prazo de 30 segundos dentro do chat disponibilizados na plataforma do Youtube para o integrante que deverá ser desclassificado, enviando o nome do participante. Se acontecer um empate, o primeiro participante do segundo empate que recebeu o primeiro voto será o desclassificado.<br>
@@ -183,17 +219,17 @@ Exemplo:<br>
 >	Em votação participantes ficaram empatados.<br>
 >	Em ordem cronológica o usuário X foi o primeiro a ter seu nome apresentado pela votação, logo ele será o eliminado.<br>
 
-6.2.6 - Participantes que não se apresentarem no link disponibilizado para o grupo do Hangouts restando 15 minutos antes do evento, serão desclassificados, entrando em seu lugar o próximo usuário do banco de reservas.<br>
+6.2.6 - Participantes que não se apresentarem no aplicativo SperoQuiz 15 minutos antes do evento, serão desclassificados, entrando em seu lugar o próximo usuário do banco de reservas.<br>
 
 # 7. DENIFIÇÃO DO 3º LUGAR
 
-## 7.1 Da 9ª semana
+## 7.1 Da 11ª semana
 > Número de Participantes: 02<br>
-> Participantes: PERDEDOR DA SEMANA 07 vs PERDEDOR DA SEMANA 08.<br>
+> Participantes: PERDEDOR DA SEMANA 09 vs PERDEDOR DA SEMANA 10.<br>
 
 7.1.1 - Serão realizadas 15 perguntas, de forma única para todos os participantes da semana.<br>
 7.1.2 - Cada pergunta valerá 1 ponto.<br>
-7.1.3 - A pergunta será realizada de forma ditada pelo apresentador e posteriormente será exibida no YouTube, assim que a exibição for iniciada no Youtube, cada usuário terá o prazo de 15 segundos para responder. Caso o usuário não responda, sua resposta será considerada nula, tendo seu valor de pontos zerado.<br>
+7.1.3 - A pergunta será realizada de forma ditada pelo apresentador e posteriormente será exibida no YouTube, assim que a exibição for iniciada no Youtube, cada usuário terá o prazo de 15 segundos para responder, sendo que a resposta será informada diretamente no aplicativo. Caso o usuário não responda, sua resposta será considerada nula, tendo seu valor de pontos zerado.<br>
 7.1.4 - Participantes com menor número de pontos na rodada serão desclassificados.<br>
 <br>
 7.1.5 - A caráter de desempate: Os participantes da LIVE, votarão no prazo de 30 segundos dentro do chat disponibilizados na plataforma do Youtube para o integrante que deverá ser desclassificado, enviando o nome do participante. Se acontecer um empate, o primeiro participante do segundo empate que recebeu o primeiro voto será o desclassificado.<br>
@@ -203,17 +239,17 @@ Exemplo:<br>
 >	Em votação participantes ficaram empatados.<br>
 >	Em ordem cronológica o usuário X foi o primeiro a ter seu nome apresentado pela votação, logo ele será o eliminado.<br>
 
-7.1.6 - Participantes que não se apresentarem no link disponibilizado para o grupo do Hangouts restando 15 minutos antes do evento, serão desclassificados, entrando em seu lugar o próximo usuário do banco de reservas.<br>
+7.1.6 - Participantes que não se apresentarem no aplicativo SperoQuiz 15 minutos antes do evento, serão desclassificados, entrando em seu lugar o próximo usuário do banco de reservas.<br>
 
 # 8. 4ª FASE - DENIFIÇÃO DO 1º LUGAR E 2º LUGAR
 
-## 8.1 Da 10ª semana
+## 8.1 Da 12ª semana
 > Número de Participantes: 02<br>
-> Participantes: USUÁRIO VENCEDOR DA SEMANA 07 vs USUÁRIO VENCEDOR DA SEMANA 08.<br>
+> Participantes: PARTICIPANTE VENCEDOR DA SEMANA 09 vs PARTICIPANTE VENCEDOR DA SEMANA 10.<br>
 
 8.1.1 - Serão realizadas 15 perguntas, de forma única para todos os participantes da semana.<br>
 8.1.2 - Cada pergunta valerá 1 ponto.<br>
-8.1.3 - A pergunta será realizada de forma ditada pelo apresentador e posteriormente será exibida no YouTube, assim que a exibição for iniciada no Youtube, cada usuário terá o prazo de 15 segundos para responder. Caso o usuário não responda, sua resposta será considerada nula, tendo seu valor de pontos zerado.<br>
+8.1.3 - A pergunta será realizada de forma ditada pelo apresentador e posteriormente será exibida no YouTube, assim que a exibição for iniciada no Youtube, cada usuário terá o prazo de 15 segundos para responder, sendo que a resposta será informada diretamente no aplicativo. Caso o usuário não responda, sua resposta será considerada nula, tendo seu valor de pontos zerado.<br>
 8.1.4 - Participantes com menor número de pontos na rodada serão desclassificados.<br>
 
 8.1.5 - A caráter de desempate: Os participantes da LIVE, votarão no prazo de 30 segundos dentro do chat disponibilizados na plataforma do Youtube para o integrante que deverá ser desclassificado, enviando o nome do participante. Se acontecer um empate, o primeiro participante do segundo empate que recebeu o primeiro voto será o desclassificado.<br>
@@ -223,11 +259,11 @@ Exemplo:<br>
 >	Em votação participantes ficaram empatados.<br>
 >	Em ordem cronológica o usuário X foi o primeiro a ter seu nome apresentado pela votação, logo ele será o eliminado.<br>
 
-8.1.6 - Participantes que não se apresentarem no link disponibilizado para o grupo do Hangouts restando 15 minutos antes do evento, serão desclassificados, entrando em seu lugar o próximo usuário do banco de reservas.<br>
+8.1.6 - Participantes que não se apresentarem no aplicativo SperoQuiz 15 minutos antes do evento, serão desclassificados, entrando em seu lugar o próximo usuário do banco de reservas.<br>
 
 # 9. 5ª FASE - FINAL
 
-## 9.1 Da 11ª semana
+## 9.1 Da 13ª semana
 > A fase final será executada quando houver apenas 1 participante.<br>
 
 9.1.1 - O usuário final terá uma série de 05 perguntas com o prazo de 10 segundos para responder, definindo assim o seu prêmio.<br>
@@ -244,7 +280,7 @@ Parar: 1
 ## 9.3 Opções que poderão ser utilizadas pelo usuário final:
 ```sh 
 Pular: Nessa modalidade o usuário poderá cancelar a pergunta atual e seguir para a próxima.
-Perguntar ao Chat: Nessa modalidade a pergunta será direcionada para o chat do Youtube e os participantes terão o prazo de 30 segundos para responderem, após o término do tempo, o participante terá 10 segundos para fazer a escolha da resposta.
+Perguntar ao Chat: Nessa modalidade a pergunta será direcionada para o chat do Youtube e os participantes terão o prazo de 60 segundos para responderem, após o término do tempo, o participante terá 10 segundos para fazer a escolha da resposta.
 Parar: Nessa opção o usuário interrompe o evento e recebe o valor de prêmio da resposta anterior, exceto se for a primeira pergunta.
 ```
 9.3.1 - Caso o usuário selecione a opção Perguntar ao Chat, e após corridos os 10 segundos para que o mesmo escolha a sua resposta ele ainda não o tenha feito, a resposta será considerada incorreta, resultando na eliminação do participante e término do evento.
